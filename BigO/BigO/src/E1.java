@@ -13,11 +13,8 @@ public class E1 {
     public static void main(String[] args) {
     
         int[] arr = {1,2,3,4};
-        foo(arr); // O(N)
         
-        printPairs(arr); // O(N2)
-        
-        printUnorderedPairs(arr);  //O(N2)
+        reverseArray(arr);
 
     }
     // 1
@@ -53,6 +50,20 @@ public class E1 {
             }
         }
     }
+    //4 
+    static void reverseArray(int[] arr){
+        for(int i = 0; i < arr.length/2; i++){
+            int temp = arr[i];
+            int end = arr.length -1 -i;
+            arr[i] = arr[end];
+            arr[end] = temp;
+                    
+        }
+        for ( int ele : arr ){
+            System.out.println(ele);
+        }
+    }
+    
     
     
 }
