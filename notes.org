@@ -1,0 +1,43 @@
+* TO DO
+** DONE Set up to do file on linux an mac
+** DONE Clean up linux
+** TODO clean up mac
+** DONE Push to-do repo to github
+** DONE Finish book : Too good to be ignored
+** TODO Finish self-authoring program
+** DONE Change oil and plug leak in Suzuki
+** TODO Fix Suzuki leak - again
+** TODO Clean up closet 
+** TODO Sell camera
+** TODO Sell keyboard - topre
+** TODO Sell tripod
+** TODO Sell speakers
+** TODO Sell Suzuki
+** TODO Clean breaks in Honda
+** TODO Clean honda
+** TODO Get template CV from Monika
+** TODO Make a CV using template
+** TODO Clean up living room
+** TODO Take out glass to Tesco
+  
+* DAILY BLOG
+** 10-08-2018 Friday
+First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
+So what now? Prep for interview! Already got a fancy book, with hundreds of exercises to do. We'll see how this 
+fares. Not sure if I want to do the exercises in Java or stick to JS. Probably latter, given that I really want 
+to focus on just one programming language. I'm also changing the morning routine. I'll be waking up at 4am now,
+as opposed to 5.30, because I found that I'm just not gettin anything done in the afternoon after work. So yea,
+I'll give it a go and see what happens. 
+
+** 11-08-2018 Saturday
+I slept in. Had yesterday meeting with a software dev team manager. Looks like his going to try and help me out.
+He wasn't very reassuring though, saying that for someone to get into tech would be tough, its easier to move out
+of it. Anywawy, he might get me a mock interview which would be great. So now I'm under pressure to prepare for it.
+Unfortunately, my company is all about Java, so I'll have to brush up on it, and store away JS for the time being.
+Whats the plan for today: study for 2 hours, and then relax I guess. 
+** 15-08-2018 Wednesday
+I'm having problem saving changes made in org file ( this bloody file ! ). No idea what is causing it. Honesty, its
+pain enough to keep this blog running after whole day. I really don't feel like tinkering away at some useless stuff
+like this. 
+Ok I figure it out...this file is OUTSIDE of my git folder...what the actual..
+
