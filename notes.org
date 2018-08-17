@@ -1,4 +1,5 @@
 * TO DO
+** TODO Make a new CV and send it to Orla ( don't use template )
 ** DONE Set up to do file on linux an mac
 ** DONE Clean up linux
 ** TODO clean up mac
@@ -16,7 +17,6 @@
 ** TODO Clean breaks in Honda
 ** TODO Clean honda
 ** TODO Get template CV from Monika
-** TODO Make a CV using template
 ** TODO Clean up living room
 ** TODO Take out glass to Tesco
   
@@ -41,3 +41,7 @@ pain enough to keep this blog running after whole day. I really don't feel like 
 like this. 
 Ok I figure it out...this file is OUTSIDE of my git folder...what the actual..
 
+** 17-08-2018 Friday
+I didn't study yesterday after work. Felt very tired and bit dejected. Today I've made some good progress on the 
+Big O notations. Its going slow but steady I guess. I've spent last two days at work working on my Sprint app. 
+I made it look nicer! I really enjoyed tinkering with it, but enough is enough, I recogize it's a waste of time. 
