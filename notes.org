@@ -45,3 +45,12 @@ Ok I figure it out...this file is OUTSIDE of my git folder...what the actual..
 I didn't study yesterday after work. Felt very tired and bit dejected. Today I've made some good progress on the 
 Big O notations. Its going slow but steady I guess. I've spent last two days at work working on my Sprint app. 
 I made it look nicer! I really enjoyed tinkering with it, but enough is enough, I recogize it's a waste of time. 
+** 20-08-2018
+Worket through fibonacci and cached version that uses memoization ( never heard of it before ).
+Normal fibonacci is O(2toN) where cached version is O(N) which is pretty amazing!
+All we do in cached version is retrieval of previous values and summation ! Since fibonacci is a 
+sume of two previous numbers -- and we start with 0 & 1...we don't really do anything other then
+saving previous result and adding stored results to each other on next call.
+Memoization remembers all the previous results - hence we don't have to do the same calculations
+over and over again ( makes sense ! ).
+I have to fix my CV today and send it over for review. 
