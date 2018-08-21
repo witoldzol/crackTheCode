@@ -54,3 +54,12 @@ saving previous result and adding stored results to each other on next call.
 Memoization remembers all the previous results - hence we don't have to do the same calculations
 over and over again ( makes sense ! ).
 I have to fix my CV today and send it over for review. 
+** 21-08-2018
+I've worked through the rest of examples of Big O notation. Working on further examples now. 
+I'm making progress on sqlite tutorial at work. Still not sure how to design the time taking 
+algorithm. Originally I was thinking just to start timer, and stop it when button is pressed. 
+Whatever time was calculated save to the database. But what if the computer crashes or whatever?
+So instead, maybe keep saving progress of time by 30 min increments? This way, if anything 
+happens, at least we have some data. 
+Once timer starts, save progress every 30 min. We don't take note of brakes so that 
+makes life easier.
