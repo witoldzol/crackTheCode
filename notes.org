@@ -16,7 +16,6 @@
 ** TODO Sell Suzuki
 ** TODO Clean breaks in Honda
 ** TODO Clean honda
-** TODO Get template CV from Monika
 ** TODO Clean up living room
 ** TODO Take out glass to Tesco
   
@@ -63,3 +62,13 @@ So instead, maybe keep saving progress of time by 30 min increments? This way, i
 happens, at least we have some data. 
 Once timer starts, save progress every 30 min. We don't take note of brakes so that 
 makes life easier.
+** 22-08-2018
+Very bad day yesterday, mood is down, things to do pile up. Gotta keep marching on, and remember that
+not everything ( acutally very few things ) are really important. 
+The bad: My illness flared up again, I will
+not have luggage for the spanish trip, I'm behind with the CV, my private life is in shambles, I'm 
+constantly tired because I wake up at 4am to do this thing.
+The good: I don't have a permanent illness, it will pass. At least I can afford to go to Spain in the
+first place, and I have friends to go with ! I have someone looking after me, trying to help me get a 
+job, and motivating me to make a CV. I have a reason to get up at 4am!! 
+Good times.
