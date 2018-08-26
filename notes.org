@@ -84,3 +84,18 @@ the comfort zone.
 That's what I can see in myself, I very rarely venture out to the 'unknown'. Both in life, and
 in my learning. I'm old enough to know that there's no point in making myself empty promises. 
 The only thing that really works ( for me ), are painfully slow incremental improvements.
+** 26-08-2018
+I've missed few days, things are falling apart. My current illness is not helping.
+I havent coded at all, I did follow few tutorials online, and looked more into the 
+time tracker application. I decided to go with the JavaFX for the UI, given that
+there is plenty of tutorials on it, and it looks very promising. I will stick
+with SQLite, given how remarkably small it is, and the fact that it's serverless.
+I don't know if I will work on reporting side of the whole project, but I guess
+it would make sense. 
+I feel like I'm trying to do too many things at once: work on Cracking the Code, 
+read through the Design Patterns, build a timetracker app, wake up at 4am, solve 
+catas...its too much. I know my strenghts, and multitasking is not one of them.
+I will axe Design Patterns and catas for the time being. I'd like to keep doing 
+the interview prep every day for 2hrs and dedicate rest of my time to the time 
+tracker. I believe that building  an app will give me more practice in coding
+than solving random catas online. 
