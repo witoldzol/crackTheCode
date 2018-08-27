@@ -99,3 +99,9 @@ I will axe Design Patterns and catas for the time being. I'd like to keep doing
 the interview prep every day for 2hrs and dedicate rest of my time to the time 
 tracker. I believe that building  an app will give me more practice in coding
 than solving random catas online. 
+** 27-08-2018
+I realised that I have no idea what hash tables/maps are. Turns out
+they are a big deal. Great, what a relief, I can dive into tutorial
+rather than break my brain on those crazy algos. There's a whole list 
+of data structures that I absolutely have to know. I'll start with 
+the one I don't know anything about, and refresh the later on.
