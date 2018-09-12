@@ -1,5 +1,5 @@
 * TO DO
-** TODO Make a new CV and send it to Orla ( don't use template )
+** DONE Make a new CV and send it to Orla ( don't use template )
 ** DONE Set up to do file on linux an mac
 ** DONE Clean up linux
 ** TODO clean up mac
@@ -14,10 +14,11 @@
 ** TODO Sell tripod
 ** TODO Sell speakers
 ** TODO Sell Suzuki
-** TODO Clean breaks in Honda
+** DONE Clean breaks in Honda
 ** TODO Clean honda
 ** TODO Clean up living room
 ** TODO Take out glass to Tesco
+** TODO Create time tracking app
   
 * DAILY BLOG
 ** 10-08-2018 Friday
@@ -105,3 +106,8 @@ they are a big deal. Great, what a relief, I can dive into tutorial
 rather than break my brain on those crazy algos. There's a whole list 
 of data structures that I absolutely have to know. I'll start with 
 the one I don't know anything about, and refresh the later on.
+** 12-09-2018
+It's been a while since my last entry. Not going to bs, things are tough.
+I got sick and I used it as an excuse to let my routine collapse. Then came
+annual leave, and here we are, half a month later. I'm not going to overthink 
+it or beat myself about it. Just gotta pick up where I left and keep on moving.
