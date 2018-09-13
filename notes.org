@@ -7,6 +7,9 @@
 ** DONE Finish book : Too good to be ignored
 ** TODO Finish self-authoring program
 ** DONE Change oil and plug leak in Suzuki
+** TODO Buy heater for room
+** TODO Buy new shoes for running 
+** TODO Call Joe re Suzuki leak
 ** TODO Fix Suzuki leak - again
 ** TODO Clean up closet 
 ** TODO Sell camera
@@ -111,3 +114,15 @@ It's been a while since my last entry. Not going to bs, things are tough.
 I got sick and I used it as an excuse to let my routine collapse. Then came
 annual leave, and here we are, half a month later. I'm not going to overthink 
 it or beat myself about it. Just gotta pick up where I left and keep on moving.
+** 13-09-2018
+I'm absolutely terrified of each morning, scared that I won't understand
+the questions. Makes no sense right? I mean, the asumption is that I don't 
+get things, THAT'S why I'm learning them. Interesting. Anyway, it's going
+really slow. I'm trying to wrap my  head around some very basic concepts.
+I'm learning about hash tables at the moment, trying to figure out how to
+get duplicates out of it etc. 
+I've learned yesterday that I might have a shot at the interview for the
+internal graduate scheme. That would set me on a fast track to becoming a 
+programmer. This is it, I guess. Best chance I'll get in a while. Of course
+I'm terrified that I will blow it, as I usually do. It weird that even good 
+things scare me. 
