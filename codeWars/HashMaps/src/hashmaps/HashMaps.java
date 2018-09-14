@@ -16,11 +16,9 @@ public class HashMaps {
     static Map<String, Integer> map = new HashMap<>();
         
     public static void main(String[] args) {
-        map.put("aaaaa",0);
+        map.put("a",0);
         map.put("a",1);
-        map.put("b",2);
-        map.put("ab",12);
-        map.put(null,30);
+        map.put("a",2);
         
         
         if(map.containsKey("a")) System.out.println("yes a is present");
@@ -29,9 +27,9 @@ public class HashMaps {
         System.out.println("-----------------------------");
         for(Integer i : map.values() ) System.out.println(i);
         System.out.println("-----------------------------");
-        for(Map.Entry kv : map.entrySet() ) System.out.println(kv);
+        for(Map.Entry kv : map.entrySet() ) System.out.println("key value "+kv);
         System.out.println("-----------------------------");
-        System.out.println(map.size());
+        System.out.println("map size is " + map.size());
         System.out.println("-----------------------------");
         if(map.containsValue(Integer.bitCount(0)))System.out.println("yes value 1 is present");
     }

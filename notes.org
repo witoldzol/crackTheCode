@@ -126,3 +126,10 @@ internal graduate scheme. That would set me on a fast track to becoming a
 programmer. This is it, I guess. Best chance I'll get in a while. Of course
 I'm terrified that I will blow it, as I usually do. It weird that even good 
 things scare me. 
+** 14-09-2018
+I've sent my first CV, going for the Leap program.
+Bit stressed out about it, this could be a game changer. 
+Still stuck on hash tables, turnes out they don't allow duplicate keys
+(they do, in so much they don't throw error -> they simply overwrite old value).
+So now I'm exploring the Lists, and further, I think it's unnecesary to use it 
+for the problem that I'm looking...oh wait maybe it is ...
