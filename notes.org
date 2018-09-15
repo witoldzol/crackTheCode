@@ -7,7 +7,7 @@
 ** DONE Finish book : Too good to be ignored
 ** TODO Finish self-authoring program
 ** DONE Change oil and plug leak in Suzuki
-** TODO Buy heater for room
+** DONE Buy heater for room
 ** TODO Buy new shoes for running 
 ** TODO Call Joe re Suzuki leak
 ** TODO Fix Suzuki leak - again
@@ -133,3 +133,12 @@ Still stuck on hash tables, turnes out they don't allow duplicate keys
 (they do, in so much they don't throw error -> they simply overwrite old value).
 So now I'm exploring the Lists, and further, I think it's unnecesary to use it 
 for the problem that I'm looking...oh wait maybe it is ...
+** 15-09-2018
+Difference between List and Set: the latter follows mathematical notion of set,
+meaning, no duplicates allowed. Set also uses hash values to allocate elements,
+and that's why it doesn't preserve the insertion order ( unlike List )
+I finally finished the very first example from the book. Yay! Theres like 100 more
+to go. At this rate I will finish next year...Nay! Haha.
+Today I plan to go to work, on the timetracker application, and then go to the 'Coder
+dojo' for kids...no idea why tho. All I knew ( when I was asked ) was that I didn't 
+want to do it...so I decided to do it, just on that basis. So we are going. That's that.

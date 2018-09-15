@@ -5,11 +5,14 @@
  */
 package hashmaps;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -19,7 +22,7 @@ import java.util.Set;
  */
 public class SumOfTwoIntegers {
     static int n = 3;
-    static Map table = new Hashtable();
+    static Map<Integer,ArrayList> table = new Hashtable<>();
       
     
     public static void main(String[] args) {
@@ -30,24 +33,32 @@ public class SumOfTwoIntegers {
                 //enter all results as keys, and pairs as values
                 //'duplicates' will be added to the internal list 
                 String pair = createKey(c,d);
+                
                 boolean test = table.containsKey(result);
-                if(test)
-                    System.out.println("key "+ result+" already exists, overriding "+" value "+table.get(result)+" with new value "+pair);
-                
-                table.put(result, pair);
-                
+                if(test){
+                    //if values already exists
+                    //get it and add new value
+                    ArrayList values = table.get(result);
+                    values.add(pair);
+                }else{
+                    //otherwise create new list
+                    ArrayList<String> list = new ArrayList<>();
+                    list.add(pair);
+                    table.put(result, list);
+                }
             }
         }
-        Set<Integer> keys = table.keySet();
-        Set<String> pairs = table.entrySet();
         
-        for(Object s : table.values()){
-            System.out.println(s);
+        Collection<Integer> keys = table.keySet();
+        
+        for(Integer k : keys){
+            ArrayList values = table.get(k);
+            if (values.size() > 1)
+                System.out.println(k+" | "+values);
         }
         
-        boolean test = table.containsValue("0-1");
-        System.out.println("test "+test);
     }
+    
     
     static String createKey(int a, int b){
         String key = a + "-" + b;
