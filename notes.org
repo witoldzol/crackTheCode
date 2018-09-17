@@ -142,3 +142,36 @@ to go. At this rate I will finish next year...Nay! Haha.
 Today I plan to go to work, on the timetracker application, and then go to the 'Coder
 dojo' for kids...no idea why tho. All I knew ( when I was asked ) was that I didn't 
 want to do it...so I decided to do it, just on that basis. So we are going. That's that.
+** 16-09-2018
+Sunday - day off. Played new indie game, bit grindy, but still fun. Altough, I'm trying to hard,
+I should just finish it without min maxing.
+** 17-09-2018
+Permutations: order of the selection matters !
+
+Permutations:
+If we have 4 candies, and we can only select 2, how many permutations?
+First question: how many stages / selections / choices ?
+Anser: Two: first and second
+First choice: how many options? Answer = 4 
+Second choice: how many options?       = 3
+Total permutations? 4 * 3 = 12
+
+Formula = n! / (n-r)!  
+r-number of ways things can be selected (in above case, 2)
+
+Permutations without restrictions:
+4 candies, how many max permutations?
+4! = 4 * 3 * 2 * 1
+------------------------------
+Combination: order of selection doesn't matter !
+Example: red red blue == red blue red ( same combination of colors, just different order )
+
+Formula = n! / (n-r)!r!
+
+For example: 4 colors, 2 choices =>
+4*3*2*1 / (4-2)!*( 2*1 )
+24 / 2*2
+24 / 4
+Answer == 6 combinations
+
+We worked only 1 hour today. I did spend time on excercises.
