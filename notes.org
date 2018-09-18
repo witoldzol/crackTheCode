@@ -175,3 +175,8 @@ For example: 4 colors, 2 choices =>
 Answer == 6 combinations
 
 We worked only 1 hour today. I did spend time on excercises.
+** 18-09-2018
+I 'solved' the permutation example. It turned out to be trivial, once 
+you realise something quite obvious. I don't think I'd be able to figure 
+it out in the stressful situation such as an interview, but oh well, no
+point worrying about it. We keep on marching forward. Time is running out.
