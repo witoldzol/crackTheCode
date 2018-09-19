@@ -10,6 +10,7 @@
 ** DONE Buy heater for room
 ** TODO Buy new shoes for running 
 ** TODO Call Joe re Suzuki leak
+** TODO Call Joe again on Thursday
 ** TODO Fix Suzuki leak - again
 ** TODO Clean up closet 
 ** TODO Sell camera
@@ -17,6 +18,9 @@
 ** TODO Sell tripod
 ** TODO Sell speakers
 ** TODO Sell Suzuki
+** TODO Sell Top Box
+** TODO Sell Railings + plate
+** TODO Sell universal plate
 ** DONE Clean breaks in Honda
 ** TODO Clean honda
 ** TODO Clean up living room
@@ -180,3 +184,54 @@ I 'solved' the permutation example. It turned out to be trivial, once
 you realise something quite obvious. I don't think I'd be able to figure 
 it out in the stressful situation such as an interview, but oh well, no
 point worrying about it. We keep on marching forward. Time is running out.
+** 19-09-2018
+Had a horrible day yesterday, but there was plenty to be learned from it:
+
+JavaScript:
+turns out, when you try to perform an operation on an element
+that doesn't exists, you will get an error that stops execution of the rest 
+of the script. 
+For example: -->
+let element = document.getElementById('abc').innerHTML
+Above has two actions: gets the element, and then gets the inner html content
+If the first fails, thats fine, but then the second action will result in fatal
+error
+Solution: -->
+let element = document.getElementById('abc')  // get your element
+if ( element ) let content = element.innerHTML  // test if element exists, and get content
+
+Yes its more verbose but it works really well, which is fine with me
+----------
+
+Another one:
+You can use 'or' || to specify more than one element
+Example: --->
+
+let ele = document.getElementById('ab') || document.getElementById('cdb') || null
+
+Above will try to get first element, if it fails, second, and finally will set to
+null if both earlier attempts fail
+
+you cannot go for a shortcut 
+
+let ele = document.getElementById('ab').textContent || null
+// textContent (ie second action on null element, will error out the script)
+
+----------
+Another one from life:
+I've decided that I will buy a box for a bike
+It needs to have a railing, plate, and a box
+My buddy recommended railing, and then spammed me with different boxes
+Once everything arrived, it turned out to be all mishmash of different sorts
+Plate wouldn't match the box. So I've ordered another plate. Tried to mount 
+yesterday with a gnawin feeling that it still wouldn't work because we were 
+trying to mix and match different 'systems'. 
+Anyway, after an hour or so my mood went to dumps as I realised that it won't work.
+But it wasn't really about that at all: it was a realisation that I hava a problem 
+on my hands, and it won't resolve easily. I will have to eather buy more shit, or get
+outside help from people that have tools and expertese to come up with a custom solution.
+This box just generated a number of new problems that I simply didn't want to solve.
+Further, I realised that it wasn't my buddies fault, it was mine for not checking. 
+I got lazy, didn't do my reasearch, listend to recommendation and pulled a triger.
+And here I am. I don't even need the bloody box to begin with, and yet I'm down 250E for 
+the pleasure of having some life changing realisations. Nice.
