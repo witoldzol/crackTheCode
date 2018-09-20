@@ -237,3 +237,16 @@ Further, I realised that it wasn't my buddies fault, it was mine for not checkin
 I got lazy, didn't do my reasearch, listend to recommendation and pulled a triger.
 And here I am. I don't even need the bloody box to begin with, and yet I'm down 250E for 
 the pleasure of having some life changing realisations. Nice.
+** 20-09-2018 Thursday
+Ok so today I've learned that you can brake the loop by using return statement.
+Also, if you do that, whatever code below that loop won't execute...wow haha.
+Seriously sometimes I wander if I should do this.
+I'm starting to worry that while I'm doing all those 'crazy' algorithms and data
+structures, I'm not studying design patterns and 'normal' coding. I don't want to 
+end up on an interview with a bunch of useless knowledge but no real life skill.
+
+I went for a walk yesterday, took less then an hour to walk around the zoo, its a nice
+route. I will get new shoes for running soon, when I'm back from Poland.
+
+I'm going to Poland for a week, leaving on Sunday. I will have to make sure I've prepped 
+all documents before I go. 
