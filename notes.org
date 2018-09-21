@@ -2,17 +2,19 @@
 ** DONE Make a new CV and send it to Orla ( don't use template )
 ** DONE Set up to do file on linux an mac
 ** DONE Clean up linux
-** TODO clean up mac
 ** DONE Push to-do repo to github
 ** DONE Finish book : Too good to be ignored
-** TODO Finish self-authoring program
 ** DONE Change oil and plug leak in Suzuki
 ** DONE Buy heater for room
-** TODO Buy new shoes for running 
-** TODO Call Joe re Suzuki leak
-** TODO Call Joe again on Thursday
-** TODO Fix Suzuki leak - again
+** DONE Clean breaks in Honda
+** DONE Call Joe re Suzuki leak
 ** TODO Clean up closet 
+** TODO clean up mac
+** TODO Clean honda
+** TODO Clean up living room
+** TODO Clean up glass
+** TODO Buy good blender
+** TODO Buy new shoes for running 
 ** TODO Sell camera
 ** TODO Sell keyboard - topre
 ** TODO Sell tripod
@@ -21,14 +23,15 @@
 ** TODO Sell Top Box
 ** TODO Sell Railings + plate
 ** TODO Sell universal plate
-** DONE Clean breaks in Honda
-** TODO Clean honda
-** TODO Clean up living room
-** TODO Take out glass to Tesco
-** TODO Create time tracking app
-** TODO Buy good blender
 ** TODO Claim tax back for 2017 & 2018
-  
+** TODO Create time tracking app
+** TODO Finish self-authoring program
+** TODO Call Joe again on Thursday
+** TODO Fix Suzuki leak - again
+** TODO Plan holiday 
+** TODO Book day off ( Monday )
+** TODO Call Medicare and ask for print out
+
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
