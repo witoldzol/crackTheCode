@@ -11,20 +11,19 @@
 ** DONE Buy good blender
 ** DONE Book day off ( Monday )
 ** DONE Call Medicare and ask for print out
+** DONE Buy calcium supplement
+** DONE Buy Vitamix blender - professional 300
+** DONE Clean honda
+** DONE Buy Calcium Citrate - daily dose - 2 times
+** DONE Book day off ( Monday )
+** DONE Call Medicare and ask for print out
 ** TODO Clean up closet 
 ** TODO clean up mac
-** DONE Clean honda
 ** TODO Clean up living room
 ** TODO Clean up glass
 ** TODO Buy new shoes for running 
-** TODO Buy calcium supplement
-=======
 ** TODO Install top box
 ** TODO Buy new shoes for running 
-** TODO Buy Vitamin D 10,000 iU ??? = RESEARCH
-** TODO Buy Vitamix blender - professional 300
-** DONE Buy Calcium Citrate - daily dose - 4 times  == RESEARCH
->>>>>>> 1bc31598c6c6f386fd3f2388dd3fefb333d04530
 ** TODO Sell camera
 ** TODO Sell keyboard - topre
 ** TODO Sell tripod
@@ -33,14 +32,7 @@
 ** TODO Claim tax back for 2017 & 2018
 ** TODO Create time tracking app
 ** TODO Finish self-authoring program
-** TODO Fix Suzuki leak - again
 ** TODO Plan holiday 
-<<<<<<< HEAD
-=======
-** DONE Book day off ( Monday )
-** DONE Call Medicare and ask for print out
->>>>>>> 1bc31598c6c6f386fd3f2388dd3fefb333d04530
-
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -270,16 +262,6 @@ and code yesterday. I didn't take it. Instead I gave in to that feeling of
 'I'm too tired, I just want to lay down'. Nothing gets done around house.
 It's very frustrating, watching myself drift away and waste my life.
 <<<<<<< HEAD
-** 02-10-2018 Tuesday
-Every time I go home everything falls apart. Every single habit that I worked to build collapses.
-So be it, I'm back and I'm restarting things. Picking up from where I left. Cracking the code:
-section on strings / arrays. Learning how to implement efficient string builder. Who knows...
-I have a metric ton of things to do outside of coding as well. Things aren't looking good, I've 
-been ignoring reality for way too long. And now it's getting bit scary. Little issues has grown.
-Plan for today: call Joe, get thingst started with that bike, call the other fella, try to sell the bike.
-Maybe put him on some financing. Just get rid of the bike for christ sake. Go for a walk, check out the 
-new gym and probably sign up. Start watching vids on how to work out. Order the wrist support.
-=======
 ** 23-09-2018 Sunday
 I've decided that I will fight the illness. Do the gym 6 times a week, walk every day.
 Eventually upgrade walking to running if knee will permit. I have to be very careful 
@@ -292,5 +274,12 @@ to stick to it, but honestly, I'm not very hopefull. It's like this all the time
 interruptions, changes. I don't do well with that. The important part is to keep coding, and to
 make sure I get enough excercise every day. 
 
-
->>>>>>> 1bc31598c6c6f386fd3f2388dd3fefb333d04530
+** 02-10-2018 Tuesday
+Every time I go home everything falls apart. Every single habit that I worked to build collapses.
+So be it, I'm back and I'm restarting things. Picking up from where I left. Cracking the code:
+section on strings / arrays. Learning how to implement efficient string builder. Who knows...
+I have a metric ton of things to do outside of coding as well. Things aren't looking good, I've 
+been ignoring reality for way too long. And now it's getting bit scary. Little issues has grown.
+Plan for today: call Joe, get thingst started with that bike, call the other fella, try to sell the bike.
+Maybe put him on some financing. Just get rid of the bike for christ sake. Go for a walk, check out the 
+new gym and probably sign up. Start watching vids on how to work out. Order the wrist support.
