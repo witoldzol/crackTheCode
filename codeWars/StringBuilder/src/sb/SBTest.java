@@ -3,7 +3,7 @@ package sb;
 public class SBTest{
     
     public static void main(String[] args){
-        SB builder = new SB();
+        StringBuilder builder = new StringBuilder();
         String a,b,c,d;
         a = "aaaa";
         b = "bbbb";

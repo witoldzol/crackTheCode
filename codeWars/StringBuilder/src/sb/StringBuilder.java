@@ -3,15 +3,19 @@ package sb;
 import java.util.ArrayList;
 
 
-public class SB implements SBInterface {
-    //array to store our characters
-    ArrayList<Character> list;
+public class StringBuilder implements SBInterface {
+    //converting char to Character is inefficient
+    //use normal array for primitive types
+//    ArrayList<Character> list;
+  
+    private char[] buffer;
+    private int length;
     
-    public SB(){
+    public StringBuilder(){
         list = new ArrayList();
     }
     //implement adding chars
-    public void add(String word){
+    public void append(String word){
         int len = word.length();
         char c;
         for (int i = 0; i < len; i++) {
@@ -19,6 +23,9 @@ public class SB implements SBInterface {
             list.add(c);
         }
 
+    }
+    public void insert(int start){
+        
     }
     //implements getSize
     public int getSize(){
@@ -33,4 +40,11 @@ public class SB implements SBInterface {
         return new String(arr);
     }
     
+    private int resize(){
+        
+    }
+    
+    private boolean overflow(){
+
+    }
 }

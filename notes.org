@@ -23,7 +23,6 @@
 ** TODO Clean up glass
 ** TODO Buy new shoes for running 
 ** TODO Install top box
-** TODO Buy new shoes for running 
 ** TODO Sell camera
 ** TODO Sell keyboard - topre
 ** TODO Sell tripod
@@ -33,6 +32,8 @@
 ** TODO Create time tracking app
 ** TODO Finish self-authoring program
 ** TODO Plan holiday 
+** TODO Code: implement StringBuffer class
+** TODO Code: learn Observer pattern
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -283,3 +284,18 @@ been ignoring reality for way too long. And now it's getting bit scary. Little i
 Plan for today: call Joe, get thingst started with that bike, call the other fella, try to sell the bike.
 Maybe put him on some financing. Just get rid of the bike for christ sake. Go for a walk, check out the 
 new gym and probably sign up. Start watching vids on how to work out. Order the wrist support.
+** 03-10-2018 Wednesday
+I'm slowly realising I'm a bitter person. I'm constantly unhappy, brooding, mopping around.
+I've been working on my word hygene, and stopped cursing ( too much ). Now I think it's time 
+to try and be a nicer person to others around me. I just don't want to be the same old cranky,
+bitterish person. In terms of coding, I feel completely overwhelmed. There are so many things, that 
+I don't know where to begin. I havent even actually started on the interview questions. Oh well, 
+I will go over the implementations first. Gotta learn how to walk before I'll start running. I 
+will not pressure myself into skipping basics. 
+I've attended yesterday a 'class' on Java, organized by some guys in my company. I'm really 
+starting to appreciate my lecturers at college. They weren't perfect, but my god, they are 
+miles and leagues beyond and above what I've experienced yesterday. These guys were bloody 
+attrocious, god damn. Their english is very unclear, they interrupt each other, keep dropping 
+trivia knowledge at begginer level class. Damn guy, you are not professional teachers, and it shows.
+But hey, I've learned something, which was rather surprising. Turns out that if you print out 
+i++, it will print the  current value before it will increment it. Amazing. No really! :)
