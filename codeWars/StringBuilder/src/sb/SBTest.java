@@ -6,16 +6,16 @@ public class SBTest{
         StringBuilder builder = new StringBuilder();
         String a,b,c,d;
         a = "aaaa";
-        b = "bbbb";
-        c = "cccc";
-        d = "dddd";
+        b = "bbbbkdjalkfdjldkaf";
+        c = "cccjkfdklfdjfdlkjdfc";
+        d = "dddkdldldldldldldldldldkfjalkjf;klajf;alkjf;aslkjfa;lkfj;akljf;falkjfdad";
         
-         builder.add(a);
-         builder.add(b);
-         builder.add(c);
-         builder.add(d);
-         System.out.println("size "+builder.getSize());
+         builder.append(a);
+         builder.append(b);
+         builder.append(c);
+         builder.append(d);
+
          String aa = builder.toString();
-         System.out.println("rsult : "+aa);
+         System.out.println(aa);
     }
 }

@@ -17,6 +17,7 @@
 ** DONE Buy Calcium Citrate - daily dose - 2 times
 ** DONE Book day off ( Monday )
 ** DONE Call Medicare and ask for print out
+** DONE Code: implement StringBuffer class
 ** TODO Clean up closet 
 ** TODO clean up mac
 ** TODO Clean up living room
@@ -32,7 +33,6 @@
 ** TODO Create time tracking app
 ** TODO Finish self-authoring program
 ** TODO Plan holiday 
-** TODO Code: implement StringBuffer class
 ** TODO Code: learn Observer pattern
 * DAILY BLOG
 ** 10-08-2018 Friday
@@ -299,3 +299,15 @@ attrocious, god damn. Their english is very unclear, they interrupt each other, 
 trivia knowledge at begginer level class. Damn guy, you are not professional teachers, and it shows.
 But hey, I've learned something, which was rather surprising. Turns out that if you print out 
 i++, it will print the  current value before it will increment it. Amazing. No really! :)
+** 04-10-2018 Thursday
+I've implemented the StringBuilder class. It was kinda fun actually. I've learned about this. ( a little bit)
+and about System.arraycopy() which is pretty amazaing come to think of it. 
+Also, turn out you can return the evaluation line, and it will implicitly return the boolean result of it.
+Great, looks neat, and its more readable then ternary operators. So yesterday was pretty hectic. I've spent whole
+afternoon chasing after a bug that was rendering my new FireFox script useless. Finally, million console.logs later,
+I found a return line that was inside a loop, and shold have been outside of it ( basically function terminated after 
+first loop iteration, which created the whole mess). Can't believe it took me so long to track it down. Anyway,
+I got it working ... yay, I've backed up old script...copied over a new one to the server....then it wouldn't work...
+so I've made some changes on the fly, then some more...then some more...after an hour I've realized that somehow I've 
+overriden the new script with old script ...and basically I've lost 2 weeks work. There. How bout them apples?
+

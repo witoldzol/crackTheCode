@@ -1,50 +1,76 @@
 package sb;
 
-import java.util.ArrayList;
-
-
 public class StringBuilder implements SBInterface {
-    //converting char to Character is inefficient
-    //use normal array for primitive types
-//    ArrayList<Character> list;
-  
-    private char[] buffer;
-    private int length;
+//initialization
+    private static final int BUFFER_MULTIPLIER = 2;
+    private static final int DEFAULT_BUFFER_SIZE = 16;
+        
+
+//converting char to Character is inefficient
+//don't use ArrayList, rely on array of primitive chars  
+    private char[] charArr;
+    private int size;
+    private int charCount;
     
+//constructors
     public StringBuilder(){
-        list = new ArrayList();
+        this.size = DEFAULT_BUFFER_SIZE;
+        this.charArr = new char[DEFAULT_BUFFER_SIZE];
+    }
+    public StringBuilder(int size){
+        this.size = size;
+    }
+    public StringBuilder(char[] str){
+        this.charArr = str;
+    }
+    public StringBuilder(String str){
+        this.charArr = str.toCharArray();
     }
     //implement adding chars
-    public void append(String word){
-        int len = word.length();
-        char c;
-        for (int i = 0; i < len; i++) {
-            c = word.charAt(i);
-            list.add(c);
+    public StringBuilder append(String str){
+        //out of bounds cheker
+        while(resizeRequired(str)){
+            resize();
         }
-
+        //add string
+        addString(str);
+        //update count
+        updateCharCount(str.length());
+        return this;
     }
-    public void insert(int start){
+    public void insert(int start, String str){
         
     }
     //implements getSize
     public int getSize(){
-        return list.size();
+        return this.size;
     }
     //implements toString
     public String toString(){
-        char[] arr = new char[list.size()];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = list.get(i);
-        }
-        return new String(arr);
+        return new String(charArr);
     }
     
-    private int resize(){
-        
+    public void resize(){
+        int oldSize = this.size;
+        this.size *= BUFFER_MULTIPLIER;
+        char[] newArr = new char[size];
+        System.arraycopy(charArr, 0, newArr, 0, oldSize);
+        this.charArr = newArr;
+        System.out.println("resized array from size : " + oldSize + "to "+ this.size);
     }
     
-    private boolean overflow(){
-
+    public boolean resizeRequired (String str){
+        int requiredSize = str.length() + this.charCount;
+        return size < requiredSize;
+    }
+    private void addString(String str){
+        //null checker
+        if(str == null) return;
+        //copy from string turned into char arr, start at index 0, copy into our 
+        //main buffer array, at index charCount, copy a number of chars equeal str.length()
+        System.arraycopy(str.toCharArray(), 0, charArr, this.charCount, str.length());
+    }
+    private void updateCharCount(int length){
+        this.charCount+=length;
     }
 }
