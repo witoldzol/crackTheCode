@@ -18,11 +18,12 @@
 ** DONE Book day off ( Monday )
 ** DONE Call Medicare and ask for print out
 ** DONE Code: implement StringBuffer class
+** DONE Code: Finish FF script that downloads Sprint script from server
+** DONE Buy new shoes for running 
 ** TODO Clean up closet 
 ** TODO clean up mac
 ** TODO Clean up living room
 ** TODO Clean up glass
-** TODO Buy new shoes for running 
 ** TODO Install top box
 ** TODO Sell camera
 ** TODO Sell keyboard - topre
@@ -34,6 +35,7 @@
 ** TODO Finish self-authoring program
 ** TODO Plan holiday 
 ** TODO Code: learn Observer pattern
+** TODO Code: Implement hash table
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -310,4 +312,18 @@ first loop iteration, which created the whole mess). Can't believe it took me so
 I got it working ... yay, I've backed up old script...copied over a new one to the server....then it wouldn't work...
 so I've made some changes on the fly, then some more...then some more...after an hour I've realized that somehow I've 
 overriden the new script with old script ...and basically I've lost 2 weeks work. There. How bout them apples?
-
+** 05-10-2018 Friday
+I've got an email from the human resources. The first stage of recruitment process starts on 24th. 
+It will be a group stage! Ahhhhh, I can't belive it. It will be one of those generic types of 
+recruitment events where you have to talk to bunch of other people in your group. You will look 
+at some mickey mouse business case, and they will evaluate your ... what? Communication skills? Are
+you capable of talking to other people? Ok, I guess I can do that much yea? Bert told me to keep my
+voice down, and not to speak so fast. He said I seem aggressive when talking...damn. Yea, we don't 
+want to look aggressive, thats for sure. Anyway, I'm freaking out a bit, but nothing major. I will get
+through it, or not...either way, I will move forwar. It's good to finaly have a date. If I drop out after
+first stage it will be a bit embarassing, but at least I'll know and I'll be able to start applying outside.
+I've bought running shoes yesterday. Went to a shop recommended by a friend, very professional place.
+I'm happy with the shoes, I just wander how long it will all last until my knee will stop me from 
+excercising. I'm dreading trip to the gym...havent been around for years, my wrist is still very weak and sore, 
+so I'm delaying. I might be able to sell my bike finally. Maybe, I don't really trust that fellow. He's alright,
+but he has too many variables in his life.
