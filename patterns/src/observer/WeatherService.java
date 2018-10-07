@@ -21,9 +21,9 @@ public class WeatherService implements Subject{
         if(index >=0) observers.remove(index);
     }
     public void notifyObservers(){
-        for (Object obs : observers) {
-            obs.update(temperature,humidity,pressure);
-            
+        for (int i = 0; i < observers.size(); i++) {
+            Observer observer =  (Observer) observers.get(i);
+            observer.update(temperature,humidity,pressure);
         }
     }
     public void measurementsChanged(){

@@ -20,6 +20,6 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement{
     }
     
     public void display(){
-        System.out.println("Temp is " + temperature + "\n"+ " Current pressure is at "+ pressure);
+        System.out.println("CURRENT CONDITIONS DISPLAY\nTemp is " + temperature + "\n"+ "Current pressure is at "+ pressure);
     }
 }
