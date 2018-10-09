@@ -333,3 +333,11 @@ lambda expressions. It's actually kinda fun, but it will take a while to wrap my
 I've finally went to IKEA and bought cutlery and bowls, and knifes. My god, such trivial things,
 and yet so annoying. It was a good walk, 7.5 km each way. Each passing day brings me closer to 
 the interview...which reminds me that I have to sing up for it.
+** 09-10-2018 Tuesday
+The time tracking app will take far more work then I anticipated. There's a ton of logic to be written!
+For example, we have to make sure that before we run timer, that there is no record for that day already,
+in case timetracker stopped ( for whatever reason ).
+If there is, we will have to merge it? I don't even know how to resolve that issue yet. Food for thought.
+What else, I decided that the primary key will be just a sequencer and I will insert dates separately.
+Search will be done by date and anumber. That should suffice, and it will be better rather than creating
+primary key out of DATE+anumber. The former will be easier to search.
