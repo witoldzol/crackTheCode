@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HashMap_Implementation/HashMap_Implementation.iml" filepath="$PROJECT_DIR$/HashMap_Implementation/HashMap_Implementation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashMaps/HashMaps.iml" filepath="$PROJECT_DIR$/HashMaps/HashMaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaApplication6/JavaApplication6.iml" filepath="$PROJECT_DIR$/JavaApplication6/JavaApplication6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringBuilder/StringBuilder.iml" filepath="$PROJECT_DIR$/StringBuilder/StringBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test2/Test2.iml" filepath="$PROJECT_DIR$/Test2/Test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeWars/codeWars.iml" filepath="$PROJECT_DIR$/codeWars/codeWars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permutations/permutations.iml" filepath="$PROJECT_DIR$/permutations/permutations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snippets/snippets.iml" filepath="$PROJECT_DIR$/snippets/snippets.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="snippets">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/snippets/dist/snippets.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

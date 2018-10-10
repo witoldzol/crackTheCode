@@ -2,6 +2,17 @@ package hm;
 
 import java.util.ArrayList;
 
+//implement:
+/*
+constructor
+insert
+remove
+get
+getSize
+isEmpty
+
+*/
+
 public class MyHashTable<K,V> {
         
     //this const defines point when we will resize bucket list
@@ -25,7 +36,7 @@ public class MyHashTable<K,V> {
         }
     }
 
-    void add(K key, V value) {
+    void insert(K key, V value) {
         
         //calculate index of the bucket
         int index = getBucketIndex(key);
@@ -46,13 +57,36 @@ public class MyHashTable<K,V> {
         bucketList.set(index, newNode);
         //increment size
         listSize++;
-        
+        System.out.println("incrementing for key "+key);
         //check if we have to resize array ( too many buckets taken )
         System.out.println("is resize required ? "+ isResizeRequired());
         if ( isResizeRequired() ) {
             resizeList();
         }
     }
+    
+    public V get(K key){
+
+        int index = getBucketIndex(key);
+        HashNode<K,V> node = bucketList.get(index);
+        
+        while ( node != null ){
+            if( node.key.equals(key) ) return node.value;
+            node = node.next;
+        }
+        return null;
+    }
+    
+    public void remove(K key){
+
+        int index = getBucketIndex(key);
+        HashNode<K,V> head = bucketList.get(index);
+        
+
+
+    }
+
+
     
     //take in key, convert to hashcode and return modulo agains list capacity
     private int getBucketIndex(K key){ return key.hashCode() % listCapacity;}
@@ -67,10 +101,10 @@ public class MyHashTable<K,V> {
         listCapacity *= RESIZE_MULTIPLIER;
         listSize = 0;
         ArrayList<HashNode<K,V>> temp = bucketList;
+        bucketList = new ArrayList<HashNode<K,V>>();
         for (int i = 0; i < listCapacity; i++) {
             bucketList.add(null);
         }
-        
         reindexNodes(temp, bucketList);
     }
     
@@ -78,7 +112,7 @@ public class MyHashTable<K,V> {
         for (HashNode<K,V> node : temp) {
             while(node != null){
                 System.out.println("node from temp "+node.key);
-                add(node.key, node.value);                
+                insert(node.key, node.value);                
                 node = node.next;
             }
         }

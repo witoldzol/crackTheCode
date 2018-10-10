@@ -36,6 +36,8 @@
 ** TODO Plan holiday 
 ** TODO Code: learn Observer pattern
 ** TODO Code: Implement hash table
+** TODO Call Emerson re bike collection
+** TODO Msg guy re keyboard collection
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -341,3 +343,15 @@ If there is, we will have to merge it? I don't even know how to resolve that iss
 What else, I decided that the primary key will be just a sequencer and I will insert dates separately.
 Search will be done by date and anumber. That should suffice, and it will be better rather than creating
 primary key out of DATE+anumber. The former will be easier to search.
+
+** 10-10-2018 Wednesday
+Busy busy, I feel like I'm constantly moving. Can't say it's a bad feeling. I'm actually 
+making progress with the time tracking app. I'm stuck on how sql writes down Date in it's 
+database. I'd rather see actual date format string then a milisecond stamp that tells me 
+absolutely nothing. Not sure if it's important tho, am I going to create tool for pulling out
+a report, or will I let the use the database tool to view data and not worry about it. 
+Probably best if I create reporting tool...sigh, well it's always more practice in Java, and that's
+what this whole project is all about. Java, java, java. All day java, wherever I go, Java follows.
+I will keep writing, reading, and listening Java until I actually like it. Before that happens, 
+I have to REALLY understand how it works and how to use it effectively. Gotta get good at something
+before you'll like it. Right? Also, two weeks left till the interview process begins.
