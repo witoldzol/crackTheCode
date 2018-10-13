@@ -19,7 +19,10 @@
 ** DONE Call Medicare and ask for print out
 ** DONE Code: implement StringBuffer class
 ** DONE Code: Finish FF script that downloads Sprint script from server
+** DONE Code: implement ArrayList
+** DONE Code: Implement hash table
 ** DONE Buy new shoes for running 
+** TODO Code: Embed welcome & farwell gifs into time tracker app
 ** TODO Clean up closet 
 ** TODO clean up mac
 ** TODO Clean up living room
@@ -35,7 +38,6 @@
 ** TODO Finish self-authoring program
 ** TODO Plan holiday 
 ** TODO Code: learn Observer pattern
-** TODO Code: Implement hash table
 ** TODO Call Emerson re bike collection
 ** TODO Msg guy re keyboard collection
 * DAILY BLOG
@@ -355,3 +357,29 @@ what this whole project is all about. Java, java, java. All day java, wherever I
 I will keep writing, reading, and listening Java until I actually like it. Before that happens, 
 I have to REALLY understand how it works and how to use it effectively. Gotta get good at something
 before you'll like it. Right? Also, two weeks left till the interview process begins.
+** 12-10-2018 Friday
+We missed yesterday because I foolishly forgot my keys...actually no! I've decided 
+that I will go for a run. I knew that was a bad idea, but I went with it anyway. I left 
+for town, the moment I closed the door behind me, I realised that I didn't take my keys 
+with me. I decided that someone will be home for sure, when I'll get back. Well I was 
+wrong. It took 5 hours before one of my housemates finally arrived. It costed me time, and 
+15 euro in bullshit beer purchases at the local pub. Was it worth it? Well, that was a 
+valuable lesson for sure. Don't break your own rules! Time and time again, just don't.
+Today I've learned that you cannot declare generic array, because it needs to know the 
+type at the declaration stage. So if you wanted  to implement your own array list, using 
+generic types, well you are not in luck. But you can just use 'Object' type, and you are 
+sorted. Except you can't use primitive types now...but oh well. Also, turns out there is
+a language called Groovy, which is like a groovy Java. Cool. Won't be learning it!
+
+** 13-10-2018 Saturday
+We did it, we implemented HashMap, StringBuilder & ArrayList. Damn, that was NOT exciting.
+But at the same time, it was very educational, especially from perspective of StringBuilder.
+So now we finally can start to do actual interview questions. Wow..what was it? A month, two?
+I'm on page 100, and I'm starting actual questions only now, damn. Also, interview is approaching
+very quickly. I'm avoiding design patterns, not sure why. The book that I have is REALLY good,
+yet there is fear inside of me whenever a thought of studying it emerges. It's always the same:
+"I'm so tired, I deserve some rest, I can't work all the time...". I do have the time, I could
+squize it, and regularly watch youtube vids about it. I just choose not to. Lets see if we can
+do something about it.
+
+
