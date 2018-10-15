@@ -22,7 +22,7 @@
 ** DONE Code: implement ArrayList
 ** DONE Code: Implement hash table
 ** DONE Buy new shoes for running 
-** TODO Code: Embed welcome & farwell gifs into time tracker app
+** DONE Code: Embed welcome & farwell gifs into time tracker app
 ** TODO Clean up closet 
 ** TODO clean up mac
 ** TODO Clean up living room
@@ -34,10 +34,10 @@
 ** TODO Sell speakers
 ** TODO Sell Suzuki
 ** TODO Claim tax back for 2017 & 2018
-** TODO Create time tracking app
+** TODO Code: Create time tracking app
+** TODO Code: learn Observer pattern
 ** TODO Finish self-authoring program
 ** TODO Plan holiday 
-** TODO Code: learn Observer pattern
 ** TODO Call Emerson re bike collection
 ** TODO Msg guy re keyboard collection
 * DAILY BLOG
@@ -381,5 +381,22 @@ yet there is fear inside of me whenever a thought of studying it emerges. It's a
 "I'm so tired, I deserve some rest, I can't work all the time...". I do have the time, I could
 squize it, and regularly watch youtube vids about it. I just choose not to. Lets see if we can
 do something about it.
+
+
+** 15-10-2018 Monday
+I took a day off yesterday, as planned! Today I've learned about bit operators?
+So, for example << means we shift the bit value of given int to the left. So, int 8 
+is 1 0 0 0, so, 8 << by 1 equals 1 0 0 0 0 ... 16. Yes?
+Next, we have bit OR and AND  |=   &=
+Lets say we have two ints 13 and 18
+0 1 1 0 1
+1 0 0 1 0
+-------------
+1 1 1 1 1   13 |= 18 will give us 31??
+
+------------
+0 0 0 0 0   13 &= 18 will give us 0
+
+Lets say I'm not exactly confident about the above, but it's a start!
 
 
