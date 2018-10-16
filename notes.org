@@ -382,7 +382,6 @@ yet there is fear inside of me whenever a thought of studying it emerges. It's a
 squize it, and regularly watch youtube vids about it. I just choose not to. Lets see if we can
 do something about it.
 
-
 ** 15-10-2018 Monday
 I took a day off yesterday, as planned! Today I've learned about bit operators?
 So, for example << means we shift the bit value of given int to the left. So, int 8 
@@ -400,3 +399,6 @@ Lets say we have two ints 13 and 18
 Lets say I'm not exactly confident about the above, but it's a start!
 
 
+** 16-10-2018 Tuesday
+Moving along, almost done with second question. Going today to Limerick to visit a friend.
+I'm feeling good. Also, going to sell the realforce keyboard ( if all goes well ).

@@ -1,6 +1,3 @@
-import java.util.HashSet;
-import java.util.Set;
-
 
 //check if the string contains all unique characters
 /*
@@ -8,7 +5,10 @@ import java.util.Set;
 Ascii has 128/256 max chars, so if we exceed that number, we have duplictes
 You can argue that time complexity is O(1) because there is a constant number
 of elements ie. 128
- */
+*/
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class Unique {
     public static void main(String[] args) {
@@ -84,3 +84,5 @@ public class Unique {
         return true;
     }
 }
+
+
