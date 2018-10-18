@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Permutation {
     public static void main(String[] args) {
-        String first = "cabbca";
-        String second = "bbaabc";
+        String first = "aaabbb";
+        String second = "bbbaaa";
         System.out.println("my solution");
         System.out.println(checkIfPermutations(first,second));
         System.out.println("==============");
@@ -13,9 +13,8 @@ public class Permutation {
         System.out.println(compare(first,second));
         System.out.println("==============");
         System.out.println("book -2");
-        compareArrays(first,second);
+        System.out.println(compareArrays(first,second));
         System.out.println("==============");
-
 
 
         /*
@@ -68,18 +67,22 @@ public class Permutation {
     //SECOND BOOK SOLUTION
     //characters have their own char codes...so if we put them
     //all in array and count, we should get the same arrays
-    static void compareArrays(String a, String b){
+    static boolean compareArrays(String a, String b){
         //assuming ascii
         int[] numbers = new int[128];
         //string a
         char[] a_arr = a.toCharArray();
-
+        //count occurances
         for( char c : a_arr ){
             numbers[c]++;
         }
-        for (int i = 0; i < a_arr.length; i++) {
-            System.out.println( a_arr(i) );
+        //decrement & check - if we are below 0 we have a mismatch
+        for (int i = 0; i < b.length(); i++) {
+            int c = (int) b.charAt(i);
+            numbers[c]--;
+            if(numbers[c] < 0) return false;
         }
+        return true;
     }
 
 }

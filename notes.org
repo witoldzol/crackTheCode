@@ -23,13 +23,15 @@
 ** DONE Code: Implement hash table
 ** DONE Buy new shoes for running 
 ** DONE Code: Embed welcome & farwell gifs into time tracker app
+** DONE Msg guy re keyboard collection
+** DONE Sell keyboard - topre
+** TODO Book appointment with physio
 ** TODO Clean up closet 
 ** TODO clean up mac
 ** TODO Clean up living room
 ** TODO Clean up glass
 ** TODO Install top box
 ** TODO Sell camera
-** TODO Sell keyboard - topre
 ** TODO Sell tripod
 ** TODO Sell speakers
 ** TODO Sell Suzuki
@@ -39,7 +41,6 @@
 ** TODO Finish self-authoring program
 ** TODO Plan holiday 
 ** TODO Call Emerson re bike collection
-** TODO Msg guy re keyboard collection
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -398,7 +399,19 @@ Lets say we have two ints 13 and 18
 
 Lets say I'm not exactly confident about the above, but it's a start!
 
-
 ** 16-10-2018 Tuesday
 Moving along, almost done with second question. Going today to Limerick to visit a friend.
 I'm feeling good. Also, going to sell the realforce keyboard ( if all goes well ).
+
+** 18-10-2018 Thursday
+I went to Limerick yesterday. Sold off the keyboard, and visited my friend. She's doing
+great. They bought a house, which is very nice, have a new car, which is also nice. They 
+keep busy. I'm not very inspired when it comes to building that time tracking app. I got 
+stuck on the time transfer issue ( from database to java ). Turns out there are some timezone
+issues? Maybe? I have no idea why it's not recording correct time...or retreiving one...not sure!
+Anyhoo, it's taking forever. As always, so there. I'll be attending graduation party for the NCI.
+What the hell, why not. My blender arrived, its savage, absolute beast. Also, I thought for a sec
+that my bike is going to burst in flames on my way to Limerick. I was not happy, fortunately it
+was just some gunk from the sprocket near the engine that fell off and burned up a bit on the
+exhaust pipe. 
+OW YEA....I QUIT SMOKING! FOR GOOD.
