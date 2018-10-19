@@ -1,3 +1,11 @@
+/*
+replace empty spaces with %20
+that means you need track two pointers,
+one - for the string
+two - for the new string ( because you replace one character with 3 chars)
+
+ */
+
 public class URLify {
     public static void main(String[] args) {
         String s = "mr john smith    ";
@@ -20,9 +28,6 @@ public class URLify {
             }else{
                 arr[arrPointer]=str.charAt(i);
             }
-
-
-
         }
         return new String(arr);
     }
