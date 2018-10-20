@@ -418,3 +418,17 @@ OW YEA....I QUIT SMOKING! FOR GOOD.
 ** 19-10-2018 Friday
 Working on palindromes. Wow, it is taking forever. Good excerecise though!
 Yesterday was my first day without cigarette in a long time. Happy days.
+** 20-10-2018 Saturday
+I went out yesterday for a company  outing. Free beer & food. What not to like right? 
+I hate social events, so awkward. Anyway, I had half a pint and felt sick. Left on the spot.
+The palidrome problem is getting really annoying. There's a bug, and rightly so. I've built the
+whole things without once tracking the progress and testing the outputs. Anyway, something is 
+seriously wrong. Also, its too long, I'm duplicating code. It's very cumbersome. I haven't 
+seen the solution yet, but I can imagine she will do it in like 5 fucken lines, where I'm on line 100 or 
+something like that. Ehhh. Anyway, Saturday, I'll be coming in to work to chip away at the 
+time tracker app. I've made some good progress yesterday despite REALLY not wanting to work on it.
+So what's left: get the timer displayed. Maybe move a bunch of methods from 'button' class to 'sql queries'
+class or something like that. I struggle with the whole OOP concept. But hey, at least we know how to use
+singletones now. Cool. So really, reporting part is left to do. The boring part? Well, all I have to do 
+is a new display for admin, with few buttons: date selection, name selection and Find button. Spit out the
+query results and be done with it. Find a way to export to excel and we are good to go.
