@@ -21,26 +21,27 @@
 ** DONE Code: Finish FF script that downloads Sprint script from server
 ** DONE Code: implement ArrayList
 ** DONE Code: Implement hash table
+** DONE Code: learn Observer pattern
 ** DONE Buy new shoes for running 
 ** DONE Code: Embed welcome & farwell gifs into time tracker app
 ** DONE Msg guy re keyboard collection
 ** DONE Sell keyboard - topre
+** DONE Clean up closet 
+** DONE Clean up glass
+** DONE Plan holiday 
+** DONE Call Emerson re bike collection
+** TODO Code: learn Decorator pattern
+** TODO Code: Create time tracking app
 ** TODO Book appointment with physio
-** TODO Clean up closet 
 ** TODO clean up mac
 ** TODO Clean up living room
-** TODO Clean up glass
 ** TODO Install top box
 ** TODO Sell camera
 ** TODO Sell tripod
 ** TODO Sell speakers
 ** TODO Sell Suzuki
 ** TODO Claim tax back for 2017 & 2018
-** TODO Code: Create time tracking app
-** TODO Code: learn Observer pattern
 ** TODO Finish self-authoring program
-** TODO Plan holiday 
-** TODO Call Emerson re bike collection
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -453,6 +454,7 @@ its a boolean, if its not set to true, Subject will not send notification to the
 -Observers are loosely coupled ( Subject doen't know much about them )
 -Java implementation requeries Subject to be a sub class of Observable ( has limitations )
 -Listeners rely on this pattern
+-It handles two things that vary: state and number of observers that depend on that state
 *** Program to interfaces not implementations!:
 Example: ArrayList list = new ArrayList();  // Bad !
          List list = new ArrayList()        // good ! 
@@ -468,4 +470,7 @@ used methods didn't rely on any ArrayList specific methods.
 2) Encapsulation
 3) Polymorphism
 4) Inheritance
-
+*** Composition:
+Describes HAS-A relationship
+*** Inheritance
+Describes IS-A relationship
