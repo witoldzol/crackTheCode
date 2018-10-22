@@ -474,3 +474,15 @@ used methods didn't rely on any ArrayList specific methods.
 Describes HAS-A relationship
 *** Inheritance
 Describes IS-A relationship
+** [2018-10-22 Mon] 
+   Interview is approaching! Wednesday 9.30am
+*** Iterating over array that counted occurrances:
+    If you do that, remember that you want to take VALUE of array to test the count,
+    but you want to take INDEX to determine what char it is ( because you use it for ASCII chars )
+*** Read the QUESTION CAREFULLY!
+    I didn't and ended up building a monterous algorithm that actually built the foken all possible
+    permutations of a string. Sick! While doing so I've made a bunch of mistakes which ended up
+    teaching me a valuable lessons. Yay. But we did make an algo that wasn't requested. Nay!
+    So, all in all...valuable experience. God damn palidrome...I thought the algo was infi loop, but
+    in fact it was taking so long...! I had an array of 127 eles that I was trying to permute. 
+
