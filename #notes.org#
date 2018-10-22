@@ -474,3 +474,11 @@ used methods didn't rely on any ArrayList specific methods.
 Describes HAS-A relationship
 *** Inheritance
 Describes IS-A relationship
+** [2018-10-22 Mon] 
+*** Iterating over array that counted occurrances:
+    If you do that, remember that you want to take VALUE of array to test the count,
+    but you want to take INDEX to determine what char it is ( because you use it for ASCII chars )
+
+
+
+
