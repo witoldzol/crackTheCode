@@ -22,6 +22,7 @@
 ** DONE Code: implement ArrayList
 ** DONE Code: Implement hash table
 ** DONE Code: learn Observer pattern
+** DONE Code: create userView for timeTracker
 ** DONE Buy new shoes for running 
 ** DONE Code: Embed welcome & farwell gifs into time tracker app
 ** DONE Msg guy re keyboard collection
@@ -31,11 +32,14 @@
 ** DONE Plan holiday 
 ** DONE Call Emerson re bike collection
 ** TODO Code: learn Decorator pattern
-** TODO Code: Create time tracking app
+** TODO Code: Create admin View for timeTracker app
 ** TODO Book appointment with physio
 ** TODO clean up mac
+** TODO clean up top shelf in wardrobe
 ** TODO Clean up living room
 ** TODO Install top box
+** TODO Charge camera battery
+** TODO Check camera memory 
 ** TODO Sell camera
 ** TODO Sell tripod
 ** TODO Sell speakers
@@ -485,4 +489,12 @@ Describes IS-A relationship
     teaching me a valuable lessons. Yay. But we did make an algo that wasn't requested. Nay!
     So, all in all...valuable experience. God damn palidrome...I thought the algo was infi loop, but
     in fact it was taking so long...! I had an array of 127 eles that I was trying to permute. 
-
+** [2018-10-23 Tue]
+*** Bitwise operators
+<< shift bit to the left
+&  this is AND operation on bits
+|  this is OR operation on bits 
+bit &= x      bit = bit & x
+bit |= x      bit = bit | x
+*** Canada legalized cannabis yesterday and shops ran out of stock immediatelly...
+What is there to be said? 
