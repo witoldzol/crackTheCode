@@ -498,3 +498,19 @@ bit &= x      bit = bit & x
 bit |= x      bit = bit | x
 *** Canada legalized cannabis yesterday and shops ran out of stock immediatelly...
 What is there to be said? 
+** [2018-10-25 Thu]
+*** Always do the examples first before putting down any code!
+*** If you are checking index ahead in a loop, alway check for OUT OF BOUNDS!
+*** You can check which string is shorter by using ternary comparisons ( you need 2 )
+I had the interview day yesterday. Turned out it wasn't going to be just group tasks.
+There was 1 hour intro about Fidelity. Then we had a technical test on laptops, where 
+we were allowed to use google. Afterwards, we had a group task, where we discussed some
+benefit plan. I completely missed the whole point of the task, so I ended up floundering 
+about like a fool. Anyway, final task was a one on one interview. Wow. Did not see that 
+coming. Seriously, haven't prepared at all! And while I was there, I struggled with the
+simpliest questions. There was even 'white' board test, where I was asked to print 12x12
+square with  numbers multiplied. It took me ages to figure out that all it was a two loop
+task. Embarasing to say the least. I was so nervous I couln't see it. Seriously bad. 
+How can I possibly solve complex and challenging tasks if my mind goes 'tabula rasa' on 
+two loop question? Damn, I guess I need more practice. Both in terms of problem solving,
+as well as interview practice. That's it, gotta start doing more interviews!
