@@ -46,28 +46,11 @@ public class OneWay {
             System.out.println("same len");
             for(int i = 0; i< a.length(); i++){
                 if(a.charAt(i)==b.charAt(i)) continue;
-                if(a.charAt(i+1) == b.charAt(i) && b.charAt(i+1)==a.charAt(i)){
-                    counter++;
-                    if(counter>1) return false;
-                } else if(a.charAt(i+1) == b.charAt(i+1)){
-                    counter++;
-                    if(counter> 1) return false;
-                }
-                return false;
+                counter++;
+                if(counter>1) return false;
             }
         }
         return true;
     }
-    
-     
-     //if same - deletion & addition are excluded
-     //check if different by one char O(N) 
-     
-     //if different lengths
-     //check if shorter one has all chars in longer one
-     //if not - false
-     //if yes, add or remove one
-     
-
     
 }
