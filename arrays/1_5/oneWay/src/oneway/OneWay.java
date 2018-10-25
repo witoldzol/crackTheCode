@@ -37,9 +37,8 @@ public class OneWay {
             for(int i =0; i<shorter.length(); i++, longerIndex++){
                 if( shorter.charAt(i) == longer.charAt(longerIndex) ) continue;
                 longerIndex++;
-                if( shorter.charAt(i) != longer.charAt(longerIndex)) return false;
                 counter++;
-                if(counter > 1 ) return false;
+                if( counter > 1 ) return false;
             }
             //strings equal
         } else {
@@ -47,8 +46,49 @@ public class OneWay {
             for(int i = 0; i< a.length(); i++){
                 if(a.charAt(i)==b.charAt(i)) continue;
                 counter++;
-                if(counter>1) return false;
+                if( counter>1 ) return false;
             }
+        }
+        return true;
+    }
+    
+    boolean oneAway_book(String a, String b){
+        //check the len difference
+        //Math.abs - > absolute value, always returns positive 
+        int lenA = a.length();
+        int lenB = b.length();
+        if( Math.abs( lenA-lenB)>1) return false;
+        
+        if( lenA == lenB ) return compareEqual(a,b);
+        else if( lenA -1 == lenB) return compare(a,b);
+        else if( lenA + 1 == lenB) return compare(b,a);
+        
+        return false;
+    }
+
+    private boolean compareEqual(String a, String b) {
+        boolean foundDifference = false;
+        for( int i = 0; i<a.length(); i++){
+            if(a.charAt(i)!=b.charAt(i)){
+                if(foundDifference) return false;
+                foundDifference = true;
+            }
+        }
+        return true;
+    }
+    //strring a is shorter one
+    private boolean compare(String a, String b) {
+        int shortIndex = 0;
+        int longIndex = 0;
+        boolean foundDifference = false;
+        while(shortIndex < a.length() && longIndex < b.length()){
+            if(a.charAt(shortIndex) != b.charAt(longIndex)){
+                if(foundDifference) return false;
+                foundDifference = true;
+                longIndex++;
+            }
+            shortIndex++;
+            longIndex++;
         }
         return true;
     }
