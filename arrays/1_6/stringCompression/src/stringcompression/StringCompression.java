@@ -14,28 +14,37 @@ import java.util.ArrayList;
 public class StringCompression {
 
     String compress(String str){
-
-        String s = "";
-        int counter = 1;
+        int compressedLen = countCompressedLength(str);
+        //check in advance if the compressed string will be shorter
+        if (  compressedLen > str.length() ) return str;
+        
+        StringBuilder compressed = new StringBuilder(compressedLen);
+        int counter = 0;
         char c = str.charAt(0);
-        for( int i = 1; i<str.length(); i++){
-
-            if( c != str.charAt(i) ){
-                
-                s += c;
-                s += counter;
-                c = str.charAt(i);
-                counter = 1;
-            } else {
-                counter++;
-                //end of string case
-                if( i == str.length()-1 ){
-                    s += c;
-                    s +=counter;
-                }
+        for( int i = 0; i<str.length(); i++){
+            counter++;
+            if( i+1 >= str.length() || str.charAt(i+1) != str.charAt(i)){
+                compressed.append(str.charAt(i));
+                compressed.append(counter);
+                counter = 0;
+            }
+            //keep checking if we compressed str exceeds original string
+            //if(compressed.length() > str.length() ) return str;
+        }
+        //return shorter string
+        return compressed.length() > str.length() ? str : compressed.toString();
+    }
+    
+    int countCompressedLength(String str){
+        int finalLen = 0;
+        int consequtive = 0;
+        for( int i=0; i<str.length(); i++){
+            consequtive++;
+            if( i+1 >= str.length() || str.charAt(i) != str.charAt(i+1)){
+                finalLen += ( 1 + Integer.toString(consequtive).length() );
+                consequtive =0;
             }
         }
-        if(str.length() > s.length() ) return s;
-        return str;
+        return finalLen;
     }
 }

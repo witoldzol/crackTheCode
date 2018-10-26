@@ -1,5 +1,7 @@
 package sb;
 
+//time complexity of normal string concatenation is O(N^2)
+//String builder is O(N)
 public class StringBuilder implements SBInterface {
 //initialization
     private static final int BUFFER_MULTIPLIER = 2;
