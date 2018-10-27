@@ -527,4 +527,10 @@ It's bit nerve wrecking.
 *** When printing out, check for the last element condition:
     You don't want to print out whitespace after the last element gets printed ( most likely ),
     so make sure you put in the if condition to fook forward ( i+1 <= n )
+*** When asked at interview 'how do you keep up with tech changes'
+    DOCUMENTATION!
+    Articles & news ( Hacker news )
+    Online tutorials: youtube, lynda.com, coursera, khan academy
+    Online forums: stack overflow
+    
     
