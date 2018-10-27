@@ -518,3 +518,13 @@ as well as interview practice. That's it, gotta start doing more interviews!
 I've spent all day yesterday explaining to others why I won't get the job
 while simultaneously hoping for it and waiting for a call / email. 
 It's bit nerve wrecking.
+** [2018-10-27 Sat]
+*** If you adjust one end of loop, ensure you check the other as well:
+    I didn't check the 'edges', my loops started from 1 instead of 0, so I should have adjusted the other 'end'
+    as well: i<=n
+*** When printing out ensure you get the whitspace right:
+    I didn't check for the whitespace between printed elements at all
+*** When printing out, check for the last element condition:
+    You don't want to print out whitespace after the last element gets printed ( most likely ),
+    so make sure you put in the if condition to fook forward ( i+1 <= n )
+    
