@@ -532,5 +532,9 @@ It's bit nerve wrecking.
     Articles & news ( Hacker news )
     Online tutorials: youtube, lynda.com, coursera, khan academy
     Online forums: stack overflow
+*** BitSize constructor creates it with default size of 64, use size() method to check it
+*** Use length() method to access inserted elements ( it will give 0 if nothing inserted )
+    Despite it's size being initialized at 64.
+    Size doubles if we exceed it
     
     
