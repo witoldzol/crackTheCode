@@ -536,4 +536,17 @@ It's bit nerve wrecking.
 *** Use length() method to access inserted elements ( it will give 0 if nothing inserted )
     Despite it's size being initialized at 64.
     Size doubles if we exceed it
-
+*** aa
+** [2018-10-30 Tue]
+I took two days off ( bank holiday weekend ). I've met with a friend
+who works at Microsoft. I have to admit their office is AMAZING, but hey,
+it's still Microsoft. I loved his desk setup, huge monitors, fast computer
+(no vm nonsense ). Awesome. I've spent last Saturday messing with bloody 
+emacs instead of doing work... oh well, I guess it makes sense to set it up
+finally, so that I don't have to keep shuffling bloody text editors.
+So what did I learn today:
+* Dealing with square:
+Once you figure out edge case, and normal case, all you have to do it apply
+recursion. I have this problem of sqare, and shifting it by 90 degrees, but
+I DON'T want to use recursion due to time complexity it entails...wait would't 
+it be unnecesary ? it only deals with edge cases ? I have to think about it...
