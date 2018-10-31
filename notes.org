@@ -545,8 +545,14 @@ it's still Microsoft. I loved his desk setup, huge monitors, fast computer
 emacs instead of doing work... oh well, I guess it makes sense to set it up
 finally, so that I don't have to keep shuffling bloody text editors.
 So what did I learn today:
-* Dealing with square:
-Once you figure out edge case, and normal case, all you have to do it apply
-recursion. I have this problem of sqare, and shifting it by 90 degrees, but
-I DON'T want to use recursion due to time complexity it entails...wait would't 
-it be unnecesary ? it only deals with edge cases ? I have to think about it...
+** [2018-10-31 Wed]
+I've the offer! Great!! So...what now? I guess that depends on what we consider
+most benefitial to our current situation. Do we continue waking up at 4am and 
+studying? If so, what do we study? What about our personal life? That could use
+some work for sure? Plenty to consider. 
+Here's what I'll do: continue as I did before. Keep the routine, continue prepping
+for interview. The one I'll have in one year time. Money at the moment isn't very
+good, so I have to think about moving to a better position right from the get go.
+
+I'm still struggling with the square problem. It's a good problem. I think I figured
+idea how to solve it, now I need to implement. Fun times.
