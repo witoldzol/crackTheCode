@@ -44,6 +44,10 @@
 ** TODO Sell tripod
 ** TODO Sell speakers
 ** TODO Sell Suzuki
+** TODO Sell bicycle / helm 
+** TODO Sell board games
+** TODO Find accomodation in Galway
+** TODO Send 'thank you' emails : mentor, john, deirdre
 ** TODO Claim tax back for 2017 & 2018
 ** TODO Finish self-authoring program
 * DAILY BLOG
