@@ -31,32 +31,25 @@ class RotateMatrix{
         
         int n = size-1;
         int count =0;
-        while( count < n ){
-            if( i == 0 && j < n ) { j += goRight(); count++; }
-            if( j == n && i < n ) { i += goDown(); count++; }
-            if( i == n && j > 0 ) { j += goLeft(); count++; }
-            if( i == 0 && j > 0 ) { i += goUp(); count++; }
-        }
         
+        while( count < n ){    
+            //go right
+            while ( count < n ){
+                //right
+                if( i == 0 && j < n ) { j++; count++; } 
+                //down
+                else if( j == n && i < n ) { i++; count++; } 
+                //left
+                else if( i == n && j > 0 ) { j--; count++; }                
+                //up
+                else if( j == 0 && n > 0 ) { i--; count++; }                
+            }
+            
+        }
         System.out.println("i = " + i);
         System.out.println("j = " + j);
         System.out.println("count "+count);
+        
     }
 
-    private int goRight() {
-        return 1;
-    }
-
-    private int goDown() {
-        return 1;
-    }
-
-    private int goLeft() {
-        return -1;
-    }
-
-    private int goUp() {
-        return -1;
-    }
-    
 }
