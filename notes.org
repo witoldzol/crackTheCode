@@ -29,8 +29,8 @@
 ** DONE Sell keyboard - topre
 ** DONE Clean up closet 
 ** DONE Clean up glass
-** DONE Plan holiday 
 ** DONE Call Emerson re bike collection
+** TODO Plan holiday on Gran Canaria in November
 ** TODO Code: learn Decorator pattern
 ** TODO Code: Create admin View for timeTracker app
 ** TODO Book appointment with physio
