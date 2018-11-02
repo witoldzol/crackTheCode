@@ -570,3 +570,10 @@ not sometime in the future. The future is here old man!
 
 I've signed up with the gym. Only two months will cost me 100 euro, but I think I've 
 delayed long enough. It's time to start doing something about my situation.
+** [2018-11-02 Fri]
+Yesterday was a really good day. The news that I got the job were spread.
+Everyone congratulated me. I was ... still am.. pretty taken aback how
+people were happy for me. Quite amazing.
+I'm still struggling with the qube rotatation problem, but I'm making progress.
+Instead of shifting one element at the time, lets just copy whole rows. Let's not
+worry about traversing deep into the square.
