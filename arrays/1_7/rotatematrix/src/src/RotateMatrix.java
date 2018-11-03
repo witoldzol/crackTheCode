@@ -34,44 +34,52 @@ class RotateMatrix{
 
     //traverse square in "rings"
     //with each tick calc the position
-    void rotate(int[][] arr){
-        int[] temp = new int[arr.length-1];
-
-        //base condition
-        if(arr.length <= 1) return;
-        //arr for temp 
+    int[][] rotate(int[][] arr, int start, int end){
+        System.out.println("start "+ start );
+        System.out.println("end "+end);
+        if(end-start == 1 || start == end) {
+            System.out.println("no more inner squares");
+            return arr;
+        }
         
-        int n = arr.length-1;
+        //arr for temp 
+        int[] temp = new int[end-1];
+        
+        int n = end-1;
         
         //left to right
-        for(int i = 0; i <= 2; i++){
-            temp[i]=arr[0][i];
+        for(int i = start; i < n; i++){
+            temp[i]=arr[start][i];
             
         }
         //top to bottom
-        for (int j = 0; j <=2; j++) {
-            int val = arr[j][3];
-            arr[j][3] = temp[j];
+        for (int j = start; j < n; j++) {
+            int val = arr[j][n];
+            arr[j][n] = temp[j];
             temp[j] = val;
         }
         int counter=0;
         //right to left
-        for (int k = 3; k >= 1; k--,counter++) {
-            int val = arr[3][k];
-            arr[3][k] = temp[counter];
+        for (int k = n; k > start; k--,counter++) {
+            int val = arr[n][k];
+            arr[n][k] = temp[counter];
             temp[counter]=val;
         }
         counter=0;
         //bottom to top
-        for (int l = 3; l >= 1; l--, counter++) {
-            int val = arr[l][0];
-            arr[l][0] = temp[counter];
+        for (int l = n; l > start; l--, counter++) {
+            int val = arr[l][start];
+            arr[l][start] = temp[counter];
             temp[counter] = val;
         }
         //left to right ( output only )
-        for (int m = 0; m <=2 ; m++) {
-            arr[0][m] = temp[m];
+        for (int m = start; m < n ; m++) {
+            arr[start][m] = temp[m];
         }
+        
+        rotate(arr, start+1,end-1);
+        
+        return arr;
     }
     
     void leftToRight(int[][] arr){
