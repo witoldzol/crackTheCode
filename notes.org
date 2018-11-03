@@ -30,6 +30,7 @@
 ** DONE Clean up closet 
 ** DONE Clean up glass
 ** DONE Call Emerson re bike collection
+** DONE Charge camera battery
 ** TODO Plan holiday on Gran Canaria in November
 ** TODO Code: learn Decorator pattern
 ** TODO Code: Create admin View for timeTracker app
@@ -38,11 +39,11 @@
 ** TODO clean up top shelf in wardrobe
 ** TODO Clean up living room
 ** TODO Install top box
-** TODO Charge camera battery
-** TODO Check camera memory 
+** DONE Check camera memory 
 ** TODO Sell camera
 ** TODO Sell tripod
 ** TODO Sell speakers
+** TODO Give vaping stuff to Marcin
 ** TODO Sell Suzuki
 ** TODO Sell bicycle / helm 
 ** TODO Sell board games
@@ -50,6 +51,8 @@
 ** TODO Send 'thank you' emails : mentor, john, deirdre
 ** TODO Claim tax back for 2017 & 2018
 ** TODO Finish self-authoring program
+** TODO Take clothes to charity shop
+** TODO Take stuff to recycle shop
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
