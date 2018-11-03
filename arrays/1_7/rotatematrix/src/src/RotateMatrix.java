@@ -50,7 +50,6 @@ class RotateMatrix{
         //left to right
         for(int i = start; i < n; i++){
             temp[i]=arr[start][i];
-            
         }
         //top to bottom
         for (int j = start; j < n; j++) {
@@ -63,6 +62,7 @@ class RotateMatrix{
         for (int k = n; k > start; k--,counter++) {
             int val = arr[n][k];
             arr[n][k] = temp[counter];
+            
             temp[counter]=val;
         }
         counter=0;
