@@ -1,7 +1,16 @@
 package src;
 
 class RotateMatrix{
-    
+    void printOut(int[][] arr){
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("");
+            for (int j = 0; j < arr.length; j++) {
+                System.out.print(arr[i][j]+" ");
+                
+            }
+            
+        }
+    }
     void traverse(int[][] arr){
         //left to right
         for(int i = 0; i < arr.length; i++){
@@ -26,39 +35,42 @@ class RotateMatrix{
     //traverse square in "rings"
     //with each tick calc the position
     void rotate(int[][] arr){
-        int[] temp = new int[arr.length];
-        int counter=0;
+        int[] temp = new int[arr.length-1];
+
         //base condition
         if(arr.length <= 1) return;
         //arr for temp 
         
+        int n = arr.length-1;
+        
         //left to right
-        for(int i = 0; i < arr.length; i++){
+        for(int i = 0; i <= 2; i++){
             temp[i]=arr[0][i];
+            
         }
         //top to bottom
-        for (int j = 0; j < arr.length; j++) {
-            int val = arr[j][0];
-            arr[j][0] = temp[j];
+        for (int j = 0; j <=2; j++) {
+            int val = arr[j][3];
+            arr[j][3] = temp[j];
             temp[j] = val;
         }
+        int counter=0;
         //right to left
-        for (int k = arr.length-1; k >= 0; k--,counter++) {
-            int val = arr[arr.length-1][k];
-            arr[arr.length-1][k] = temp[counter];
+        for (int k = 3; k >= 1; k--,counter++) {
+            int val = arr[3][k];
+            arr[3][k] = temp[counter];
             temp[counter]=val;
         }
         counter=0;
         //bottom to top
-        for (int l = arr.length-1; l <= 0; l--, counter++) {
+        for (int l = 3; l >= 1; l--, counter++) {
             int val = arr[l][0];
             arr[l][0] = temp[counter];
             temp[counter] = val;
         }
-        counter=0;
         //left to right ( output only )
-        for (int m = 0; m < temp.length; m++, counter++) {
-            arr[0][m] = temp[counter];
+        for (int m = 0; m <=2 ; m++) {
+            arr[0][m] = temp[m];
         }
     }
     

@@ -8,6 +8,7 @@ class Main{
         System.out.println("=======");
         matrix.rotate(arr);
         System.out.println("=======");
-        matrix.traverse(arr);
+        //matrix.traverse(arr);
+        matrix.printOut(arr);
     }
 }
