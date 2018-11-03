@@ -580,3 +580,17 @@ people were happy for me. Quite amazing.
 I'm still struggling with the qube rotatation problem, but I'm making progress.
 Instead of shifting one element at the time, lets just copy whole rows. Let's not
 worry about traversing deep into the square.
+** [2018-11-03 Sat]
+I went to the gym yesterday. Good workout, in and out in less then 30 min. 
+I realized I have no idea how to do excercises anymore. It's been over 5 years?
+Anyway, I'm really happy, first time is always the hardest. I will rotate run day
+with a gym day. There is plenty of reasearch that needs to be done. 
+I'm still struggling with the square rotation. I got the outer layer rotation done,
+but somehow the recursive sections are crapping out. It makes my head go 'auch' just
+looking at those loops. We are talking small squares, 4 in length, and I'm already 
+perspirating. Good times.
+I'm going to work on the time tracker app today. Want to get it out of the way asap.
+There's too much other work that needs to be done, and it's annoying me that I still
+have this one going on.
+Finally, Emerson collected the bike yesterday. He smoothly changed the deal, he won't 
+take it from me officially, but instead will clean it up & flip it. 
