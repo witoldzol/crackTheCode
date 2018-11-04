@@ -594,3 +594,7 @@ There's too much other work that needs to be done, and it's annoying me that I s
 have this one going on.
 Finally, Emerson collected the bike yesterday. He smoothly changed the deal, he won't 
 take it from me officially, but instead will clean it up & flip it. 
+** [2018-11-04 Sun]
+Dzien wolny od pracy. Nic nie robie. Po trudach, jak zwykle, udalo mi sie zainstalowac nowy config do emacs. 
+Wow to niesamowite jak wszystko jest trudne z tym edytorem. No ale jak juz dziala to dziala. Ehhh, nie wiem
+na co mi te wszystkie godziny spedzone nad tym edytorem. Idea jest dobra, ale ...wow. 
