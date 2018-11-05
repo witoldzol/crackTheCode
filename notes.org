@@ -598,3 +598,11 @@ take it from me officially, but instead will clean it up & flip it.
 Dzien wolny od pracy. Nic nie robie. Po trudach, jak zwykle, udalo mi sie zainstalowac nowy config do emacs. 
 Wow to niesamowite jak wszystko jest trudne z tym edytorem. No ale jak juz dziala to dziala. Ehhh, nie wiem
 na co mi te wszystkie godziny spedzone nad tym edytorem. Idea jest dobra, ale ...wow. 
+I did it! I managed to reverse the square. Something that seemed way over my head.
+Come to think of it now, it seems trivial. Right? Just loop over, copy and paste. No big deal...
+Seriously, it took me ... 4 days? I'm happy that I had an issue at the very end, as it forced me
+to use debugger. It's really nice! It helped me spot the issue right away, great stuff! Just 
+following the variables is such a help. In this case I didn't set a separate counter for temporary
+array, which was fine on first iteration ( starting from index 0), but on each subsequent call
+starting index incremented which messed up everything. I'm very happy, this is why I do what 
+I do!
