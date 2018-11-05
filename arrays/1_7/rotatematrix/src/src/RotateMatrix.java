@@ -46,18 +46,22 @@ class RotateMatrix{
         int[] temp = new int[end-1];
         
         int n = end-1;
-        
+         int counter=0; 
         //left to right
-        for(int i = start; i < n; i++){
-            temp[i]=arr[start][i];
+        for(int i = start; i < n; i++,counter++){
+            temp[counter]=arr[start][i];
         }
+        //reset
+        counter = 0;
+        
         //top to bottom
-        for (int j = start; j < n; j++) {
+        for (int j = start; j < n; j++, counter++) {
             int val = arr[j][n];
-            arr[j][n] = temp[j];
-            temp[j] = val;
+            arr[j][n] = temp[counter];
+            temp[counter] = val;
         }
-        int counter=0;
+        counter=0;
+        
         //right to left
         for (int k = n; k > start; k--,counter++) {
             int val = arr[n][k];
@@ -66,15 +70,17 @@ class RotateMatrix{
             temp[counter]=val;
         }
         counter=0;
+        
         //bottom to top
         for (int l = n; l > start; l--, counter++) {
             int val = arr[l][start];
             arr[l][start] = temp[counter];
             temp[counter] = val;
         }
+        counter=0;
         //left to right ( output only )
-        for (int m = start; m < n ; m++) {
-            arr[start][m] = temp[m];
+        for (int m = start; m < n ; m++,counter++) {
+            arr[start][m] = temp[counter];
         }
         
         rotate(arr, start+1,end-1);
