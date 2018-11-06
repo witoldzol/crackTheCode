@@ -610,3 +610,11 @@ array, which was fine on first iteration ( starting from index 0), but on each s
 starting index incremented which messed up everything. I'm very happy, this is why I do what 
 I do!
 And of course the book solution makes it look trivial, and even after analysing it, I still don't get it. Typical. Not to mention she did it in like 30 lines, where mine is like an Old Testament. Typical.
+** [2018-11-06 Tue]
+Big day! I really didn't want to study today, I ended up creating ads for my slr camera and tripod.
+But once I've started analyzing the solution by Gail of the square rotation...i realized it's the same
+thing as with the towers of hanoi! All you have to do is to look at the example, specific example:
+[0,3] goes to [0,0] y is fixed for fist, x is fixed for the latter. From there you can figure out what 
+goes where, especially if you consider next iteration...where will the marker / index be? Wow, 
+woooow. It actually worked, I was able to retrace her solution. No genius involved, just step by
+step analysis. That's it. Amazing!
