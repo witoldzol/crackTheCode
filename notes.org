@@ -619,6 +619,11 @@ goes where, especially if you consider next iteration...where will the marker / 
 woooow. It actually worked, I was able to retrace her solution. No genius involved, just step by
 step analysis. That's it. Amazing!
 ** [2018-11-07 Wed]
+I waste too much time. For instance, when at work I spend way too much time chatting and joking around. 
+Also, I use my friend as an excuse to spend time away from work, by 'helping' him with coding. I don't think
+it's doing much good to both of us. He needs to suffer and learn on his own in order to develop enough spine.
+I'd like to  finish up the time tracker project already so I can focus on cleaning up my code base for future generations.
+That will take ages but I think it will be fun, organizing everything.
 *** When making a nested array, don't forget the commas between elements!
 *** When iterating over nested array, remember that second layer takes first
 layer as parameter 
