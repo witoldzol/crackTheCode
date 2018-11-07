@@ -620,3 +620,11 @@ woooow. It actually worked, I was able to retrace her solution. No genius involv
 step analysis. That's it. Amazing!
 ** [2018-11-07 Wed]
 *** When making a nested array, don't forget the commas between elements!
+*** When iterating over nested array, remember that second layer takes first
+layer as parameter 
+for ( i=0, i<arr.len,i++){
+    for(j=0, j<arr[i].len,j++)
+}
+ARR[I].len !!!!
+
+
