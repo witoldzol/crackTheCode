@@ -631,5 +631,13 @@ for ( i=0, i<arr.len,i++){
     for(j=0, j<arr[i].len,j++)
 }
 ARR[I].len !!!!
-
+** [2018-11-08 Thu]
+I've given a short presentation on our work & how we go about it to a big boss from 
+God knows where. Point is, he was surrounded by bosses of my bosses, so stakes were
+high ( at least for them ). So, since I was talking about work, it was a perfect opportunity
+to brag about Sprint app, and how amazing it is. So I did, and I think things went smooth.
+The guy was friendly, cracked jokes without being condencending, so yea, seemed legit.
+I wonder how do you get so far in career? He is seriously high level, still in early fifties?
+He did amazingly well career wise. I'd really like to ask him how he got where he is, like 
+no bullshit style. Plain, painful truth. Work 80hr/ week? 
 
