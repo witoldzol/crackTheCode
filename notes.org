@@ -640,4 +640,7 @@ The guy was friendly, cracked jokes without being condencending, so yea, seemed 
 I wonder how do you get so far in career? He is seriously high level, still in early fifties?
 He did amazingly well career wise. I'd really like to ask him how he got where he is, like 
 no bullshit style. Plain, painful truth. Work 80hr/ week? 
+*** when iterating over nested array / matrix you dont 
+have to use [i][j]...instead you can just use [0][j] because 0 row will have the same length
+as [i-th] row and rows inbetween. Genius.
 
