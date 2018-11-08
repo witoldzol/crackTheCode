@@ -623,7 +623,7 @@ I waste too much time. For instance, when at work I spend way too much time chat
 Also, I use my friend as an excuse to spend time away from work, by 'helping' him with coding. I don't think
 it's doing much good to both of us. He needs to suffer and learn on his own in order to develop enough spine.
 I'd like to  finish up the time tracker project already so I can focus on cleaning up my code base for future generations.
-That will take ages but I think it will be fun, organizing everything.
+That will take ages but I think it will be fun, organizing everything. 
 *** When making a nested array, don't forget the commas between elements!
 *** When iterating over nested array, remember that second layer takes first
 layer as parameter 

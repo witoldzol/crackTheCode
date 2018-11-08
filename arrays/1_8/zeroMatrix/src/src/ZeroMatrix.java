@@ -7,19 +7,17 @@ import java.util.Set;
 class ZeroMatrix{
     //iterate over the whole matrix
     void findZeros(int[][] matrix){
-        StringBuilder coordinates = new StringBuilder();
-         
-        Set<Integer> columns = new HashSet<>();
-        boolean foundZero = false;
+        
+        Set<Integer> columns = new HashSet();
+        Set<Integer> rows = new HashSet();
+
         //zero out rows
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
                 if( matrix[i][j] == 0 ) {
                     columns.add(j);
-                    foundZero = true;
+                    rows.add(i);
                 }
-                if( foundZero ) Arrays.fill(matrix[i], 0);
-                foundZero = false;
             }
         }
         //zero out columns
@@ -28,6 +26,12 @@ class ZeroMatrix{
                 zeroColumns(matrix, column);
             }
             
+        }
+        //zero out rows
+        if ( rows.size() > 0 ){
+            for (Integer row : rows) {
+                zeroRows(matrix, row);
+            }
         }
         printMatrix(matrix);
         
@@ -40,6 +44,10 @@ class ZeroMatrix{
         for (int i = 0; i < matrix.length; i++) {
             matrix[i][column] = 0;
         }
+    }
+
+    private void zeroRows(int[][] matrix, Integer row) {
+        Arrays.fill(matrix[row], 0);
     }
 
     void printMatrix(int[][] matrix) {
