@@ -643,4 +643,13 @@ no bullshit style. Plain, painful truth. Work 80hr/ week?
 *** when iterating over nested array / matrix you dont 
 have to use [i][j]...instead you can just use [0][j] because 0 row will have the same length
 as [i-th] row and rows inbetween. Genius.
-
+** [2018-11-09 Fri]
+Yesterday all hell broke loose right from the start, when Sprint started breaking down because
+browser wouldn't serve 'mixed content' ie. my scripts which I've been happily injecting without
+understanding how the whole thing actually works. So there I was, trying to set up https server
+so the browser would stop complaining. I didn't get far, but I made some progress. I managed to 
+get openssl software 'installed' on my computer, so that I can generate the keys. Now, my hopes 
+are that self signed keys will do to stop the browser from complaining. I mean, even if the connection
+isn't certified, it's still https ... so it shouldn't block the mixed content...right??? 
+I've spent all morning setting things up instead of doing 'crack the code'. I'd rather do the real life
+problems than the book abstract crap. 
