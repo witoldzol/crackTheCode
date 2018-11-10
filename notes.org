@@ -653,3 +653,9 @@ are that self signed keys will do to stop the browser from complaining. I mean, 
 isn't certified, it's still https ... so it shouldn't block the mixed content...right??? 
 I've spent all morning setting things up instead of doing 'crack the code'. I'd rather do the real life
 problems than the book abstract crap. 
+** [2018-11-10 Sat]
+I havent done anything today. It started yesterday, it was lashing rain, I got all soaked, and its been
+now at least 3 days since I've pulled my back muscle and it's not going away. I've decided to skip gym
+again. Not happy about it, but I will be patient.
+This pulled muscle is getting into my head, and saping my motivation. I almost decided to stay home 
+but I did promise to work on the project and help with the Coder Dojo, so I'm going. No excuses. 
