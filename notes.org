@@ -663,3 +663,7 @@ but I did promise to work on the project and help with the Coder Dojo, so I'm go
 Here we go again. Last two days were rough to be hones, being out of routine takes an immediate toll on me.
 I found myself extremely irritated yesterday, I think its the lack of excercise. I'm planning to do basic routines
 while on holidays. We will see how my back muscle is acting up. But at least I can do the stretching.
+I still haven't booked any hotels.
+I did make a really good progress on Saturday with the app. I think I'm ready to give a presentation on the tool
+before I go on holidays. I also managed on Friday to get the https server run, and get the browser to actually pull
+the files. Amazing, no idea how and why it works, but it does so thats good enough for me. Seriously, I have no idea...
