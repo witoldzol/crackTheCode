@@ -35,10 +35,10 @@
 ** DONE Rent car in Gran Canaria
 ** DONE Check camera memory 
 ** DONE Send 'thank you' emails : mentor, john, deirdre
+** DONE Code: Create admin View for timeTracker app
 ** TODO Remove camera memory
 ** TODO Plan route & rent hostels in Gran Canaria
 ** TODO Code: learn Decorator pattern
-** TODO Code: Create admin View for timeTracker app
 ** TODO Book appointment with physio
 ** TODO clean up mac
 ** TODO clean up top shelf in wardrobe
@@ -659,3 +659,7 @@ now at least 3 days since I've pulled my back muscle and it's not going away. I'
 again. Not happy about it, but I will be patient.
 This pulled muscle is getting into my head, and saping my motivation. I almost decided to stay home 
 but I did promise to work on the project and help with the Coder Dojo, so I'm going. No excuses. 
+** [2018-11-12 Mon]
+Here we go again. Last two days were rough to be hones, being out of routine takes an immediate toll on me.
+I found myself extremely irritated yesterday, I think its the lack of excercise. I'm planning to do basic routines
+while on holidays. We will see how my back muscle is acting up. But at least I can do the stretching.
