@@ -36,10 +36,9 @@
 ** DONE Check camera memory 
 ** DONE Send 'thank you' emails : mentor, john, deirdre
 ** DONE Code: Create admin View for timeTracker app
+** DONE Plan route & rent hostels in Gran Canaria
+** DONE Code: learn Decorator pattern
 ** TODO Remove camera memory
-** TODO Plan route & rent hostels in Gran Canaria
-** TODO Code: learn Decorator pattern
-** TODO Book appointment with physio
 ** TODO clean up mac
 ** TODO clean up top shelf in wardrobe
 ** TODO Clean up living room
@@ -47,7 +46,6 @@
 ** TODO Sell camera
 ** TODO Sell tripod
 ** TODO Sell speakers
-** TODO Give vaping stuff to Marcin
 ** TODO Sell Suzuki
 ** TODO Sell bicycle / helm 
 ** TODO Sell board games
@@ -667,3 +665,7 @@ I still haven't booked any hotels.
 I did make a really good progress on Saturday with the app. I think I'm ready to give a presentation on the tool
 before I go on holidays. I also managed on Friday to get the https server run, and get the browser to actually pull
 the files. Amazing, no idea how and why it works, but it does so thats good enough for me. Seriously, I have no idea...
+** [2018-11-28 Wed]
+Wow, it's been 16 days since last entry...I went on 7 day holiday, and it sets me back 16 days!!
+That's why I don't like holidays...my old demons come back with vengance: smokes & procrastination
+& it's a bloody struggle to push them back again, and again. I don't like holidays...
