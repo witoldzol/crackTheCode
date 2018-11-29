@@ -37,7 +37,7 @@
 ** DONE Send 'thank you' emails : mentor, john, deirdre
 ** DONE Code: Create admin View for timeTracker app
 ** DONE Plan route & rent hostels in Gran Canaria
-** DONE Code: learn Decorator pattern
+** TODO Code: learn Decorator pattern
 ** TODO Remove camera memory
 ** TODO clean up mac
 ** TODO clean up top shelf in wardrobe
@@ -54,6 +54,8 @@
 ** TODO Finish self-authoring program
 ** TODO Take clothes to charity shop
 ** TODO Take stuff to recycle shop
+** TODO Finish time tracker application
+** TODO Create https server on VM
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -677,3 +679,8 @@ amount of time, so it's best to start now.
 especially when tackling difficult tasks. 
 3) Solving difficult tasks is rewarding, and helps boost my confidence. So in future, when faced with problems, I will
 have a lower chance of freaking out.
+** [2018-11-29 Thu]
+I haven't done anything today worthwhile with my 2hrs. A lot of resistance towards using my brain.
+I'm working on linked lists, so I'm starting slow by reminding myself how they are implemented, and 
+how to sort them. I'm taking my time...it's better to go slow then not at all ( or am I rationalizing my laziness?)
+In any case, I'm almost done with the time 
