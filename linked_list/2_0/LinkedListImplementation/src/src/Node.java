@@ -5,5 +5,6 @@ public class Node{
     Node next;
     public Node(int v){
         this.value = v;
+        next=null;
     }
 }

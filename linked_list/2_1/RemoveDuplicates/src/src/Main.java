@@ -5,6 +5,6 @@ public class Main {
     //save every value to buffer
     //check every new value against buffer...n(n)
     
-    //WITOUT BUFFER
+    //WIThOUT BUFFER
     
 }
