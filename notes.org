@@ -683,4 +683,8 @@ have a lower chance of freaking out.
 I haven't done anything today worthwhile with my 2hrs. A lot of resistance towards using my brain.
 I'm working on linked lists, so I'm starting slow by reminding myself how they are implemented, and 
 how to sort them. I'm taking my time...it's better to go slow then not at all ( or am I rationalizing my laziness?)
-In any case, I'm almost done with the time 
+In any case, I'm almost done with the time tracker app. I have to admit, I'm enjoying myself at this stage. I know
+what goes where, and most of the stuff is kinda known to me, so it's an enjoyable journay at this  point. 
+I don't have to stop every second to google how to do this or that. I only have to implement one more tab
+with paths to database and images folder. Finally, I probably will redesign the front end for users, make it look
+that bit nicer, and I'll PUUUUSH.
