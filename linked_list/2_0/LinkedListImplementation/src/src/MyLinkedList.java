@@ -44,12 +44,10 @@ public class MyLinkedList implements LinkedList{
     }
 
     @Override
-    public boolean find(Node v) {
-        
+    public boolean find(int v) {
         Node n = head;
-        if(n == null)return false;
         while(n.next != null){
-            if(n.next.value == v.value)
+            if(n.next.value == v)
                 return true;
             else
                 n=n.next;
@@ -66,5 +64,68 @@ public class MyLinkedList implements LinkedList{
         }
     }
     
+    //get middle
+    Node getMiddle(Node head){
+        //base case 
+        if(head == null)
+            return head;
+        Node fastPointer = head.next;
+        Node slowPointer = head;
+        
+        //move fast p by 2, slow by 1
+        //when fast reaches end, slow will be half way through
+        while(fastPointer != null){
+            fastPointer = fastPointer.next;
+            if(fastPointer != null){
+                fastPointer = fastPointer.next;
+                slowPointer = slowPointer.next;
+            }
+        }
+        return slowPointer;
+    }
+    Node merge(Node a, Node b){
+        Node result = null;
+        //base case
+        if(a == null)
+            return b;
+        if(b == null)
+            return a;
+        //recursion
+        if(a.value <= b.value){
+            result = a;
+            result.next = merge(a.next, b);
+        } else {
+            result = b;
+            result.next = merge(a, b.next);
+        }
+        return result;
+    }
+    //sort
+    Node mergeSort(Node head){
+        //base case
+        if(head == null || head.next == null)
+            return head;
+        
+        //get the middle of the list
+        Node middle = getMiddle(head);
+        Node nextToMiddle = middle.next;
+        
+        //zero-out next to middle ( we split the list into two halfs)
+        middle.next = null;
+        
+        //left side
+        Node left = mergeSort(head);
+        
+        //right side
+        Node right = mergeSort(nextToMiddle);
+        
+        //merge left & right
+        Node sortedList = merge(left,right);
+        return sortedList;
+    }
+    
+    Node getHead(){
+        return head;
+    }
     
 }
