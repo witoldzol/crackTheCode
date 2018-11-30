@@ -688,3 +688,9 @@ what goes where, and most of the stuff is kinda known to me, so it's an enjoyabl
 I don't have to stop every second to google how to do this or that. I only have to implement one more tab
 with paths to database and images folder. Finally, I probably will redesign the front end for users, make it look
 that bit nicer, and I'll PUUUUSH.
+** [2018-11-30 Fri]
+Still struggling, slowly slugging up the hill, procrastinating most of the time. I keep asking myself,
+"did you wake up at 4am to be watching youtube or to look at daft listing???". Kinda helps.
+Still working through the  merge sort algorithm, its nice, very elegant. You split the list down to
+individual level, and then recombine all the pieces by merging left and right sides. Very elegant.
+N log N time complexity. Did I mention it's elegant? :)
