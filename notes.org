@@ -694,3 +694,12 @@ Still struggling, slowly slugging up the hill, procrastinating most of the time.
 Still working through the  merge sort algorithm, its nice, very elegant. You split the list down to
 individual level, and then recombine all the pieces by merging left and right sides. Very elegant.
 N log N time complexity. Did I mention it's elegant? :)
+On the bright side of things, I'm almost done with the time tracker. No really, this time its over!
+Things to do: 
+-add the file path pickers ( 2 buttons, I'm sure there is some slick api for this)
+-beautify the display
+-test concurrency
+I'll be doing the first and last one today. I want to know if I have a problem, so that I can solve it
+over the  weekend. Speaking of which, I'm planning to play Warband all day on Sunday, and there
+is noone who can stop me. There, I've said it. This is the first time I've planned my weekend. 
+Making progress. Baby steps.
