@@ -37,24 +37,26 @@
 ** DONE Send 'thank you' emails : mentor, john, deirdre
 ** DONE Code: Create admin View for timeTracker app
 ** DONE Plan route & rent hostels in Gran Canaria
+** DONE Take pics of board games
+** DONE Finish time tracker application
 ** TODO Code: learn Decorator pattern
 ** TODO Remove camera memory
 ** TODO clean up mac
 ** TODO clean up top shelf in wardrobe
 ** TODO Clean up living room
+** TODO Call Joe about top box
 ** TODO Install top box
 ** TODO Sell camera
 ** TODO Sell tripod
 ** TODO Sell speakers
 ** TODO Sell Suzuki
-** TODO Sell bicycle / helm 
+** TODO Put board games on adverts
 ** TODO Sell board games
 ** TODO Find accomodation in Galway
 ** TODO Claim tax back for 2017 & 2018
 ** TODO Finish self-authoring program
 ** TODO Take clothes to charity shop
 ** TODO Take stuff to recycle shop
-** TODO Finish time tracker application
 ** TODO Create https server on VM
 * DAILY BLOG
 ** 10-08-2018 Friday
@@ -703,3 +705,14 @@ I'll be doing the first and last one today. I want to know if I have a problem, 
 over the  weekend. Speaking of which, I'm planning to play Warband all day on Sunday, and there
 is noone who can stop me. There, I've said it. This is the first time I've planned my weekend. 
 Making progress. Baby steps.
+** [2018-12-03 Mon]
+I'm still in a slump. I keep fighting with myself on weather I should continue to work on 
+Cracking The Code book. I got the job.
+Why NO:
+1) I made it, why should I continue to study stuff that is of no immediate benefit to me?
+2) There's very little real life utility in this type of knowledge. You don't implement alogs in real life.
+3) It's difficult, and requires 'analytical mind' which 'I don't have'.
+4) There's ton of other, more fun stuff that I should / could learn about that will be beneficial ... somehow.
+
+
+
