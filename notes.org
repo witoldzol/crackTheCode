@@ -727,5 +727,10 @@ forgot to put your code inside a method ( like a main method for example ).
 public
 + Brian Will argues in a series of youtube videos that the OOP jest zartem i kompletna 
 strata czasu...mind blown
-+ 
+To bardzo ciekawe, ze nikt nigdy nie dal alternatywy do OOP na naszym kursie. Ciekawe 
+jak to jest w prawdzymym swiecie?! Co jesli to prawda, i oop to kompletny gimmic? Simply,
+of smoke & mirrors. Wait, what language am I normally writing this diary in?
+Skonczylem duplicate removal from linked list. There is alternative version, do it without 
+holding on to any temporary data, which seems ... interesting! In that case, we would use 
+merge sort O(NlogN) & iterate over.
 
