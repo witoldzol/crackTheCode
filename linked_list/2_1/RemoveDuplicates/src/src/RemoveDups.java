@@ -2,7 +2,8 @@ package src;
 
 import java.util.HashMap;
 import java.util.Map;
-import src.Node;
+import ll.Node;
+
 
 class RemoveDups{
 
@@ -20,7 +21,8 @@ class RemoveDups{
             } else {
                 map.put(temp.next, val);
             }
+            temp = temp.next;
         }
-        
+        return head;
     }
 }

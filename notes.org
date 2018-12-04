@@ -720,9 +720,9 @@ Why YES:
 4) You want to learn generalized knowledge, which can be abstracted and applied in multiple contexts
 5) Because it's difficult, and most people don't want to do it...
 6) Beacause it's difficult, and you need to lift a heavy load
-
-
-
-
-
+** [2018-12-04 Tue]
++ If you are getting <identifier> expected error in Java, that means you probably 
+forgot to put your code inside a method ( like a main method for example ).
++ If your method is not coming up in intelli sense, then it's probably you didn't set it to
+public
 
