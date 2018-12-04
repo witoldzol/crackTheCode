@@ -725,4 +725,7 @@ Why YES:
 forgot to put your code inside a method ( like a main method for example ).
 + If your method is not coming up in intelli sense, then it's probably you didn't set it to
 public
++ Brian Will argues in a series of youtube videos that the OOP jest zartem i kompletna 
+strata czasu...mind blown
++ 
 

@@ -11,9 +11,14 @@ public class Main {
         ll.add(2);
         ll.add(1);
         ll.add(4);
+        ll.add(2);
         ll.add(7);
-        
-        
+        ll.add(1);
+        ll.printAll();
+        System.out.println("==========");        
+        Node h = ll.getHead();
+        rd.removeEasy(h);
+        ll.printAll();
     }
 
     

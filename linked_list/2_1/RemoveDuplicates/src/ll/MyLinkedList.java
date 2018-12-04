@@ -128,8 +128,5 @@ public class MyLinkedList implements LinkedList{
         return sortedList;
     }
     
-    Node getHead(){
-        return head;
-    }
-    
+  
 }
