@@ -35,25 +35,17 @@ class RemoveDups{
     
     Node removeEasy(Node h){
         Set<Integer> set = new HashSet();
-        if(h==null)return h;
-        set.add(h.value);
-        
-        Node temp = h;
-        while(temp.next != null){
-            Integer val = temp.next.value;
-            if(set.contains(val)){
-                if(temp.next.next != null){
-                    temp.next = temp.next.next;                    
-                } else {
-                    temp.next = null;
-                    break;
-                }
+        Node head = h;
+        Node previous = null;
+        while(h!=null){
+            if(set.contains(new Integer(h.value))){
+                previous.next = h.next;
+            } else {
+                set.add(new Integer(h.value));
+                previous = h;
             }
-            else{
-                set.add(temp.next.value);
-            }
-            temp = temp.next;
+            h=h.next;
         }
-        return h;
+        return head;
     }
 }

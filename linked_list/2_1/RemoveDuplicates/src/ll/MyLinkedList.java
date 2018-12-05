@@ -87,7 +87,7 @@ public class MyLinkedList implements LinkedList{
         }
         return slowPointer;
     }
-    Node merge(Node a, Node b){
+    private Node merge(Node a, Node b){
         Node result = null;
         //base case
         if(a == null)
@@ -104,8 +104,9 @@ public class MyLinkedList implements LinkedList{
         }
         return result;
     }
+    
     //sort
-    Node mergeSort(Node head){
+    public Node mergeSort(Node head){
         //base case
         if(head == null || head.next == null)
             return head;
@@ -125,8 +126,22 @@ public class MyLinkedList implements LinkedList{
         
         //merge left & right
         Node sortedList = merge(left,right);
+        this.head = sortedList;
         return sortedList;
     }
-    
+    public void removeDups(){
+        if(head==null)return;
+        Node temp = head;
+        while(temp.next!=null){
+            while(temp.value==temp.next.value){
+                if(temp.next.next != null){
+                    temp.next = temp.next.next;
+                } else {
+                    temp.next = null;
+                }
+            }
+            temp = temp.next;
+        }
+    }
   
 }
