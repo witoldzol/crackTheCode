@@ -721,11 +721,11 @@ Why YES:
 5) Because it's difficult, and most people don't want to do it...
 6) Beacause it's difficult, and you need to lift a heavy load
 ** [2018-12-04 Tue]
-+ If you are getting <identifier> expected error in Java, that means you probably 
+*** If you are getting <identifier> expected error in Java, that means you probably 
 forgot to put your code inside a method ( like a main method for example ).
-+ If your method is not coming up in intelli sense, then it's probably you didn't set it to
+*** If your method is not coming up in intelli sense, then it's probably you didn't set it to
 public
-+ Brian Will argues in a series of youtube videos that the OOP jest zartem i kompletna 
+*** Brian Will argues in a series of youtube videos that the OOP jest zartem i kompletna 
 strata czasu...mind blown
 To bardzo ciekawe, ze nikt nigdy nie dal alternatywy do OOP na naszym kursie. Ciekawe 
 jak to jest w prawdzymym swiecie?! Co jesli to prawda, i oop to kompletny gimmic? Simply,
@@ -734,7 +734,7 @@ Skonczylem duplicate removal from linked list. There is alternative version, do 
 holding on to any temporary data, which seems ... interesting! In that case, we would use 
 merge sort O(NlogN) & iterate over.
 ** [2018-12-05 Wed]
-+ When iterating it's better to keep a pointer going backwards than forward:
+*** When iterating it's better to keep a pointer going backwards than forward:
 For example: 
 instead  of 
 #+BEGIN_SRC 
@@ -763,9 +763,16 @@ As added bonus, you don't have to keep checkiing forward for null pointers:
 #+BEGIN_SRC 
 if(node.next.next!=null) ... seriously!
 #+END_SRC
+That's it. I finished FIRST excercise from linked list! Damn, seriously. What did I learn?
+Well, I revised on how linked list works, I learned what the merge Sort is and how it
+works ( kinda ). It has 3 parts: finding middle, sorting, and finally, merging sorted?
 
-+
+Yesterday my coworker was acting as if I she was offened? at me or something. It 
+wasn't obvious, she just wouldn't talk to me, which I found very odd. Ah well, can't 
+win them all. I found it surprising because she was always 'cool' but, we are all human in the end.
 
-
-
+I've decided tha I will continue with the Crack the Code. The main reason to continue is:
+-it will help me become a better programmer! That's it. It's not about interviews, it's about
+personal growth. Challenge accepted. If I can learn how to solve Google/Microsoft level 
+questions / problems, than I can tackle anything. Cheers.
 
