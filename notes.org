@@ -733,4 +733,24 @@ of smoke & mirrors. Wait, what language am I normally writing this diary in?
 Skonczylem duplicate removal from linked list. There is alternative version, do it without 
 holding on to any temporary data, which seems ... interesting! In that case, we would use 
 merge sort O(NlogN) & iterate over.
+** [2018-12-05 Wed]
++ When iterating it's better to keep a pointer going backwards than forward:
+For example: 
+instead  of 
+while(node.next!=null) 
+use
+while(node!=null)
+This way you don't end up using something like node.next = node.next.next
+That's just not an elegant code!
+Instead use 
+Node previous = null
+Then every iteration 
+previous= current;
+current = current.next;
+Case solved!
+As added bonus, you don't have to keep checkiing forward for null pointers:
+if(node.next.next!=null) ... seriously!
+
+
+
 
