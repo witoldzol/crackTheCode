@@ -737,19 +737,34 @@ merge sort O(NlogN) & iterate over.
 + When iterating it's better to keep a pointer going backwards than forward:
 For example: 
 instead  of 
+#+BEGIN_SRC 
 while(node.next!=null) 
+#+END_SRC
 use
+#+BEGIN_SRC 
 while(node!=null)
-This way you don't end up using something like node.next = node.next.next
+#+END_SRC
+This way you don't end up using something like
+#+BEGIN_SRC 
+ node.next = node.next.next
+#+END_SRC
 That's just not an elegant code!
 Instead use 
+#+BEGIN_SRC 
 Node previous = null
+#+END_SRC
 Then every iteration 
+#+BEGIN_SRC 
 previous= current;
 current = current.next;
+#+END_SRC
 Case solved!
 As added bonus, you don't have to keep checkiing forward for null pointers:
+#+BEGIN_SRC 
 if(node.next.next!=null) ... seriously!
+#+END_SRC
+
++
 
 
 
