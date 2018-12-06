@@ -775,4 +775,15 @@ I've decided tha I will continue with the Crack the Code. The main reason to con
 -it will help me become a better programmer! That's it. It's not about interviews, it's about
 personal growth. Challenge accepted. If I can learn how to solve Google/Microsoft level 
 questions / problems, than I can tackle anything. Cheers.
-** 
+** [2018-12-06 Thu]
+*** When making merge method for merge sort algo, remember that merge method is recursive
+and that it spcifies result and result.next -> recursive call
+
+So I'm starting to think about looking for a place to stay in Galway. I will admit I'm bit worried, what if
+I can't find anything? That will be inconveniant to say the least. Also, I don't want to get first crappy 
+place that is available. If possible, I'd like to find some place WARM so that I don't have to go through
+yet another horrid, uncomfortable winter ( what can I say...I'm getting old and comfortable).
+
+I think I'm going to sell my ducky keyboard as well, along with my computer. I just can't find any excuse 
+to hang on to it. I'd love to get something smaller, both keyboard & computer. Some small box would do.
+
