@@ -49,4 +49,21 @@ class RemoveDups{
         }
         return head;
     }
+    
+    Node getMiddle(Node head){
+        Node slowP = head;
+        Node fastP = head.next;
+        while(fastP!=null){
+            fastP = fastP.next;
+            if(fastP!=null){
+                fastP=fastP.next;
+                slowP=slowP.next;
+            }
+        }
+        return slowP;
+    }
+    
+    void merge(Node head){
+        
+    }
 }

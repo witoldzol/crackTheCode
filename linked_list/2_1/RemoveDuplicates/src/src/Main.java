@@ -16,21 +16,8 @@ public class Main {
         ll.add(1);
         ll.add(1);
         ll.add(1);
-        ll.printAll();
-        System.out.println("==========");        
         
-        Node h = ll.getHead();
-        Node newList = rd.removeEasy(h);
-
-        while(newList!=null){
-            System.out.println(newList.value);
-            newList=newList.next;
-        }
-        //Node head = ll.mergeSort(h);
-//        ll.printAll();
-        //ll.removeDups();
-        System.out.println("-----------------");
-//        ll.printAll();
+        System.out.println(        rd.getMiddle(ll.getHead()).value);
     }
 
     

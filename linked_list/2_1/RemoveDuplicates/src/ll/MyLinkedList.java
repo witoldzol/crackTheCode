@@ -87,6 +87,7 @@ public class MyLinkedList implements LinkedList{
         }
         return slowPointer;
     }
+    
     private Node merge(Node a, Node b){
         Node result = null;
         //base case
@@ -129,6 +130,7 @@ public class MyLinkedList implements LinkedList{
         this.head = sortedList;
         return sortedList;
     }
+    
     public void removeDups(){
         if(head==null)return;
         Node temp = head;
