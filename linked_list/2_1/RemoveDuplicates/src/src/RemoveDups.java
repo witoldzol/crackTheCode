@@ -37,10 +37,11 @@ class RemoveDups{
         Set<Integer> set = new HashSet();
         Node head = h;
         Node previous = null;
+        
         while(h!=null){
-            if(set.contains(new Integer(h.value))){
+            if(set.contains(new Integer(h.value)))
                 previous.next = h.next;
-            } else {
+            else{
                 set.add(new Integer(h.value));
                 previous = h;
             }
