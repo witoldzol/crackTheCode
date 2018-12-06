@@ -16,8 +16,12 @@ public class Main {
         ll.add(1);
         ll.add(1);
         ll.add(1);
+        Node a = rd.mergeSort(ll.getHead());
+        while(a!=null){
+            System.out.println(a.value);
+            a=a.next;
+        }
         
-        System.out.println(        rd.getMiddle(ll.getHead()).value);
     }
 
     

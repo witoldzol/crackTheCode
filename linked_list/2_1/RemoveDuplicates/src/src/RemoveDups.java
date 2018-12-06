@@ -62,8 +62,39 @@ class RemoveDups{
         }
         return slowP;
     }
-    
-    void merge(Node head){
+    //recursive call
+    Node merge(Node a, Node b){
+        //results
+        Node results = null;
+        //base case
+        if(a==null) return b;
+        if(b==null) return a;
+        
+        //merge
+        if(a.value<=b.value){
+            results = a;
+            results.next = merge(a.next,b);
+        } else {
+            results = b;
+            results.next = merge(a,b.next);
+        }
+        return results;
+    }
+    //recursive
+    Node mergeSort(Node head){
+        //base case
+        if(head==null || head.next==null)return head;
+        //get middle node
+        Node middle = getMiddle(head);
+        Node middleNext = middle.next;
+        middle.next = null;
+        
+        //keep recuring until we hit single nodes
+        Node left=mergeSort(head);
+        Node right=mergeSort(middleNext);
+        
+        //merge & return
+        return merge(left, right);
         
     }
 }
