@@ -39,6 +39,9 @@
 ** DONE Plan route & rent hostels in Gran Canaria
 ** DONE Take pics of board games
 ** DONE Finish time tracker application
+** DONE Put board games on adverts
+** DONE Fix AP spec allocation macro bugs
+** DONE Create DCA allocation macro
 ** TODO Code: learn Decorator pattern
 ** TODO Remove camera memory
 ** TODO clean up mac
@@ -50,7 +53,6 @@
 ** TODO Sell tripod
 ** TODO Sell speakers
 ** TODO Sell Suzuki
-** TODO Put board games on adverts
 ** TODO Sell board games
 ** TODO Find accomodation in Galway
 ** TODO Claim tax back for 2017 & 2018
@@ -786,4 +788,11 @@ yet another horrid, uncomfortable winter ( what can I say...I'm getting old and 
 
 I think I'm going to sell my ducky keyboard as well, along with my computer. I just can't find any excuse 
 to hang on to it. I'd love to get something smaller, both keyboard & computer. Some small box would do.
+** [2018-12-07 Fri]
+I've started this day with a burining desire to continue working on my cryptoscanner app.
+I'll make monies ! Quick glance at the current crypto situation quickly cooled me off. 
+It's bad, and I can't see any viable options or price differentials. It's over, and I'm glad for it.
+I will not be making an app that can slice razor thin margins. Not for me. Thanks.
 
+So what is it today? Finding kth element from the end in linked list. Easy? No idea, I'll just use
+two pointers, fast  and slow to get end and mid, and go for the target from there.
