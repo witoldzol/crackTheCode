@@ -128,4 +128,34 @@ public class MyLinkedList implements LinkedList{
         return head;
     }
     
+    Node findFromEnd(Node head, int fromEnd){
+        //FIND last
+        if(head==null || head.next==null) return head;
+        int fastC = 0;
+        int slowC = 0;
+        Node slowP = head;
+        Node fastP = head.next;
+        
+        while(fastP!=null){
+            fastP=fastP.next;
+            fastC++;
+            if(fastP!=null){
+                slowC++;
+                fastC++;
+                fastP=fastP.next;
+                slowP=slowP.next;
+            }
+        }
+        
+    }
+    
+    int findCloser(int fromEnd, int end, int mid){
+        int index = end-fromEnd;
+
+        //which half is the index
+        int fromMid = index-mid;
+        
+        
+        return 0;
+    }
 }
