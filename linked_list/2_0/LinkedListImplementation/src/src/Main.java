@@ -8,6 +8,8 @@ public class Main{
         ll.add(1);
         ll.add(4);
         ll.add(7);
+        ll.add(8);
+        ll.add(9);
         ll.printAll();
         ll.mergeSort(ll.getHead());
         System.out.println("---------");
