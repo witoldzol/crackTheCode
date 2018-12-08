@@ -816,4 +816,8 @@ interested and challenged. They earned that fiver.
 #+END_SRC
 NOT /[a-f][3-7]/ 
 *** Regex: + matches 1 or more , * matches 0 or more
-*** 
+*** Reges: greedy match finds the LONGEST match & returns it, lazy match returns SHORTES
+*** \w matches ALL alfa , numericals, and _ ( underscore ), \W matches all non alfanumericals
+*** \d matches all digits, \W matches all NON digits
+*** \s matches all whitespace ( space, tab, carriage return ), \S all non whitespace (trim???)
+*** ? matches 0 or 1 ( essentially optional )
