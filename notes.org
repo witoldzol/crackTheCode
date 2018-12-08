@@ -815,3 +815,5 @@ interested and challenged. They earned that fiver.
     string.match(/[a-f3-7])
 #+END_SRC
 NOT /[a-f][3-7]/ 
+*** Regex: + matches 1 or more , * matches 0 or more
+*** 
