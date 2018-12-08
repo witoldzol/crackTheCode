@@ -810,3 +810,8 @@ that fiver. Win-Win.
 I do attribute to FCC directly the fact that I've made it so far in terms of coding.
 No other course had such a good mix of hand holding & challange. They managed to keep me
 interested and challenged. They earned that fiver.
+*** Regex: character ranges / sets - if you want to match a-f and 3-7
+#+BEGIN_SRC 
+    string.match(/[a-f3-7])
+#+END_SRC
+NOT /[a-f][3-7]/ 
