@@ -798,3 +798,28 @@ I will not be making an app that can slice razor thin margins. Not for me. Thank
 
 So what is it today? Finding kth element from the end in linked list. Easy? No idea, I'll just use
 two pointers, fast  and slow to get end and mid, and go for the target from there.
+** [2018-12-08 Sat]
+I've decided to take a 'day off' and instead of cracking the code, do some relaxing
+free code camp excercises. Yes I know, they aren't super challenging, but I did learn
+new things while doing them, and that's way more than painfully sitting in front of
+way too difficult excercise pondering the essence of my existance. I'd say small 
+incremetal problems are way more productive than those monumental tasks. I do remember
+though when I was starting with sprint app, and I had to learn promises...wow, my 
+brain did not like that!
+Anyway, fcc asked for some donation...5 dollars, and I thought, hey I'm paying fiver
+to listen to music which is free...so I rerouted the monies. Now I don't feel bad about
+that fiver. Win-Win. 
+I do attribute to FCC directly the fact that I've made it so far in terms of coding.
+No other course had such a good mix of hand holding & challange. They managed to keep me
+interested and challenged. They earned that fiver.
+*** Regex: character ranges / sets - if you want to match a-f and 3-7
+#+BEGIN_SRC 
+    string.match(/[a-f3-7])
+#+END_SRC
+NOT /[a-f][3-7]/ 
+*** Regex: + matches 1 or more , * matches 0 or more
+*** Reges: greedy match finds the LONGEST match & returns it, lazy match returns SHORTES
+*** \w matches ALL alfa , numericals, and _ ( underscore ), \W matches all non alfanumericals
+*** \d matches all digits, \W matches all NON digits
+*** \s matches all whitespace ( space, tab, carriage return ), \S all non whitespace (trim???)
+*** ? matches 0 or 1 ( essentially optional )
