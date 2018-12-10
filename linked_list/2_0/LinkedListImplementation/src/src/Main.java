@@ -11,8 +11,8 @@ public class Main{
         ll.add(8);
         ll.add(9);
         ll.printAll();
-        ll.mergeSort(ll.getHead());
-        System.out.println("---------");
-        ll.printAll();
+        System.out.println("---");
+        Node a = ll.findFromEnd(ll.getHead(), 3);
+        System.out.println(a.value);
     }
 }

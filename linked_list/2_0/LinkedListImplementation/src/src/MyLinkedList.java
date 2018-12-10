@@ -130,32 +130,44 @@ public class MyLinkedList implements LinkedList{
     
     Node findFromEnd(Node head, int fromEnd){
         //FIND last
-        if(head==null || head.next==null) return head;
-        int fastC = 0;
-        int slowC = 0;
+        if(head==null || head.next==null) return null;
+        int end = 0;
+        int mid = 0;
         Node slowP = head;
         Node fastP = head.next;
         
-        while(fastP!=null){
+        while(fastP!=null && fastP.next!=null){
             fastP=fastP.next;
-            fastC++;
+            end++;
             if(fastP!=null){
-                slowC++;
-                fastC++;
+                mid++;
+                end++;
                 fastP=fastP.next;
                 slowP=slowP.next;
             }
         }
+        System.out.println("end" + fastP.value);
+        System.out.println("mid" + slowP.value);
+        //find index
+        int index = end-fromEnd;
+        //quick test
+        if (index==end) return fastP;
+        if (index==mid) return slowP;
+        if (index==0)   return head;
         
+        return (index==end) ? fastP :
+               (index==mid) ? slowP :
+               (index==0) ? head :
+               (index>mid) ? getNode(slowP,index-mid) :
+               getNode(head, index);
     }
     
-    int findCloser(int fromEnd, int end, int mid){
-        int index = end-fromEnd;
-
-        //which half is the index
-        int fromMid = index-mid;
-        
-        
-        return 0;
+    private Node getNode(Node start, int index) {
+        int counter=0;
+        while(counter<index){
+            start=start.next;
+            counter++;
+        }
+        return start;
     }
 }

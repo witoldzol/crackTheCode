@@ -42,15 +42,15 @@
 ** DONE Put board games on adverts
 ** DONE Fix AP spec allocation macro bugs
 ** DONE Create DCA allocation macro
+** DONE clean up top shelf in wardrobe
+** DONE Sell tripod
 ** TODO Code: learn Decorator pattern
 ** TODO Remove camera memory
 ** TODO clean up mac
-** TODO clean up top shelf in wardrobe
 ** TODO Clean up living room
 ** TODO Call Joe about top box
 ** TODO Install top box
 ** TODO Sell camera
-** TODO Sell tripod
 ** TODO Sell speakers
 ** TODO Sell Suzuki
 ** TODO Sell board games
@@ -60,6 +60,8 @@
 ** TODO Take clothes to charity shop
 ** TODO Take stuff to recycle shop
 ** TODO Create https server on VM
+** TODO Finish LinkedList chapter in Cracking the Code
+** TODO Finish the java component in freeCodeCamp
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
