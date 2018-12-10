@@ -812,14 +812,19 @@ that fiver. Win-Win.
 I do attribute to FCC directly the fact that I've made it so far in terms of coding.
 No other course had such a good mix of hand holding & challange. They managed to keep me
 interested and challenged. They earned that fiver.
-*** Regex: character ranges / sets - if you want to match a-f and 3-7
-#+BEGIN_SRC 
-    string.match(/[a-f3-7])
-#+END_SRC
-NOT /[a-f][3-7]/ 
-*** Regex: + matches 1 or more , * matches 0 or more
-*** Reges: greedy match finds the LONGEST match & returns it, lazy match returns SHORTES
-*** \w matches ALL alfa , numericals, and _ ( underscore ), \W matches all non alfanumericals
-*** \d matches all digits, \W matches all NON digits
-*** \s matches all whitespace ( space, tab, carriage return ), \S all non whitespace (trim???)
-*** ? matches 0 or 1 ( essentially optional )
+** [2018-12-10 Mon]
+My pulled muscle in left chest is feeling better, so it's time to get back into it.
+I couldn't wait for this day, and now when it's here, I'm dreading it a bit?
+It's been a while since my last jog, and honestly, all I want is to do bit of excercise
+every day. That's all I want. I'm sick and tired of my body breaking down on me, 
+setting me back every time I make some progress. What can I do? Can I do less?
+Can I be more carefull?
+I've decided to apologise to my coworker today for my negligence the last week.
+I was presented with an easy way out, and I took it, and processed duplicate invoice
+fully knowing that I shouldn't have. She found out, and well...got disappointed. 
+I don't want that in my life anymore. No more disappointed people because of my
+weak spine.
+I've taken up freeCodeCamp again. It would be nice to finish it officialy, and there is 
+a ton of new tutorials now. It's nice and relaxing, im enjoying it. Could I do something
+more productive? Probably, but I won't overanalyse. I'm already working on ambitious 
+excercises, I need something  more relaxing as well.
