@@ -828,3 +828,27 @@ I've taken up freeCodeCamp again. It would be nice to finish it officialy, and t
 a ton of new tutorials now. It's nice and relaxing, im enjoying it. Could I do something
 more productive? Probably, but I won't overanalyse. I'm already working on ambitious 
 excercises, I need something  more relaxing as well.
+** [2018-12-11 Tue]
+*** How to clean up git repo after adding .gitignore
+#+BEGIN_SRC emacs-lisp 
+     git rm -r --cached .
+     git add .
+     git commit -m "fixed untracked files"
+#+END_SRC
+*** How to pass int arg in recursion without using arguments
+#+BEGIN_SRC java
+  //we are looking for the k-th node from the end
+  public int findKth(Node home, int k){
+      //base condition
+      if(home == null) return 0;
+
+      //recursion -- this is where we add tracking index
+      //once we hit last node, we will increment by one from the bottom when coming back up
+      int index = findKth(home.next, k) + 1;
+
+      if( index == k){
+          System.out.println(k + "th element is "+ home.value);
+      }
+      return index;
+  }
+#+END_SRC
