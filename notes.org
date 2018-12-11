@@ -852,3 +852,9 @@ excercises, I need something  more relaxing as well.
       return index;
   }
 #+END_SRC
+I went for a run yesterday. Finally! Unfortunately, my knee gave up around 3rd km.
+I actually had to stop, and limp my way back home. Ok, it wasn't that bad, as a matter of
+fact I wans't even upset. Why? I guess I got accustomed to hte fact that my body is fragile 
+and weak. I havent jogged in nearly a month now? My body will need time to gain strength
+and recover from all that inactivity. It's going to be all right. Feels good to be out there running
+again. Happy day. I'll take what I can get.
