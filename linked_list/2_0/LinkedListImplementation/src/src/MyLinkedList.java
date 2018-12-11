@@ -129,36 +129,35 @@ public class MyLinkedList implements LinkedList{
     }
     
     Node findFromEnd(Node head, int fromEnd){
+        //index adjustment
+        if(fromEnd!=0) fromEnd--;
         //FIND last
         if(head==null || head.next==null) return null;
-        int end = 0;
-        int mid = 0;
+        int end = 1;
+        int mid = 1;
         Node slowP = head;
         Node fastP = head.next;
+        Node previous = null;
         
-        while(fastP!=null && fastP.next!=null){
+        while(fastP!=null){
             fastP=fastP.next;
+            previous=fastP;
+            mid++;
             end++;
             if(fastP!=null){
-                mid++;
-                end++;
-                fastP=fastP.next;
                 slowP=slowP.next;
+                fastP=fastP.next;
+                end++;
             }
         }
-        System.out.println("end" + fastP.value);
-        System.out.println("mid" + slowP.value);
+        fastP = (fastP!=null) ? fastP : previous;
+        
         //find index
         int index = end-fromEnd;
-        //quick test
-        if (index==end) return fastP;
-        if (index==mid) return slowP;
-        if (index==0)   return head;
         
         return (index==end) ? fastP :
-               (index==mid) ? slowP :
-               (index==0) ? head :
-               (index>mid) ? getNode(slowP,index-mid) :
+               (index==0)   ? head  :
+               (index>mid)  ? getNode(slowP,index-mid) :
                getNode(head, index);
     }
     
@@ -169,5 +168,17 @@ public class MyLinkedList implements LinkedList{
             counter++;
         }
         return start;
+    }
+    //recursive
+    public int getKth(Node head, int k){
+        //base condition
+        if(head == null) return 0;
+        
+        //recursion
+        int index = getKth(head.next, k) + 1;
+        
+        if(index == k) 
+            System.out.println(k+"th to last node is "+head.value);
+        return index;
     }
 }

@@ -10,9 +10,15 @@ public class Main{
         ll.add(7);
         ll.add(8);
         ll.add(9);
+        ll.add(2);
+        ll.add(1);
+        ll.add(411);
+        ll.add(799);
+        ll.add(8);
+        ll.add(9);
         ll.printAll();
         System.out.println("---");
-        Node a = ll.findFromEnd(ll.getHead(), 3);
-        System.out.println(a.value);
+//        Node a = ll.findFromEnd(ll.getHead(), 7);
+        ll.getKth(ll.getHead(), 3);
     }
 }
