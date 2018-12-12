@@ -858,3 +858,18 @@ fact I wans't even upset. Why? I guess I got accustomed to hte fact that my body
 and weak. I havent jogged in nearly a month now? My body will need time to gain strength
 and recover from all that inactivity. It's going to be all right. Feels good to be out there running
 again. Happy day. I'll take what I can get.
+** [2018-12-12 Wed]
+Great victory! About a year ago, when I've been working on basic Sprint fundaments, 
+I've encountered a problem with some elements going 'stale'. I had no idea how to
+resolve, so I've sticked an infinite loop and colled back functions until they returned 
+correct element. Weird thing is that it worked, but it left a bitter taste in my mouth. 
+I knew that was a bad piece of code. Well, today I've remedied it. It took me 3 days 
+of solid struggle and obsesive thinking, but I persevered! Enemy is vanquished, and I
+can move on with my life! 
+So what did we learn from this? Well, at first I tried to solve the problem without really
+understanding the inner workings. MInimum effort quickly failed, and I was forced to
+deconstruct and analyse each piece individually. Eventually I pieced the puzzle together.
+Essentially, it was a matter of setting variable assignment in correct place...
+With the new fancy function, I can refactor a whole bunch of stuff, and replace many many
+pointless functions with this ( robus ) one. Happy days. I still want to tweak it a bit, to reduce
+the load, but hey, hard part is done. I will enjoy the refactoring now.
