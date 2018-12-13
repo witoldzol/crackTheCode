@@ -61,7 +61,7 @@
 ** TODO Take stuff to recycle shop
 ** TODO Create https server on VM
 ** TODO Finish LinkedList chapter in Cracking the Code
-** TODO Finish the java component in freeCodeCamp
+** TODO Finish the js component in freeCodeCamp
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -873,3 +873,40 @@ Essentially, it was a matter of setting variable assignment in correct place...
 With the new fancy function, I can refactor a whole bunch of stuff, and replace many many
 pointless functions with this ( robus ) one. Happy days. I still want to tweak it a bit, to reduce
 the load, but hey, hard part is done. I will enjoy the refactoring now.
+** [2018-12-13 Thu]
+*** How to recurse with a pointer that is visible thorughout the stack
+#+BEGIN_SRC java
+  //create  outside class
+  class Pointer{
+      public int value = 0;	
+  }
+
+  //create wrapper method
+
+  Node getElementK(Node head, int k){
+      //instantiate pointer
+      Pointer pointer = new Pointer();
+      //call overloaded method
+      return getElementK(head, k, pointer);
+  }
+
+  Node getElementK(Node head, int k, Pointer pointer){
+      //base condition
+      if(head == null ) return head;
+
+      //recursion
+      Node n = getelementK(head.next, k, pointer);
+      //once calls start coming back, increment pointer ( so it will increment from end)
+      pointer.value= pointer.value + 1;
+
+      //once we have match, we can return HEAD -- we still have reference  to node that is at this index
+      if(pointer.value == k) return head ;
+
+      return n;
+  } 
+#+END_SRC
+So I got hacked...someone used my credit cart to buy THE SAME item I bought couple months ago. 
+That means, not only they have my cc details, but also insight into my purchase history. What now?
+What are the implications of that? Does it mean my computers are compromised, or is it my email?
+I'm not surprised about CC details, because it's been passed around like a dirty hooker, but my 
+purchase history...?! That's really worrying.

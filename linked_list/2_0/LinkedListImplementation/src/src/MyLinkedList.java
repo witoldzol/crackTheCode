@@ -181,4 +181,29 @@ public class MyLinkedList implements LinkedList{
             System.out.println(k+"th to last node is "+head.value);
         return index;
     }
+    
+    //book solutions
+    //using recursion with pointer
+    Node getNth(Node head, int k){
+        Pointer pointer = new Pointer();
+        
+        return getNth(head, k, pointer);
+    
+    }
+    
+    Node getNth(Node head, int k, Pointer pointer){
+        //base condition
+        if(head == null ) return null;
+        
+        //recursion
+        Node n = getNth(head.next, k, pointer );
+        pointer.p++;
+        if(k==pointer.p) return head;
+        
+        return n;
+    }
+}
+
+class Pointer{
+    public int p = 0;
 }
