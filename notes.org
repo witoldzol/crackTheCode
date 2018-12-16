@@ -821,3 +821,22 @@ NOT /[a-f][3-7]/
 *** \d matches all digits, \W matches all NON digits
 *** \s matches all whitespace ( space, tab, carriage return ), \S all non whitespace (trim???)
 *** ? matches 0 or 1 ( essentially optional )
+*** Lookahead: -positive (?=pattern) -negative (?!pattern) example:
+Will match string that has min 5 chars and has 2 consequtive numbers in it
+#+BEGIN_SRC 
+    /(?=\w{5,})(?=\w*\d{2)/
+#+END_SRC
+*** Regex: capture group -- you 'store' the pattern and recall it using \number notation. Example:
+#+BEGIN_SRC 
+    /(\test)(\s)\1\2\1\2/ translates to /test\stest\stest\s/
+#+END_SRC
+*** Arrays: unshift - add at the beginning of an aray, shift - remove from the beginning 
+*** Arrays: push() --- pop()
+*** SPLICE: modifies original array. Takes 3 args: (start index, how many eles to delete, what to insert)
+Remove 5 elements, starting from index 3 (inclusive), and insert at index 3 'trolololo'
+#+BEGIN_SRC 
+  array.splice(3,5,'trolololo') 
+#+END_SRC
+*** SLICE: doesn't modify array. Returns array. Takes 2 args: ( start index, end index - NOT INCLUSIVE)
+It essentially copies elements from that array. Again, second args is not inclusive!
+
