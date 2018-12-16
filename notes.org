@@ -936,3 +936,9 @@ What are the implications of that? Does it mean my computers are compromised, or
 I'm not surprised about CC details, because it's been passed around like a dirty hooker, but my 
 purchase history...?! That's really worrying.
 
+** [2018-12-16 Sun]
+*** instanceof - checks if given object belongs to given class. Example
+#+BEGIN_SRC javascript
+  let terrier = new Dog()
+  terrier instanceof Dog //returns true
+#+END_SRC
