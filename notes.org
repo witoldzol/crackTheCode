@@ -942,3 +942,12 @@ purchase history...?! That's really worrying.
   let terrier = new Dog()
   terrier instanceof Dog //returns true
 #+END_SRC
+*** When you set prototype properties for an object, it WIPES out the constructor
+You have to define constructor again.
+#+BEGIN_SRC javascript
+  Bird.prototype = {
+      constructor: Bird, // define the constructor property
+      numLegs: 2
+  }
+
+#+END_SRC
