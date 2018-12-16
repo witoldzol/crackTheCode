@@ -42,15 +42,15 @@
 ** DONE Put board games on adverts
 ** DONE Fix AP spec allocation macro bugs
 ** DONE Create DCA allocation macro
+** DONE clean up top shelf in wardrobe
+** DONE Sell tripod
 ** TODO Code: learn Decorator pattern
 ** TODO Remove camera memory
 ** TODO clean up mac
-** TODO clean up top shelf in wardrobe
 ** TODO Clean up living room
 ** TODO Call Joe about top box
 ** TODO Install top box
 ** TODO Sell camera
-** TODO Sell tripod
 ** TODO Sell speakers
 ** TODO Sell Suzuki
 ** TODO Sell board games
@@ -60,6 +60,8 @@
 ** TODO Take clothes to charity shop
 ** TODO Take stuff to recycle shop
 ** TODO Create https server on VM
+** TODO Finish LinkedList chapter in Cracking the Code
+** TODO Finish the js component in freeCodeCamp
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -810,9 +812,98 @@ that fiver. Win-Win.
 I do attribute to FCC directly the fact that I've made it so far in terms of coding.
 No other course had such a good mix of hand holding & challange. They managed to keep me
 interested and challenged. They earned that fiver.
-*** Regex: character ranges / sets - if you want to match a-f and 3-7
-#+BEGIN_SRC 
-    string.match(/[a-f3-7])
+** [2018-12-10 Mon]
+My pulled muscle in left chest is feeling better, so it's time to get back into it.
+I couldn't wait for this day, and now when it's here, I'm dreading it a bit?
+It's been a while since my last jog, and honestly, all I want is to do bit of excercise
+every day. That's all I want. I'm sick and tired of my body breaking down on me, 
+setting me back every time I make some progress. What can I do? Can I do less?
+Can I be more carefull?
+I've decided to apologise to my coworker today for my negligence the last week.
+I was presented with an easy way out, and I took it, and processed duplicate invoice
+fully knowing that I shouldn't have. She found out, and well...got disappointed. 
+I don't want that in my life anymore. No more disappointed people because of my
+weak spine.
+I've taken up freeCodeCamp again. It would be nice to finish it officialy, and there is 
+a ton of new tutorials now. It's nice and relaxing, im enjoying it. Could I do something
+more productive? Probably, but I won't overanalyse. I'm already working on ambitious 
+excercises, I need something  more relaxing as well.
+** [2018-12-11 Tue]
+*** How to clean up git repo after adding .gitignore
+#+BEGIN_SRC emacs-lisp 
+     git rm -r --cached .
+     git add .
+     git commit -m "fixed untracked files"
+#+END_SRC
+*** How to pass int arg in recursion without using arguments
+#+BEGIN_SRC java
+  //we are looking for the k-th node from the end
+  public int findKth(Node home, int k){
+      //base condition
+      if(home == null) return 0;
+
+      //recursion -- this is where we add tracking index
+      //once we hit last node, we will increment by one from the bottom when coming back up
+      int index = findKth(home.next, k) + 1;
+
+      if( index == k){
+          System.out.println(k + "th element is "+ home.value);
+      }
+      return index;
+  }
+#+END_SRC
+I went for a run yesterday. Finally! Unfortunately, my knee gave up around 3rd km.
+I actually had to stop, and limp my way back home. Ok, it wasn't that bad, as a matter of
+fact I wans't even upset. Why? I guess I got accustomed to hte fact that my body is fragile 
+and weak. I havent jogged in nearly a month now? My body will need time to gain strength
+and recover from all that inactivity. It's going to be all right. Feels good to be out there running
+again. Happy day. I'll take what I can get.
+** [2018-12-12 Wed]
+Great victory! About a year ago, when I've been working on basic Sprint fundaments, 
+I've encountered a problem with some elements going 'stale'. I had no idea how to
+resolve, so I've sticked an infinite loop and colled back functions until they returned 
+correct element. Weird thing is that it worked, but it left a bitter taste in my mouth. 
+I knew that was a bad piece of code. Well, today I've remedied it. It took me 3 days 
+of solid struggle and obsesive thinking, but I persevered! Enemy is vanquished, and I
+can move on with my life! 
+So what did we learn from this? Well, at first I tried to solve the problem without really
+understanding the inner workings. MInimum effort quickly failed, and I was forced to
+deconstruct and analyse each piece individually. Eventually I pieced the puzzle together.
+Essentially, it was a matter of setting variable assignment in correct place...
+With the new fancy function, I can refactor a whole bunch of stuff, and replace many many
+pointless functions with this ( robus ) one. Happy days. I still want to tweak it a bit, to reduce
+the load, but hey, hard part is done. I will enjoy the refactoring now.
+** [2018-12-13 Thu]
+*** How to recurse with a pointer that is visible thorughout the stack
+#+BEGIN_SRC java
+  //create  outside class
+  class Pointer{
+      public int value = 0;	
+  }
+
+  //create wrapper method
+
+  Node getElementK(Node head, int k){
+      //instantiate pointer
+      Pointer pointer = new Pointer();
+      //call overloaded method
+      return getElementK(head, k, pointer);
+  }
+
+  Node getElementK(Node head, int k, Pointer pointer){
+      //base condition
+      if(head == null ) return head;
+
+      //recursion
+      Node n = getelementK(head.next, k, pointer);
+      //once calls start coming back, increment pointer ( so it will increment from end)
+      pointer.value= pointer.value + 1;
+
+      //once we have match, we can return HEAD -- we still have reference  to node that is at this index
+      if(pointer.value == k) return head ;
+
+      return n;
+  } 
 #+END_SRC
 NOT /[a-f][3-7]/ 
 *** Regex: + matches 1 or more , * matches 0 or more
@@ -839,4 +930,9 @@ Remove 5 elements, starting from index 3 (inclusive), and insert at index 3 'tro
 #+END_SRC
 *** SLICE: doesn't modify array. Returns array. Takes 2 args: ( start index, end index - NOT INCLUSIVE)
 It essentially copies elements from that array. Again, second args is not inclusive!
+So I got hacked...someone used my credit cart to buy THE SAME item I bought couple months ago. 
+That means, not only they have my cc details, but also insight into my purchase history. What now?
+What are the implications of that? Does it mean my computers are compromised, or is it my email?
+I'm not surprised about CC details, because it's been passed around like a dirty hooker, but my 
+purchase history...?! That's really worrying.
 

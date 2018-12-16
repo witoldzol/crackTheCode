@@ -129,33 +129,81 @@ public class MyLinkedList implements LinkedList{
     }
     
     Node findFromEnd(Node head, int fromEnd){
+        //index adjustment
+        if(fromEnd!=0) fromEnd--;
         //FIND last
-        if(head==null || head.next==null) return head;
-        int fastC = 0;
-        int slowC = 0;
+        if(head==null || head.next==null) return null;
+        int end = 1;
+        int mid = 1;
         Node slowP = head;
         Node fastP = head.next;
+        Node previous = null;
         
         while(fastP!=null){
             fastP=fastP.next;
-            fastC++;
+            previous=fastP;
+            mid++;
+            end++;
             if(fastP!=null){
-                slowC++;
-                fastC++;
-                fastP=fastP.next;
                 slowP=slowP.next;
+                fastP=fastP.next;
+                end++;
             }
         }
+        fastP = (fastP!=null) ? fastP : previous;
         
+        //find index
+        int index = end-fromEnd;
+        
+        return (index==end) ? fastP :
+               (index==0)   ? head  :
+               (index>mid)  ? getNode(slowP,index-mid) :
+               getNode(head, index);
     }
     
-    int findCloser(int fromEnd, int end, int mid){
-        int index = end-fromEnd;
-
-        //which half is the index
-        int fromMid = index-mid;
-        
-        
-        return 0;
+    private Node getNode(Node start, int index) {
+        int counter=0;
+        while(counter<index){
+            start=start.next;
+            counter++;
+        }
+        return start;
     }
+    //recursive
+    public int getKth(Node head, int k){
+        //base condition
+        if(head == null) return 0;
+        
+        //recursion
+        int index = getKth(head.next, k) + 1;
+        
+        if(index == k) 
+            System.out.println(k+"th to last node is "+head.value);
+        return index;
+    }
+    
+    //book solutions
+    //using recursion with pointer
+    Node getNth(Node head, int k){
+        Pointer pointer = new Pointer();
+        
+        return getNth(head, k, pointer);
+    
+    }
+    
+    Node getNth(Node head, int k, Pointer pointer){
+        //base condition
+        if(head == null ) return null;
+        
+        //recursion
+        Node n = getNth(head.next, k, pointer );
+        pointer.p++;
+        if(k==pointer.p) return head;
+        
+        return n;
+    }
+}
+
+class Pointer{
+    public int p = 0;
 }
