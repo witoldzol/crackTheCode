@@ -44,14 +44,14 @@
 ** DONE Create DCA allocation macro
 ** DONE clean up top shelf in wardrobe
 ** DONE Sell tripod
+** DONE Sell camera
+** DONE Sell speakers
+** DONE Remove camera memory
 ** TODO Code: learn Decorator pattern
-** TODO Remove camera memory
 ** TODO clean up mac
 ** TODO Clean up living room
 ** TODO Call Joe about top box
 ** TODO Install top box
-** TODO Sell camera
-** TODO Sell speakers
 ** TODO Sell Suzuki
 ** TODO Sell board games
 ** TODO Find accomodation in Galway
