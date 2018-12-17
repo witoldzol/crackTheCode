@@ -202,6 +202,17 @@ public class MyLinkedList implements LinkedList{
         
         return n;
     }
+    
+    //delete middle node
+    void deleteNodeAndShiftList(Node n){
+        //do not delete head or tail
+        if(n == head || n.next == null) return;
+        //replace ONLY one ahead (so instead of removing previous reference,
+        //you remove the future reference...brilliant!
+        n.value = n.next.value;
+        n.next = n.next.next;
+
+    }
 }
 
 class Pointer{
