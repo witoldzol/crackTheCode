@@ -986,3 +986,5 @@ because deep down inside, I knew I could have done something about all this, and
 not to.
 
 All in all, good day. Lots of emotions, we cleared up some air ( literally speaking, since the guy moved out).
+*** Remember that you don't need to shift all items in linked list. Each node is separate, you can just replace
+current node with the one ahead of it, and 'delete' the 'next' one ( replace and skip the next). 
