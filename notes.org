@@ -50,7 +50,15 @@
 ** TODO Code: learn Decorator pattern
 ** TODO clean up mac
 ** TODO Clean up living room
+*** TODO Get rid of the bike box
+*** TODO Sell finance books
+*** TODO Take heater to recycling
+*** TODO Get rid of the tennis balls
+*** TODO Get rid of the boxes / random stuff
 ** TODO Call Joe about top box
+** TODO Sell cycling shoes
+** TODO Sell cycling pants?
+** TODO Sell printer
 ** TODO Install top box
 ** TODO Sell Suzuki
 ** TODO Sell board games
