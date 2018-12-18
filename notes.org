@@ -47,6 +47,8 @@
 ** DONE Sell camera
 ** DONE Sell speakers
 ** DONE Remove camera memory
+** DONE Create http server on Bart's HVD
+** TODO Create https server on Bart's HVD
 ** TODO Code: learn Decorator pattern
 ** TODO clean up mac
 ** TODO Clean up living room
@@ -56,9 +58,15 @@
 *** DONE Get rid of the tennis balls
 *** DONE Get rid of the boxes / random stuff
 *** TODO Clean the floor, wipe the surfaces
+** TODO Fix gears in my bicycle
+** TODO Sell free weights - 15kg ? - 30EUR
+** TODO Sell bicycle
 ** TODO Sell cycling shoes
 ** TODO Sell bicycle
-** TODO Sell cycling pants?
+** TODO Sell cycling pants
+** TODO Sell Box
+** TODO Take off mounting system from bike
+** TODO Sell mounting system for box
 ** TODO Sell printer
 ** TODO Sell Suzuki
 ** TODO Sell board games
@@ -68,9 +76,14 @@
 ** TODO Take clothes to charity shop
 ** TODO Take clothes to recycle shop
 ** TODO Bin the duves/pillows
-** TODO Create https server on VM
 ** TODO Code: LinkedList chapter in Cracking the Code
 ** TODO Code: JS chapter in FreeCodeCamp
+** TODO TODAY --
+*** TODO Collect boniva
+*** TODO Create ads for: weights / bike / shoes / cycling pants / break calipers
+*** TODO Take clothes to recycling center
+*** TODO Ask in charity store about books 
+*** TODO 
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -989,3 +1002,23 @@ not to.
 All in all, good day. Lots of emotions, we cleared up some air ( literally speaking, since the guy moved out).
 *** Remember that you don't need to shift all items in linked list. Each node is separate, you can just replace
 current node with the one ahead of it, and 'delete' the 'next' one ( replace and skip the next). 
+** [2018-12-18 Tue]
+I've came back home yesterday, ran to pharmacy for my new fix. The guy at the 
+counter said...hey, do you know that you can buy drugs cheaper if you buy in bulk?
+Every time you buy, you pay 'dispensation fee'...wow, ok, fair played to you mate.
+I'll take all three then. 
+
+I've sold my herman kardon speakers to a guys from Transylvania. Yes, he lives close
+to the Dracula's castle! Anyway, another item gone. 
+
+After that, I've decided to clear out the glass, took only 2 passes so not too bad. 
+Then I started to cut the huge boxe Lukasz left behind for his bike. Took over 15 min?
+Once I got that done I thought, well theres more boxes over there...4 hours later I was
+done. We are cardboard ( nearly ) free in the living room. Worst thing about it was ...
+they were all mine! I'm the guy responsible for turning our living room into a skip.
+I was in shock, I was convinced that it was other's people junk...nope, I'm the villain
+in this episode. 
+
+I finished past 10pm, at the end there were 17!!!! waste bags ouside of my house.
+There is plenty more where that came from, but sadly, I ran out of bags. 
+
