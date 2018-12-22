@@ -48,16 +48,17 @@
 ** DONE Sell speakers
 ** DONE Remove camera memory
 ** DONE Create http server on Bart's HVD
-** TODO Create https server on Bart's HVD
-** TODO Code: learn Decorator pattern
-** TODO clean up mac
-** TODO Clean up living room
+** DONE Clean up living room
 *** TODO Get rid of the bike box
 *** TODO Sell finance books
 *** TODO Take heater to recycling
 *** DONE Get rid of the tennis balls
 *** DONE Get rid of the boxes / random stuff
 *** TODO Clean the floor, wipe the surfaces
+** DONE Take clothes to recycle shop
+** TODO Create https server on Bart's HVD
+** TODO Code: learn Decorator pattern
+** TODO clean up mac
 ** TODO Fix gears in my bicycle
 ** TODO Sell free weights - 15kg ? - 30EUR
 ** TODO Sell bicycle
@@ -74,16 +75,9 @@
 ** TODO Claim tax back for 2017 & 2018
 ** TODO Finish self-authoring program
 ** TODO Take clothes to charity shop
-** TODO Take clothes to recycle shop
-** TODO Bin the duves/pillows
+** DONE Bin the duves/pillows
 ** TODO Code: LinkedList chapter in Cracking the Code
 ** TODO Code: JS chapter in FreeCodeCamp
-** TODO TODAY --
-*** TODO Collect boniva
-*** TODO Create ads for: weights / bike / shoes / cycling pants / break calipers
-*** TODO Take clothes to recycling center
-*** TODO Ask in charity store about books 
-*** TODO 
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -1021,4 +1015,6 @@ in this episode.
 
 I finished past 10pm, at the end there were 17!!!! waste bags ouside of my house.
 There is plenty more where that came from, but sadly, I ran out of bags. 
-
+** [2018-12-22 Sat]
+*** Do not open lines with brackets () because it might get 
+concatenated to previous line in javascript (Automatic Semicolon Insertion rules)
