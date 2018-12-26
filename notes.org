@@ -1018,3 +1018,8 @@ There is plenty more where that came from, but sadly, I ran out of bags.
 ** [2018-12-22 Sat]
 *** Do not open lines with brackets () because it might get 
 concatenated to previous line in javascript (Automatic Semicolon Insertion rules)
+** [2018-12-26 Wed]
+*** Chaining methods in JS work from left to right
+Eg: array.map(x=>x*2).filter(x=>x>8)
+Above will first double all elements ( map x*2 ) and then it will apply filter and select
+only items above 8
