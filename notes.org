@@ -1025,3 +1025,11 @@ Above will first double all elements ( map x*2 ) and then it will apply filter a
 only items above 8
 *** React uses camel case to respresent many calls normally typed in lower case
 Eg: onCall, className ( instead of class ), etc
+*** React elements can return only one html element ( you can wrap multiple items - that's fine )
+#+BEGIN_SRC html
+  const reactEle =
+  <div>
+    <p>aaaa</p>
+    <h1>bbbb</h1>
+  </div>
+#+END_SRC
