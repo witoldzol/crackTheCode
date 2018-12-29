@@ -1051,3 +1051,16 @@ three weeks. Its so bloody frustrating...this yoyo effect, never really getting 
 flailing frantically all over the place. Exhausted, frustrated, never acomplishing serious targets. 
 
 So how bout setting some concrete, doable targets? How?! 
+*** Remember to bind explicitly methods in react class components
+#+BEGIN_SRC js
+  constructor(){
+      this.state = {
+          name="some random name"
+      }
+     this.someMethod = this.someMethod.bind(this)
+  }
+
+  someMethod = ()=>{
+      this.doSomething()
+  }
+#+END_SRC
