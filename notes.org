@@ -1088,3 +1088,9 @@ So how bout setting some concrete, doable targets? How?!
   }
 
 #+END_SRC
+*** React - you can set inline styles using double curly braces 
+#+BEGIN_SRC js
+  //you have to use camel Case , react will translate it to correct names later on
+      <div style={{backgroundColor : "blue", fontSize : 24}}>
+      </div>
+#+END_SRC
