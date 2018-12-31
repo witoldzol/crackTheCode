@@ -1,61 +1,63 @@
 * TO DO
-** DONE Make a new CV and send it to Orla ( don't use template )
-** DONE Set up to do file on linux an mac
-** DONE Clean up linux
-** DONE Push to-do repo to github
-** DONE Finish book : Too good to be ignored
-** DONE Change oil and plug leak in Suzuki
-** DONE Buy heater for room
-** DONE Clean breaks in Honda
-** DONE Call Joe re Suzuki leak
-** DONE Buy good blender
-** DONE Book day off ( Monday )
-** DONE Call Medicare and ask for print out
-** DONE Buy calcium supplement
-** DONE Buy Vitamix blender - professional 300
-** DONE Clean honda
-** DONE Buy Calcium Citrate - daily dose - 2 times
-** DONE Book day off ( Monday )
-** DONE Call Medicare and ask for print out
-** DONE Code: implement StringBuffer class
-** DONE Code: Finish FF script that downloads Sprint script from server
-** DONE Code: implement ArrayList
-** DONE Code: Implement hash table
-** DONE Code: learn Observer pattern
-** DONE Code: create userView for timeTracker
-** DONE Buy new shoes for running 
-** DONE Code: Embed welcome & farwell gifs into time tracker app
-** DONE Msg guy re keyboard collection
-** DONE Sell keyboard - topre
-** DONE Clean up closet 
-** DONE Clean up glass
-** DONE Call Emerson re bike collection
-** DONE Charge camera battery
-** DONE Buy tickets to Gran Canaria
-** DONE Rent car in Gran Canaria
-** DONE Check camera memory 
-** DONE Send 'thank you' emails : mentor, john, deirdre
-** DONE Code: Create admin View for timeTracker app
-** DONE Plan route & rent hostels in Gran Canaria
-** DONE Take pics of board games
-** DONE Finish time tracker application
-** DONE Put board games on adverts
-** DONE Fix AP spec allocation macro bugs
-** DONE Create DCA allocation macro
-** DONE clean up top shelf in wardrobe
-** DONE Sell tripod
-** DONE Sell camera
-** DONE Sell speakers
-** DONE Remove camera memory
-** DONE Create http server on Bart's HVD
-** DONE Clean up living room
-*** TODO Get rid of the bike box
-*** TODO Sell finance books
-*** TODO Take heater to recycling
-*** DONE Get rid of the tennis balls
-*** DONE Get rid of the boxes / random stuff
-*** TODO Clean the floor, wipe the surfaces
-** DONE Take clothes to recycle shop
+*** FINISHED
+**** DONE Make a new CV and send it to Orla ( don't use template )
+**** DONE Set up to do file on linux an mac
+**** DONE Clean up linux
+**** DONE Push to-do repo to github
+**** DONE Finish book : Too good to be ignored
+**** DONE Change oil and plug leak in Suzuki
+**** DONE Buy heater for room
+**** DONE Clean breaks in Honda
+**** DONE Call Joe re Suzuki leak
+**** DONE Buy good blender
+**** DONE Book day off ( Monday )
+**** DONE Call Medicare and ask for print out
+**** DONE Buy calcium supplement
+**** DONE Buy Vitamix blender - professional 300
+**** DONE Clean honda
+**** DONE Buy Calcium Citrate - daily dose - 2 times
+**** DONE Book day off ( Monday )
+**** DONE Call Medicare and ask for print out
+**** DONE Code: implement StringBuffer class
+**** DONE Code: Finish FF script that downloads Sprint script from server
+**** DONE Code: implement ArrayList
+**** DONE Code: Implement hash table
+**** DONE Code: learn Observer pattern
+**** DONE Code: create userView for timeTracker
+**** DONE Buy new shoes for running 
+**** DONE Code: Embed welcome & farwell gifs into time tracker app
+**** DONE Msg guy re keyboard collection
+**** DONE Sell keyboard - topre
+**** DONE Clean up closet 
+**** DONE Clean up glass
+**** DONE Call Emerson re bike collection
+**** DONE Charge camera battery
+**** DONE Buy tickets to Gran Canaria
+**** DONE Rent car in Gran Canaria
+**** DONE Check camera memory 
+**** DONE Send 'thank you' emails : mentor, john, deirdre
+**** DONE Code: Create admin View for timeTracker app
+**** DONE Plan route & rent hostels in Gran Canaria
+**** DONE Take pics of board games
+**** DONE Finish time tracker application
+**** DONE Put board games on adverts
+**** DONE Fix AP spec allocation macro bugs
+**** DONE Create DCA allocation macro
+**** DONE clean up top shelf in wardrobe
+**** DONE Sell tripod
+**** DONE Sell camera
+**** DONE Sell speakers
+**** DONE Remove camera memory
+**** DONE Create http server on Bart's HVD
+**** DONE Clean up living room
+**** DONE Get rid of college books
+**** DONE Take heater to recycling
+**** DONE Get rid of the tennis balls
+**** DONE Get rid of the boxes / random stuff
+**** DONE Clean the floor, wipe the surfaces
+**** DONE Code: JS chapter in FreeCodeCamp
+**** DONE Take clothes to recycle shop
+**** DONE Bin the duves/pillows
 ** TODO Create https server on Bart's HVD
 ** TODO Code: learn Decorator pattern
 ** TODO clean up mac
@@ -66,18 +68,18 @@
 ** TODO Sell bicycle
 ** TODO Sell cycling pants
 ** TODO Sell Box
-** TODO Take off mounting system from bike
-** TODO Sell mounting system for box
+** TODO Install original mounting plate
 ** TODO Sell printer
+** TODO Backup photos / documents 
+** TODO Clean up desktop
+** TODO Sell desktop
 ** TODO Sell Suzuki
 ** TODO Sell board games
 ** TODO Find accomodation in Galway
 ** TODO Claim tax back for 2017 & 2018
 ** TODO Finish self-authoring program
 ** TODO Take clothes to charity shop
-** DONE Bin the duves/pillows
 ** TODO Code: LinkedList chapter in Cracking the Code
-** TODO Code: JS chapter in FreeCodeCamp
 * DAILY BLOG
 ** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
@@ -1143,3 +1145,5 @@ So how bout setting some concrete, doable targets? How?!
 
   }
 #+END_SRC
+I've finished the React module on FCC. It wasn't that bad, it's a really neat library!
+I can see why it's so popular. It's small and really handy, and let's you keep everything in nice modules.
