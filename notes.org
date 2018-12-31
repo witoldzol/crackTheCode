@@ -1105,3 +1105,41 @@ So how bout setting some concrete, doable targets? How?!
 
   }
 #+END_SRC
+** [2018-12-31 Mon]
+*** React ES6 component example (setState, bind method, pass props)
+#+BEGIN_SRC js
+  class reactComponent extends React.Component {
+      constructor(props){
+          //constructor from parent
+          super(props)
+          //initialize beginning state
+          this.state = {
+              varName : 10,
+              someOtherVar : "value"
+          }
+          //bind methods
+          this.someMethod = this.someMethod.bind(this)
+      }
+      //method
+      someMethod( event ){
+          //example of setting state, pass in object
+          this.setState({
+              varName : event.target.value,
+              someOtherVar : "changed"
+          })
+      }
+      //render
+      render(){
+          return (
+	           <OtherComponent />
+              <input
+              type="text"
+              style={inputStyle}
+              value={this.state.varName}
+              onChange={this.handleChange}
+              />
+          )
+      }
+
+  }
+#+END_SRC
