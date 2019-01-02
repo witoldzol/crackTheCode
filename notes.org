@@ -1164,4 +1164,14 @@ By calling store.dispatch( actionCreator ) we send the action to the redux store
 They handle the state change in response to Actions 
 Action -> Reducer ( state , action ) => state modification
 Reducer is a 'pure' function, it only returns new state ( no side effect, no mutations of existing state)
+Reducer returns new copy of state every time 
+*** Returning object literals from ES6 functions
+#+BEGIN_SRC js
+  //this will not return anything because parser will think that code
+  //in {} brackets is a block statement and not an object
+  let obj = ()=>{ type: 'value'}
 
+  // putting brackets will force parser to reject option that {} hold
+  // block statement
+  let obj = ()=> ( {type: 'value'} )
+#+END_SRC
