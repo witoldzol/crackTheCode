@@ -1148,6 +1148,26 @@ So how bout setting some concrete, doable targets? How?!
 I've finished the React module on FCC. It wasn't that bad, it's a really neat library!
 I can see why it's so popular. It's small and really handy, and let's you keep everything in nice modules.
 ** [2019-01-02 Wed]
+I went to Galway on Monday and took the firs available room. It's very small, the house isn't
+the most modern or beautiful...but it will do for a start. 
+It's all guys, so there shold be no drama ( sexist alert !), and they are quiet 
+Also, paying 300 a month isn't bad. There's a shop 10 min walk away, and office 30 min walk.
+I wanted to rent the nice place, but I decided not to take chances, and go with the sure bet.
+The nice place was only till end of April, and I will have to stay at least 2 weeks into May.
+So as nice as it would be to have an awesome room, I will go with independence, flexibility, and low 
+cost.
+It's a huge relief to have a place sorted out. Now I can relax and focus on tying the loose ends.
+*** Returning object literals from ES6 functions
+#+BEGIN_SRC js
+  //this will not return anything because parser will think that code
+  //in {} brackets is a block statement and not an object
+  let obj = ()=>{ type: 'value'}
+
+  // putting brackets will force parser to reject option that {} hold
+  // block statement
+  let obj = ()=> ( {type: 'value'} )
+#+END_SRC
+
 *** Redux
 It helps to manage the state in application by keeping all the state in one js object 
 **** Store
@@ -1165,13 +1185,4 @@ They handle the state change in response to Actions
 Action -> Reducer ( state , action ) => state modification
 Reducer is a 'pure' function, it only returns new state ( no side effect, no mutations of existing state)
 Reducer returns new copy of state every time 
-*** Returning object literals from ES6 functions
-#+BEGIN_SRC js
-  //this will not return anything because parser will think that code
-  //in {} brackets is a block statement and not an object
-  let obj = ()=>{ type: 'value'}
-
-  // putting brackets will force parser to reject option that {} hold
-  // block statement
-  let obj = ()=> ( {type: 'value'} )
-#+END_SRC
+**** Reducer - use switch statement to handle multiple options
