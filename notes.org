@@ -1159,4 +1159,9 @@ Can carry data ( optional )
 **** Action creator 
 JS function that returns the action
 **** Dispatch
-By calling .dispatch( actionCreator ) we send the action to the redux store
+By calling store.dispatch( actionCreator ) we send the action to the redux store
+**** Reducer
+They handle the state change in response to Actions 
+Action -> Reducer ( state , action ) => state modification
+Reducer is a 'pure' function, it only returns new state ( no side effect, no mutations of existing state)
+
