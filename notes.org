@@ -1150,8 +1150,13 @@ I can see why it's so popular. It's small and really handy, and let's you keep e
 ** [2019-01-02 Wed]
 *** Redux
 It helps to manage the state in application by keeping all the state in one js object 
+**** Store
+Object that keeps all the information about the state
+Create by using Redux.createStore( state = something )
 **** Action
 Has to have a 'type' eg: 'CLICK' or 'LOGIN'
 Can carry data ( optional )
 **** Action creator 
 JS function that returns the action
+**** Dispatch
+By calling .dispatch( actionCreator ) we send the action to the redux store
