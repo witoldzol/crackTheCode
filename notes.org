@@ -58,27 +58,27 @@
 **** DONE Code: JS chapter in FreeCodeCamp
 **** DONE Take clothes to recycle shop
 **** DONE Bin the duves/pillows
+**** DONE Take clothes to charity shop
+**** DONE Sell cycling shoes
+**** DONE Sell Box
+**** DONE Find accomodation in Galway
+**** DONE Sell printer
 ** TODO Create https server on Bart's HVD
 ** TODO Code: learn Decorator pattern
 ** TODO clean up mac
 ** TODO Fix gears in my bicycle
 ** TODO Sell free weights - 15kg ? - 30EUR
 ** TODO Sell bicycle
-** TODO Sell cycling shoes
 ** TODO Sell bicycle
 ** TODO Sell cycling pants
-** TODO Sell Box
 ** TODO Install original mounting plate
-** TODO Sell printer
 ** TODO Backup photos / documents 
 ** TODO Clean up desktop
 ** TODO Sell desktop
 ** TODO Sell Suzuki
 ** TODO Sell board games
-** TODO Find accomodation in Galway
 ** TODO Claim tax back for 2017 & 2018
 ** TODO Finish self-authoring program
-** TODO Take clothes to charity shop
 ** TODO Code: LinkedList chapter in Cracking the Code
 * DAILY BLOG
 ** 10-08-2018 Friday
@@ -1157,9 +1157,7 @@ The nice place was only till end of April, and I will have to stay at least 2 we
 So as nice as it would be to have an awesome room, I will go with independence, flexibility, and low 
 cost.
 It's a huge relief to have a place sorted out. Now I can relax and focus on tying the loose ends.
-*** Returning object literals from ES6 functions
-#+BEGIN_SRC js
-  //this will not return anything because parser will think that code
+//this will not return anything because parser will think that code
   //in {} brackets is a block statement and not an object
   let obj = ()=>{ type: 'value'}
 
@@ -1167,7 +1165,6 @@ It's a huge relief to have a place sorted out. Now I can relax and focus on tyin
   // block statement
   let obj = ()=> ( {type: 'value'} )
 #+END_SRC
-
 *** Redux
 It helps to manage the state in application by keeping all the state in one js object 
 **** Store
@@ -1185,4 +1182,20 @@ They handle the state change in response to Actions
 Action -> Reducer ( state , action ) => state modification
 Reducer is a 'pure' function, it only returns new state ( no side effect, no mutations of existing state)
 Reducer returns new copy of state every time 
-**** Reducer - use switch statement to handle multiple options
+**** Reducer - use switch statement to handle multiple option
+** [2019-01-26 Sat]
+Wow, it's been a while since last commit. I have to admit that the whole moving address process
+did take it's toll on my routines. It was difficult enough without major disturbances. 
+So here we are. I have finally bought a small desk, so that I can use computer like a normal person.
+The plan is to stay away from the bed. Using laptop in bed has been an extremely bad for me, so I'm 
+using laptop to power my 'desktop' now. I guess I should sell my actual desktop and seal the deal for
+good.
+Regarding work, things are progressing fine. I've completed second week, which involved a lot of 
+listening to a lot of presentations ( mostly boring stuff ). We did 'soft skills' 4 days workshop, and
+I have to admit, it was very useful. I actually appreciated this, and that my company spent a lot of 
+money on this training. 
+Workshops really helped with getting to know others in my leap group, which is great. I have to admit, I
+feel much better now then when I've started out. I'm settling in, and I can't wait to get started with the
+techinical training. 
+
+
