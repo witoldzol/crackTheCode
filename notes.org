@@ -1,3 +1,13 @@
+* BOOKS
+** Man's Search for Meaning 
+Author: Victor Frankl
+Start: [2019-01-27 Sun]
+End: 
+*** Quotes
+**** Emotion, which is suffering, ceases to be suffering as soon as we form a clear and precise picture of it.
+**** Nietze: 'He who has a why to live for can bear with almost any how'
+
+
 * TO DO
 *** FINISHED
 **** DONE Make a new CV and send it to Orla ( don't use template )
