@@ -5,7 +5,7 @@ Start: [2019-01-27 Sun]
 End: 
 *** Quotes
 **** Emotion, which is suffering, ceases to be suffering as soon as we form a clear and precise picture of it.
-**** Nietze: 'He who has a why to live for can bear with almost any how'
+**** Nietzsche: 'He who has a why to live for can bear with almost any how'
 **** It doesn't matter what we expect from life, but rather what life expects from us.  
 We need to stop asking about the meaning of life, and instead to think of ourselves as those who were being 
 questioned by life-daily and hourly.
