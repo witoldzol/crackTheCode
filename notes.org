@@ -81,7 +81,8 @@
 ** TODO Finish self-authoring program
 ** TODO Code: LinkedList chapter in Cracking the Code
 * DAILY BLOG
-** 10-08-2018 Friday
+** 2018
+*** 10-08-2018 Friday
 First day of freedom. I've finished my fourth degree, which is a complete overkill, but hey, what can you do? 
 So what now? Prep for interview! Already got a fancy book, with hundreds of exercises to do. We'll see how this 
 fares. Not sure if I want to do the exercises in Java or stick to JS. Probably latter, given that I really want 
@@ -89,23 +90,23 @@ to focus on just one programming language. I'm also changing the morning routine
 as opposed to 5.30, because I found that I'm just not gettin anything done in the afternoon after work. So yea,
 I'll give it a go and see what happens. 
 
-** 11-08-2018 Saturday
+*** 11-08-2018 Saturday
 I slept in. Had yesterday meeting with a software dev team manager. Looks like his going to try and help me out.
 He wasn't very reassuring though, saying that for someone to get into tech would be tough, its easier to move out
 of it. Anywawy, he might get me a mock interview which would be great. So now I'm under pressure to prepare for it.
 Unfortunately, my company is all about Java, so I'll have to brush up on it, and store away JS for the time being.
 Whats the plan for today: study for 2 hours, and then relax I guess. 
-** 15-08-2018 Wednesday
+*** 15-08-2018 Wednesday
 I'm having problem saving changes made in org file ( this bloody file ! ). No idea what is causing it. Honesty, its
 pain enough to keep this blog running after whole day. I really don't feel like tinkering away at some useless stuff
 like this. 
 Ok I figure it out...this file is OUTSIDE of my git folder...what the actual..
 
-** 17-08-2018 Friday
+*** 17-08-2018 Friday
 I didn't study yesterday after work. Felt very tired and bit dejected. Today I've made some good progress on the 
 Big O notations. Its going slow but steady I guess. I've spent last two days at work working on my Sprint app. 
 I made it look nicer! I really enjoyed tinkering with it, but enough is enough, I recogize it's a waste of time. 
-** 20-08-2018
+*** 20-08-2018
 Worket through fibonacci and cached version that uses memoization ( never heard of it before ).
 Normal fibonacci is O(2toN) where cached version is O(N) which is pretty amazing!
 All we do in cached version is retrieval of previous values and summation ! Since fibonacci is a 
@@ -114,7 +115,7 @@ saving previous result and adding stored results to each other on next call.
 Memoization remembers all the previous results - hence we don't have to do the same calculations
 over and over again ( makes sense ! ).
 I have to fix my CV today and send it over for review. 
-** 21-08-2018
+*** 21-08-2018
 I've worked through the rest of examples of Big O notation. Working on further examples now. 
 I'm making progress on sqlite tutorial at work. Still not sure how to design the time taking 
 algorithm. Originally I was thinking just to start timer, and stop it when button is pressed. 
@@ -123,7 +124,7 @@ So instead, maybe keep saving progress of time by 30 min increments? This way, i
 happens, at least we have some data. 
 Once timer starts, save progress every 30 min. We don't take note of brakes so that 
 makes life easier.
-** 22-08-2018
+*** 22-08-2018
 Very bad day yesterday, mood is down, things to do pile up. Gotta keep marching on, and remember that
 not everything ( acutally very few things ) are really important. 
 The bad: My illness flared up again, I will
@@ -133,7 +134,7 @@ The good: I don't have a permanent illness, it will pass. At least I can afford 
 first place, and I have friends to go with ! I have someone looking after me, trying to help me get a 
 job, and motivating me to make a CV. I have a reason to get up at 4am!! 
 Good times.
-** 23-08-2018
+*** 23-08-2018
 Sometimes I'm afraid of the coming morning, the fact that I will have to tackle problems
 that make my brain hurt. It's uncomfortable, and I'd like to very much avoid it. I've read
 this book called 'Too good to be ignored' or something like that, where the author spells it
@@ -145,7 +146,7 @@ the comfort zone.
 That's what I can see in myself, I very rarely venture out to the 'unknown'. Both in life, and
 in my learning. I'm old enough to know that there's no point in making myself empty promises. 
 The only thing that really works ( for me ), are painfully slow incremental improvements.
-** 26-08-2018
+*** 26-08-2018
 I've missed few days, things are falling apart. My current illness is not helping.
 I havent coded at all, I did follow few tutorials online, and looked more into the 
 time tracker application. I decided to go with the JavaFX for the UI, given that
@@ -160,18 +161,18 @@ I will axe Design Patterns and catas for the time being. I'd like to keep doing
 the interview prep every day for 2hrs and dedicate rest of my time to the time 
 tracker. I believe that building  an app will give me more practice in coding
 than solving random catas online. 
-** 27-08-2018
+*** 27-08-2018
 I realised that I have no idea what hash tables/maps are. Turns out
 they are a big deal. Great, what a relief, I can dive into tutorial
 rather than break my brain on those crazy algos. There's a whole list 
 of data structures that I absolutely have to know. I'll start with 
 the one I don't know anything about, and refresh the later on.
-** 12-09-2018
+*** 12-09-2018
 It's been a while since my last entry. Not going to bs, things are tough.
 I got sick and I used it as an excuse to let my routine collapse. Then came
 annual leave, and here we are, half a month later. I'm not going to overthink 
 it or beat myself about it. Just gotta pick up where I left and keep on moving.
-** 13-09-2018
+*** 13-09-2018
 I'm absolutely terrified of each morning, scared that I won't understand
 the questions. Makes no sense right? I mean, the asumption is that I don't 
 get things, THAT'S why I'm learning them. Interesting. Anyway, it's going
@@ -183,14 +184,14 @@ internal graduate scheme. That would set me on a fast track to becoming a
 programmer. This is it, I guess. Best chance I'll get in a while. Of course
 I'm terrified that I will blow it, as I usually do. It weird that even good 
 things scare me. 
-** 14-09-2018
+*** 14-09-2018
 I've sent my first CV, going for the Leap program.
 Bit stressed out about it, this could be a game changer. 
 Still stuck on hash tables, turnes out they don't allow duplicate keys
 (they do, in so much they don't throw error -> they simply overwrite old value).
 So now I'm exploring the Lists, and further, I think it's unnecesary to use it 
 for the problem that I'm looking...oh wait maybe it is ...
-** 15-09-2018
+*** 15-09-2018
 Difference between List and Set: the latter follows mathematical notion of set,
 meaning, no duplicates allowed. Set also uses hash values to allocate elements,
 and that's why it doesn't preserve the insertion order ( unlike List )
@@ -199,10 +200,10 @@ to go. At this rate I will finish next year...Nay! Haha.
 Today I plan to go to work, on the timetracker application, and then go to the 'Coder
 dojo' for kids...no idea why tho. All I knew ( when I was asked ) was that I didn't 
 want to do it...so I decided to do it, just on that basis. So we are going. That's that.
-** 16-09-2018
+*** 16-09-2018
 Sunday - day off. Played new indie game, bit grindy, but still fun. Altough, I'm trying to hard,
 I should just finish it without min maxing.
-** 17-09-2018
+*** 17-09-2018
 Permutations: order of the selection matters !
 
 Permutations:
@@ -232,12 +233,12 @@ For example: 4 colors, 2 choices =>
 Answer == 6 combinations
 
 We worked only 1 hour today. I did spend time on excercises.
-** 18-09-2018
+*** 18-09-2018
 I 'solved' the permutation example. It turned out to be trivial, once 
 you realise something quite obvious. I don't think I'd be able to figure 
 it out in the stressful situation such as an interview, but oh well, no
 point worrying about it. We keep on marching forward. Time is running out.
-** 19-09-2018
+*** 19-09-2018
 Had a horrible day yesterday, but there was plenty to be learned from it:
 
 JavaScript:
@@ -288,7 +289,7 @@ Further, I realised that it wasn't my buddies fault, it was mine for not checkin
 I got lazy, didn't do my reasearch, listend to recommendation and pulled a triger.
 And here I am. I don't even need the bloody box to begin with, and yet I'm down 250E for 
 the pleasure of having some life changing realisations. Nice.
-** 20-09-2018 Thursday
+*** 20-09-2018 Thursday
 Ok so today I've learned that you can brake the loop by using return statement.
 Also, if you do that, whatever code below that loop won't execute...wow haha.
 Seriously sometimes I wander if I should do this.
@@ -301,7 +302,7 @@ route. I will get new shoes for running soon, when I'm back from Poland.
 
 I'm going to Poland for a week, leaving on Sunday. I will have to make sure I've prepped 
 all documents before I go. 
-** 21-09-2018 Friday
+*** 21-09-2018 Friday
 It's getting more and more difficult to get out of bed. I'm loosing
 my motivation. Day fly by, and I drift away, let the passivity overtake.
 This has happened before many times. I had an opportunity to sit down
@@ -309,7 +310,7 @@ and code yesterday. I didn't take it. Instead I gave in to that feeling of
 'I'm too tired, I just want to lay down'. Nothing gets done around house.
 It's very frustrating, watching myself drift away and waste my life.
 <<<<<<< HEAD
-** 23-09-2018 Sunday
+*** 23-09-2018 Sunday
 I've decided that I will fight the illness. Do the gym 6 times a week, walk every day.
 Eventually upgrade walking to running if knee will permit. I have to be very careful 
 not to injure myself as it would set me back hard. I'm actually scared to do swings
@@ -321,7 +322,7 @@ to stick to it, but honestly, I'm not very hopefull. It's like this all the time
 interruptions, changes. I don't do well with that. The important part is to keep coding, and to
 make sure I get enough excercise every day. 
 
-** 02-10-2018 Tuesday
+*** 02-10-2018 Tuesday
 Every time I go home everything falls apart. Every single habit that I worked to build collapses.
 So be it, I'm back and I'm restarting things. Picking up from where I left. Cracking the code:
 section on strings / arrays. Learning how to implement efficient string builder. Who knows...
@@ -330,7 +331,7 @@ been ignoring reality for way too long. And now it's getting bit scary. Little i
 Plan for today: call Joe, get thingst started with that bike, call the other fella, try to sell the bike.
 Maybe put him on some financing. Just get rid of the bike for christ sake. Go for a walk, check out the 
 new gym and probably sign up. Start watching vids on how to work out. Order the wrist support.
-** 03-10-2018 Wednesday
+*** 03-10-2018 Wednesday
 I'm slowly realising I'm a bitter person. I'm constantly unhappy, brooding, mopping around.
 I've been working on my word hygene, and stopped cursing ( too much ). Now I think it's time 
 to try and be a nicer person to others around me. I just don't want to be the same old cranky,
@@ -345,7 +346,7 @@ attrocious, god damn. Their english is very unclear, they interrupt each other, 
 trivia knowledge at begginer level class. Damn guy, you are not professional teachers, and it shows.
 But hey, I've learned something, which was rather surprising. Turns out that if you print out 
 i++, it will print the  current value before it will increment it. Amazing. No really! :)
-** 04-10-2018 Thursday
+*** 04-10-2018 Thursday
 I've implemented the StringBuilder class. It was kinda fun actually. I've learned about this. ( a little bit)
 and about System.arraycopy() which is pretty amazaing come to think of it. 
 Also, turn out you can return the evaluation line, and it will implicitly return the boolean result of it.
@@ -356,7 +357,7 @@ first loop iteration, which created the whole mess). Can't believe it took me so
 I got it working ... yay, I've backed up old script...copied over a new one to the server....then it wouldn't work...
 so I've made some changes on the fly, then some more...then some more...after an hour I've realized that somehow I've 
 overriden the new script with old script ...and basically I've lost 2 weeks work. There. How bout them apples?
-** 05-10-2018 Friday
+*** 05-10-2018 Friday
 I've got an email from the human resources. The first stage of recruitment process starts on 24th. 
 It will be a group stage! Ahhhhh, I can't belive it. It will be one of those generic types of 
 recruitment events where you have to talk to bunch of other people in your group. You will look 
@@ -371,13 +372,13 @@ I'm happy with the shoes, I just wander how long it will all last until my knee 
 excercising. I'm dreading trip to the gym...havent been around for years, my wrist is still very weak and sore, 
 so I'm delaying. I might be able to sell my bike finally. Maybe, I don't really trust that fellow. He's alright,
 but he has too many variables in his life.
-** 08-10-2018 Monday
+*** 08-10-2018 Monday
 I've worked a bit on time tracking app on Saturday. Progress is very slow, I'm drowning in Java 8
 lambda expressions. It's actually kinda fun, but it will take a while to wrap my head around it.
 I've finally went to IKEA and bought cutlery and bowls, and knifes. My god, such trivial things,
 and yet so annoying. It was a good walk, 7.5 km each way. Each passing day brings me closer to 
 the interview...which reminds me that I have to sing up for it.
-** 09-10-2018 Tuesday
+*** 09-10-2018 Tuesday
 The time tracking app will take far more work then I anticipated. There's a ton of logic to be written!
 For example, we have to make sure that before we run timer, that there is no record for that day already,
 in case timetracker stopped ( for whatever reason ).
@@ -386,7 +387,7 @@ What else, I decided that the primary key will be just a sequencer and I will in
 Search will be done by date and anumber. That should suffice, and it will be better rather than creating
 primary key out of DATE+anumber. The former will be easier to search.
 
-** 10-10-2018 Wednesday
+*** 10-10-2018 Wednesday
 Busy busy, I feel like I'm constantly moving. Can't say it's a bad feeling. I'm actually 
 making progress with the time tracking app. I'm stuck on how sql writes down Date in it's 
 database. I'd rather see actual date format string then a milisecond stamp that tells me 
@@ -397,7 +398,7 @@ what this whole project is all about. Java, java, java. All day java, wherever I
 I will keep writing, reading, and listening Java until I actually like it. Before that happens, 
 I have to REALLY understand how it works and how to use it effectively. Gotta get good at something
 before you'll like it. Right? Also, two weeks left till the interview process begins.
-** 12-10-2018 Friday
+*** 12-10-2018 Friday
 We missed yesterday because I foolishly forgot my keys...actually no! I've decided 
 that I will go for a run. I knew that was a bad idea, but I went with it anyway. I left 
 for town, the moment I closed the door behind me, I realised that I didn't take my keys 
@@ -411,7 +412,7 @@ generic types, well you are not in luck. But you can just use 'Object' type, and
 sorted. Except you can't use primitive types now...but oh well. Also, turns out there is
 a language called Groovy, which is like a groovy Java. Cool. Won't be learning it!
 
-** 13-10-2018 Saturday
+*** 13-10-2018 Saturday
 We did it, we implemented HashMap, StringBuilder & ArrayList. Damn, that was NOT exciting.
 But at the same time, it was very educational, especially from perspective of StringBuilder.
 So now we finally can start to do actual interview questions. Wow..what was it? A month, two?
@@ -422,7 +423,7 @@ yet there is fear inside of me whenever a thought of studying it emerges. It's a
 squize it, and regularly watch youtube vids about it. I just choose not to. Lets see if we can
 do something about it.
 
-** 15-10-2018 Monday
+*** 15-10-2018 Monday
 I took a day off yesterday, as planned! Today I've learned about bit operators?
 So, for example << means we shift the bit value of given int to the left. So, int 8 
 is 1 0 0 0, so, 8 << by 1 equals 1 0 0 0 0 ... 16. Yes?
@@ -438,11 +439,11 @@ Lets say we have two ints 13 and 18
 
 Lets say I'm not exactly confident about the above, but it's a start!
 
-** 16-10-2018 Tuesday
+*** 16-10-2018 Tuesday
 Moving along, almost done with second question. Going today to Limerick to visit a friend.
 I'm feeling good. Also, going to sell the realforce keyboard ( if all goes well ).
 
-** 18-10-2018 Thursday
+*** 18-10-2018 Thursday
 I went to Limerick yesterday. Sold off the keyboard, and visited my friend. She's doing
 great. They bought a house, which is very nice, have a new car, which is also nice. They 
 keep busy. I'm not very inspired when it comes to building that time tracking app. I got 
@@ -454,10 +455,10 @@ that my bike is going to burst in flames on my way to Limerick. I was not happy,
 was just some gunk from the sprocket near the engine that fell off and burned up a bit on the
 exhaust pipe. 
 OW YEA....I QUIT SMOKING! FOR GOOD.
-** 19-10-2018 Friday
+*** 19-10-2018 Friday
 Working on palindromes. Wow, it is taking forever. Good excerecise though!
 Yesterday was my first day without cigarette in a long time. Happy days.
-** 20-10-2018 Saturday
+*** 20-10-2018 Saturday
 I went out yesterday for a company  outing. Free beer & food. What not to like right? 
 I hate social events, so awkward. Anyway, I had half a pint and felt sick. Left on the spot.
 The palidrome problem is getting really annoying. There's a bug, and rightly so. I've built the
@@ -471,71 +472,71 @@ class or something like that. I struggle with the whole OOP concept. But hey, at
 singletones now. Cool. So really, reporting part is left to do. The boring part? Well, all I have to do 
 is a new display for admin, with few buttons: date selection, name selection and Find button. Spit out the
 query results and be done with it. Find a way to export to excel and we are good to go.
-** [2018-10-21 Sun]
+*** [2018-10-21 Sun]
 Day off! No cracking the code today. No smoothies. No going to work. Just chill.
 Also, I'd like to write down things that I've learned every day, instead of recording
 pointless mudane things that happen in my life.
-***  Vector is a growable list. It's different from ArrayList by being THREAD SAFE ie. it's
+****  Vector is a growable list. It's different from ArrayList by being THREAD SAFE ie. it's
 synchronized unlike AL. 
-*** Java has a built in Observable class ( not an interface ), so you have to extend it.
-*** Remember to pass in Subject reference ( obj ) to the Observer constructor so that it 
+**** Java has a built in Observable class ( not an interface ), so you have to extend it.
+**** Remember to pass in Subject reference ( obj ) to the Observer constructor so that it 
 can register itself 
-*** Emacs: Alt+ Enter will enter new heading similar to the previous one
-*** C-c S-1 will open the callendar! Wish I knew that one before ! It can insert date stamps
+**** Emacs: Alt+ Enter will enter new heading similar to the previous one
+**** C-c S-1 will open the callendar! Wish I knew that one before ! It can insert date stamps
 which look way better than my 'insert date' function signature
-*** M-S-left/right arrow : change the indentation of the bullet points
-*** Observable class has a setChanged() method
+**** M-S-left/right arrow : change the indentation of the bullet points
+**** Observable class has a setChanged() method
 its a boolean, if its not set to true, Subject will not send notification to the Observers
-*** Observer Pattern:
+**** Observer Pattern:
 -describes a ONE TO MANY relationship
 -Subject updates Observers using common interface
 -Observers are loosely coupled ( Subject doen't know much about them )
 -Java implementation requeries Subject to be a sub class of Observable ( has limitations )
 -Listeners rely on this pattern
 -It handles two things that vary: state and number of observers that depend on that state
-*** Program to interfaces not implementations!:
+**** Program to interfaces not implementations!:
 Example: ArrayList list = new ArrayList();  // Bad !
          List list = new ArrayList()        // good ! 
 If we ever want to change list to LinkedList it will be easier to do, because previously 
 used methods didn't rely on any ArrayList specific methods.
-*** OO Principles: 
+**** OO Principles: 
 1)Encapsulate what varies
 2)Program to interface not implementation
 3)Strive for loose couplings between objects that interact
 4)Composition over inheritance
-*** OO Basics:
+**** OO Basics:
 1) Abstraction
 2) Encapsulation
 3) Polymorphism
 4) Inheritance
-*** Composition:
+**** Composition:
 Describes HAS-A relationship
-*** Inheritance
+**** Inheritance
 Describes IS-A relationship
-** [2018-10-22 Mon] 
+*** [2018-10-22 Mon] 
    Interview is approaching! Wednesday 9.30am
-*** Iterating over array that counted occurrances:
+**** Iterating over array that counted occurrances:
     If you do that, remember that you want to take VALUE of array to test the count,
     but you want to take INDEX to determine what char it is ( because you use it for ASCII chars )
-*** Read the QUESTION CAREFULLY!
+**** Read the QUESTION CAREFULLY!
     I didn't and ended up building a monterous algorithm that actually built the foken all possible
     permutations of a string. Sick! While doing so I've made a bunch of mistakes which ended up
     teaching me a valuable lessons. Yay. But we did make an algo that wasn't requested. Nay!
     So, all in all...valuable experience. God damn palidrome...I thought the algo was infi loop, but
     in fact it was taking so long...! I had an array of 127 eles that I was trying to permute. 
-** [2018-10-23 Tue]
-*** Bitwise operators
+*** [2018-10-23 Tue]
+**** Bitwise operators
 << shift bit to the left
 &  this is AND operation on bits
 |  this is OR operation on bits 
 bit &= x      bit = bit & x
 bit |= x      bit = bit | x
-*** Canada legalized cannabis yesterday and shops ran out of stock immediatelly...
+**** Canada legalized cannabis yesterday and shops ran out of stock immediatelly...
 What is there to be said? 
-** [2018-10-25 Thu]
-*** Always do the examples first before putting down any code!
-*** If you are checking index ahead in a loop, alway check for OUT OF BOUNDS!
-*** You can check which string is shorter by using ternary comparisons ( you need 2 )
+*** [2018-10-25 Thu]
+**** Always do the examples first before putting down any code!
+**** If you are checking index ahead in a loop, alway check for OUT OF BOUNDS!
+**** You can check which string is shorter by using ternary comparisons ( you need 2 )
 I had the interview day yesterday. Turned out it wasn't going to be just group tasks.
 There was 1 hour intro about Fidelity. Then we had a technical test on laptops, where 
 we were allowed to use google. Afterwards, we had a group task, where we discussed some
@@ -548,30 +549,30 @@ task. Embarasing to say the least. I was so nervous I couln't see it. Seriously 
 How can I possibly solve complex and challenging tasks if my mind goes 'tabula rasa' on 
 two loop question? Damn, I guess I need more practice. Both in terms of problem solving,
 as well as interview practice. That's it, gotta start doing more interviews!
-** [2018-10-26 Fri]
+*** [2018-10-26 Fri]
 I've spent all day yesterday explaining to others why I won't get the job
 while simultaneously hoping for it and waiting for a call / email. 
 It's bit nerve wrecking.
-** [2018-10-27 Sat]
-*** If you adjust one end of loop, ensure you check the other as well:
+*** [2018-10-27 Sat]
+**** If you adjust one end of loop, ensure you check the other as well:
     I didn't check the 'edges', my loops started from 1 instead of 0, so I should have adjusted the other 'end'
     as well: i<=n
-*** When printing out ensure you get the whitspace right:
+**** When printing out ensure you get the whitspace right:
     I didn't check for the whitespace between printed elements at all
-*** When printing out, check for the last element condition:
+**** When printing out, check for the last element condition:
     You don't want to print out whitespace after the last element gets printed ( most likely ),
     so make sure you put in the if condition to fook forward ( i+1 <= n )
-*** When asked at interview 'how do you keep up with tech changes'
+**** When asked at interview 'how do you keep up with tech changes'
     DOCUMENTATION!
     Articles & news ( Hacker news )
     Online tutorials: youtube, lynda.com, coursera, khan academy
     Online forums: stack overflow
-*** BitSize constructor creates it with default size of 64, use size() method to check it
-*** Use length() method to access inserted elements ( it will give 0 if nothing inserted )
+**** BitSize constructor creates it with default size of 64, use size() method to check it
+**** Use length() method to access inserted elements ( it will give 0 if nothing inserted )
     Despite it's size being initialized at 64.
     Size doubles if we exceed it
-*** aa
-** [2018-10-30 Tue]
+**** aa
+*** [2018-10-30 Tue]
 I took two days off ( bank holiday weekend ). I've met with a friend
 who works at Microsoft. I have to admit their office is AMAZING, but hey,
 it's still Microsoft. I loved his desk setup, huge monitors, fast computer
@@ -579,7 +580,7 @@ it's still Microsoft. I loved his desk setup, huge monitors, fast computer
 emacs instead of doing work... oh well, I guess it makes sense to set it up
 finally, so that I don't have to keep shuffling bloody text editors.
 So what did I learn today:
-** [2018-10-31 Wed]
+*** [2018-10-31 Wed]
 I've the offer! Great!! So...what now? I guess that depends on what we consider
 most benefitial to our current situation. Do we continue waking up at 4am and 
 studying? If so, what do we study? What about our personal life? That could use
@@ -590,7 +591,7 @@ good, so I have to think about moving to a better position right from the get go
 
 I'm still struggling with the square problem. It's a good problem. I think I figured
 idea how to solve it, now I need to implement. Fun times.
-** [2018-11-01 Thu]
+*** [2018-11-01 Thu]
 It's been nagging me since Tuesday, the thought that I haven't negociated 
 for my salary. Since I haven't signed anything yet, I've decided to send 
 an email arguing for 10% increase in base salary. Yes I realise it's not idea,
@@ -600,14 +601,14 @@ not sometime in the future. The future is here old man!
 
 I've signed up with the gym. Only two months will cost me 100 euro, but I think I've 
 delayed long enough. It's time to start doing something about my situation.
-** [2018-11-02 Fri]
+*** [2018-11-02 Fri]
 Yesterday was a really good day. The news that I got the job were spread.
 Everyone congratulated me. I was ... still am.. pretty taken aback how
 people were happy for me. Quite amazing.
 I'm still struggling with the qube rotatation problem, but I'm making progress.
 Instead of shifting one element at the time, lets just copy whole rows. Let's not
 worry about traversing deep into the square.
-** [2018-11-03 Sat]
+*** [2018-11-03 Sat]
 I went to the gym yesterday. Good workout, in and out in less then 30 min. 
 I realized I have no idea how to do excercises anymore. It's been over 5 years?
 Anyway, I'm really happy, first time is always the hardest. I will rotate run day
@@ -621,7 +622,7 @@ There's too much other work that needs to be done, and it's annoying me that I s
 have this one going on.
 Finally, Emerson collected the bike yesterday. He smoothly changed the deal, he won't 
 take it from me officially, but instead will clean it up & flip it. 
-** [2018-11-04 Sun]
+*** [2018-11-04 Sun]
 Dzien wolny od pracy. Nic nie robie. Po trudach, jak zwykle, udalo mi sie zainstalowac nowy config do emacs. 
 Wow to niesamowite jak wszystko jest trudne z tym edytorem. No ale jak juz dziala to dziala. Ehhh, nie wiem
 na co mi te wszystkie godziny spedzone nad tym edytorem. Idea jest dobra, ale ...wow. 
@@ -634,7 +635,7 @@ array, which was fine on first iteration ( starting from index 0), but on each s
 starting index incremented which messed up everything. I'm very happy, this is why I do what 
 I do!
 And of course the book solution makes it look trivial, and even after analysing it, I still don't get it. Typical. Not to mention she did it in like 30 lines, where mine is like an Old Testament. Typical.
-** [2018-11-06 Tue]
+*** [2018-11-06 Tue]
 Big day! I really didn't want to study today, I ended up creating ads for my slr camera and tripod.
 But once I've started analyzing the solution by Gail of the square rotation...i realized it's the same
 thing as with the towers of hanoi! All you have to do is to look at the example, specific example:
@@ -642,20 +643,20 @@ thing as with the towers of hanoi! All you have to do is to look at the example,
 goes where, especially if you consider next iteration...where will the marker / index be? Wow, 
 woooow. It actually worked, I was able to retrace her solution. No genius involved, just step by
 step analysis. That's it. Amazing!
-** [2018-11-07 Wed]
+*** [2018-11-07 Wed]
 I waste too much time. For instance, when at work I spend way too much time chatting and joking around. 
 Also, I use my friend as an excuse to spend time away from work, by 'helping' him with coding. I don't think
 it's doing much good to both of us. He needs to suffer and learn on his own in order to develop enough spine.
 I'd like to  finish up the time tracker project already so I can focus on cleaning up my code base for future generations.
 That will take ages but I think it will be fun, organizing everything. 
-*** When making a nested array, don't forget the commas between elements!
-*** When iterating over nested array, remember that second layer takes first
+**** When making a nested array, don't forget the commas between elements!
+**** When iterating over nested array, remember that second layer takes first
 layer as parameter 
 for ( i=0, i<arr.len,i++){
     for(j=0, j<arr[i].len,j++)
 }
 ARR[I].len !!!!
-** [2018-11-08 Thu]
+*** [2018-11-08 Thu]
 I've given a short presentation on our work & how we go about it to a big boss from 
 God knows where. Point is, he was surrounded by bosses of my bosses, so stakes were
 high ( at least for them ). So, since I was talking about work, it was a perfect opportunity
@@ -664,10 +665,10 @@ The guy was friendly, cracked jokes without being condencending, so yea, seemed 
 I wonder how do you get so far in career? He is seriously high level, still in early fifties?
 He did amazingly well career wise. I'd really like to ask him how he got where he is, like 
 no bullshit style. Plain, painful truth. Work 80hr/ week? 
-*** when iterating over nested array / matrix you dont 
+**** when iterating over nested array / matrix you dont 
 have to use [i][j]...instead you can just use [0][j] because 0 row will have the same length
 as [i-th] row and rows inbetween. Genius.
-** [2018-11-09 Fri]
+*** [2018-11-09 Fri]
 Yesterday all hell broke loose right from the start, when Sprint started breaking down because
 browser wouldn't serve 'mixed content' ie. my scripts which I've been happily injecting without
 understanding how the whole thing actually works. So there I was, trying to set up https server
@@ -677,13 +678,13 @@ are that self signed keys will do to stop the browser from complaining. I mean, 
 isn't certified, it's still https ... so it shouldn't block the mixed content...right??? 
 I've spent all morning setting things up instead of doing 'crack the code'. I'd rather do the real life
 problems than the book abstract crap. 
-** [2018-11-10 Sat]
+*** [2018-11-10 Sat]
 I havent done anything today. It started yesterday, it was lashing rain, I got all soaked, and its been
 now at least 3 days since I've pulled my back muscle and it's not going away. I've decided to skip gym
 again. Not happy about it, but I will be patient.
 This pulled muscle is getting into my head, and saping my motivation. I almost decided to stay home 
 but I did promise to work on the project and help with the Coder Dojo, so I'm going. No excuses. 
-** [2018-11-12 Mon]
+*** [2018-11-12 Mon]
 Here we go again. Last two days were rough to be hones, being out of routine takes an immediate toll on me.
 I found myself extremely irritated yesterday, I think its the lack of excercise. I'm planning to do basic routines
 while on holidays. We will see how my back muscle is acting up. But at least I can do the stretching.
@@ -691,7 +692,7 @@ I still haven't booked any hotels.
 I did make a really good progress on Saturday with the app. I think I'm ready to give a presentation on the tool
 before I go on holidays. I also managed on Friday to get the https server run, and get the browser to actually pull
 the files. Amazing, no idea how and why it works, but it does so thats good enough for me. Seriously, I have no idea...
-** [2018-11-28 Wed]
+*** [2018-11-28 Wed]
 Wow, it's been 16 days since last entry...I went on 7 day holiday, and it sets me back 16 days!!
 That's why I don't like holidays...my old demons come back with vengance: smokes & procrastination
 & it's a bloody struggle to push them back again, and again. I don't like holidays...
@@ -703,7 +704,7 @@ amount of time, so it's best to start now.
 especially when tackling difficult tasks. 
 3) Solving difficult tasks is rewarding, and helps boost my confidence. So in future, when faced with problems, I will
 have a lower chance of freaking out.
-** [2018-11-29 Thu]
+*** [2018-11-29 Thu]
 I haven't done anything today worthwhile with my 2hrs. A lot of resistance towards using my brain.
 I'm working on linked lists, so I'm starting slow by reminding myself how they are implemented, and 
 how to sort them. I'm taking my time...it's better to go slow then not at all ( or am I rationalizing my laziness?)
@@ -712,7 +713,7 @@ what goes where, and most of the stuff is kinda known to me, so it's an enjoyabl
 I don't have to stop every second to google how to do this or that. I only have to implement one more tab
 with paths to database and images folder. Finally, I probably will redesign the front end for users, make it look
 that bit nicer, and I'll PUUUUSH.
-** [2018-11-30 Fri]
+*** [2018-11-30 Fri]
 Still struggling, slowly slugging up the hill, procrastinating most of the time. I keep asking myself,
 "did you wake up at 4am to be watching youtube or to look at daft listing???". Kinda helps.
 Still working through the  merge sort algorithm, its nice, very elegant. You split the list down to
@@ -727,7 +728,7 @@ I'll be doing the first and last one today. I want to know if I have a problem, 
 over the  weekend. Speaking of which, I'm planning to play Warband all day on Sunday, and there
 is noone who can stop me. There, I've said it. This is the first time I've planned my weekend. 
 Making progress. Baby steps.
-** [2018-12-03 Mon]
+*** [2018-12-03 Mon]
 I'm still in a slump. I keep fighting with myself on weather I should continue to work on 
 Cracking The Code book. I got the job.
 Why NO:
@@ -742,12 +743,12 @@ Why YES:
 4) You want to learn generalized knowledge, which can be abstracted and applied in multiple contexts
 5) Because it's difficult, and most people don't want to do it...
 6) Beacause it's difficult, and you need to lift a heavy load
-** [2018-12-04 Tue]
-*** If you are getting <identifier> expected error in Java, that means you probably 
+*** [2018-12-04 Tue]
+**** If you are getting <identifier> expected error in Java, that means you probably 
 forgot to put your code inside a method ( like a main method for example ).
-*** If your method is not coming up in intelli sense, then it's probably you didn't set it to
+**** If your method is not coming up in intelli sense, then it's probably you didn't set it to
 public
-*** Brian Will argues in a series of youtube videos that the OOP jest zartem i kompletna 
+**** Brian Will argues in a series of youtube videos that the OOP jest zartem i kompletna 
 strata czasu...mind blown
 To bardzo ciekawe, ze nikt nigdy nie dal alternatywy do OOP na naszym kursie. Ciekawe 
 jak to jest w prawdzymym swiecie?! Co jesli to prawda, i oop to kompletny gimmic? Simply,
@@ -755,8 +756,8 @@ of smoke & mirrors. Wait, what language am I normally writing this diary in?
 Skonczylem duplicate removal from linked list. There is alternative version, do it without 
 holding on to any temporary data, which seems ... interesting! In that case, we would use 
 merge sort O(NlogN) & iterate over.
-** [2018-12-05 Wed]
-*** When iterating it's better to keep a pointer going backwards than forward:
+*** [2018-12-05 Wed]
+**** When iterating it's better to keep a pointer going backwards than forward:
 For example: 
 instead  of 
 #+BEGIN_SRC 
@@ -797,8 +798,8 @@ I've decided tha I will continue with the Crack the Code. The main reason to con
 -it will help me become a better programmer! That's it. It's not about interviews, it's about
 personal growth. Challenge accepted. If I can learn how to solve Google/Microsoft level 
 questions / problems, than I can tackle anything. Cheers.
-** [2018-12-06 Thu]
-*** When making merge method for merge sort algo, remember that merge method is recursive
+*** [2018-12-06 Thu]
+**** When making merge method for merge sort algo, remember that merge method is recursive
 and that it spcifies result and result.next -> recursive call
 
 So I'm starting to think about looking for a place to stay in Galway. I will admit I'm bit worried, what if
@@ -808,7 +809,7 @@ yet another horrid, uncomfortable winter ( what can I say...I'm getting old and 
 
 I think I'm going to sell my ducky keyboard as well, along with my computer. I just can't find any excuse 
 to hang on to it. I'd love to get something smaller, both keyboard & computer. Some small box would do.
-** [2018-12-07 Fri]
+*** [2018-12-07 Fri]
 I've started this day with a burining desire to continue working on my cryptoscanner app.
 I'll make monies ! Quick glance at the current crypto situation quickly cooled me off. 
 It's bad, and I can't see any viable options or price differentials. It's over, and I'm glad for it.
@@ -816,7 +817,7 @@ I will not be making an app that can slice razor thin margins. Not for me. Thank
 
 So what is it today? Finding kth element from the end in linked list. Easy? No idea, I'll just use
 two pointers, fast  and slow to get end and mid, and go for the target from there.
-** [2018-12-08 Sat]
+*** [2018-12-08 Sat]
 I've decided to take a 'day off' and instead of cracking the code, do some relaxing
 free code camp excercises. Yes I know, they aren't super challenging, but I did learn
 new things while doing them, and that's way more than painfully sitting in front of
@@ -830,7 +831,7 @@ that fiver. Win-Win.
 I do attribute to FCC directly the fact that I've made it so far in terms of coding.
 No other course had such a good mix of hand holding & challange. They managed to keep me
 interested and challenged. They earned that fiver.
-** [2018-12-10 Mon]
+*** [2018-12-10 Mon]
 My pulled muscle in left chest is feeling better, so it's time to get back into it.
 I couldn't wait for this day, and now when it's here, I'm dreading it a bit?
 It's been a while since my last jog, and honestly, all I want is to do bit of excercise
@@ -846,14 +847,14 @@ I've taken up freeCodeCamp again. It would be nice to finish it officialy, and t
 a ton of new tutorials now. It's nice and relaxing, im enjoying it. Could I do something
 more productive? Probably, but I won't overanalyse. I'm already working on ambitious 
 excercises, I need something  more relaxing as well.
-** [2018-12-11 Tue]
-*** How to clean up git repo after adding .gitignore
+*** [2018-12-11 Tue]
+**** How to clean up git repo after adding .gitignore
 #+BEGIN_SRC emacs-lisp 
      git rm -r --cached .
      git add .
      git commit -m "fixed untracked files"
 #+END_SRC
-*** How to pass int arg in recursion without using arguments
+**** How to pass int arg in recursion without using arguments
 #+BEGIN_SRC java
   //we are looking for the k-th node from the end
   public int findKth(Node home, int k){
@@ -876,7 +877,7 @@ fact I wans't even upset. Why? I guess I got accustomed to hte fact that my body
 and weak. I havent jogged in nearly a month now? My body will need time to gain strength
 and recover from all that inactivity. It's going to be all right. Feels good to be out there running
 again. Happy day. I'll take what I can get.
-** [2018-12-12 Wed]
+*** [2018-12-12 Wed]
 Great victory! About a year ago, when I've been working on basic Sprint fundaments, 
 I've encountered a problem with some elements going 'stale'. I had no idea how to
 resolve, so I've sticked an infinite loop and colled back functions until they returned 
@@ -891,8 +892,8 @@ Essentially, it was a matter of setting variable assignment in correct place...
 With the new fancy function, I can refactor a whole bunch of stuff, and replace many many
 pointless functions with this ( robus ) one. Happy days. I still want to tweak it a bit, to reduce
 the load, but hey, hard part is done. I will enjoy the refactoring now.
-** [2018-12-13 Thu]
-*** How to recurse with a pointer that is visible thorughout the stack
+*** [2018-12-13 Thu]
+**** How to recurse with a pointer that is visible thorughout the stack
 #+BEGIN_SRC java
   //create  outside class
   class Pointer{
@@ -924,29 +925,29 @@ the load, but hey, hard part is done. I will enjoy the refactoring now.
   } 
 #+END_SRC
 NOT /[a-f][3-7]/ 
-*** Regex: + matches 1 or more , * matches 0 or more
-*** Reges: greedy match finds the LONGEST match & returns it, lazy match returns SHORTES
-*** \w matches ALL alfa , numericals, and _ ( underscore ), \W matches all non alfanumericals
-*** \d matches all digits, \W matches all NON digits
-*** \s matches all whitespace ( space, tab, carriage return ), \S all non whitespace (trim???)
-*** ? matches 0 or 1 ( essentially optional )
-*** Lookahead: -positive (?=pattern) -negative (?!pattern) example:
+**** Regex: + matches 1 or more , * matches 0 or more
+**** Reges: greedy match finds the LONGEST match & returns it, lazy match returns SHORTES
+**** \w matches ALL alfa , numericals, and _ ( underscore ), \W matches all non alfanumericals
+**** \d matches all digits, \W matches all NON digits
+**** \s matches all whitespace ( space, tab, carriage return ), \S all non whitespace (trim???)
+**** ? matches 0 or 1 ( essentially optional )
+**** Lookahead: -positive (?=pattern) -negative (?!pattern) example:
 Will match string that has min 5 chars and has 2 consequtive numbers in it
 #+BEGIN_SRC 
     /(?=\w{5,})(?=\w*\d{2)/
 #+END_SRC
-*** Regex: capture group -- you 'store' the pattern and recall it using \number notation. Example:
+**** Regex: capture group -- you 'store' the pattern and recall it using \number notation. Example:
 #+BEGIN_SRC 
     /(\test)(\s)\1\2\1\2/ translates to /test\stest\stest\s/
 #+END_SRC
-*** Arrays: unshift - add at the beginning of an aray, shift - remove from the beginning 
-*** Arrays: push() --- pop()
-*** SPLICE: modifies original array. Takes 3 args: (start index, how many eles to delete, what to insert)
+**** Arrays: unshift - add at the beginning of an aray, shift - remove from the beginning 
+**** Arrays: push() --- pop()
+**** SPLICE: modifies original array. Takes 3 args: (start index, how many eles to delete, what to insert)
 Remove 5 elements, starting from index 3 (inclusive), and insert at index 3 'trolololo'
 #+BEGIN_SRC 
   array.splice(3,5,'trolololo') 
 #+END_SRC
-*** SLICE: doesn't modify array. Returns array. Takes 2 args: ( start index, end index - NOT INCLUSIVE)
+**** SLICE: doesn't modify array. Returns array. Takes 2 args: ( start index, end index - NOT INCLUSIVE)
 It essentially copies elements from that array. Again, second args is not inclusive!
 So I got hacked...someone used my credit cart to buy THE SAME item I bought couple months ago. 
 That means, not only they have my cc details, but also insight into my purchase history. What now?
@@ -954,13 +955,13 @@ What are the implications of that? Does it mean my computers are compromised, or
 I'm not surprised about CC details, because it's been passed around like a dirty hooker, but my 
 purchase history...?! That's really worrying.
 
-** [2018-12-16 Sun]
-*** instanceof - checks if given object belongs to given class. Example
+*** [2018-12-16 Sun]
+**** instanceof - checks if given object belongs to given class. Example
 #+BEGIN_SRC javascript
   let terrier = new Dog()
   terrier instanceof Dog //returns true
 #+END_SRC
-*** When you set prototype properties for an object, it WIPES out the constructor
+**** When you set prototype properties for an object, it WIPES out the constructor
 You have to define constructor again.
 #+BEGIN_SRC javascript
   Bird.prototype = {
@@ -969,7 +970,7 @@ You have to define constructor again.
   }
 
 #+END_SRC
-** [2018-12-17 Mon]
+*** [2018-12-17 Mon]
 Wow what a day yesterday. First I've had one of my house mates move out. Before he did,
 he asked me to help him with his bike. He decided to send it back to Poland in a package. 
 He coudn't take the pedals off of it, so he asked me to try it. I did, failed miserably, and told him
@@ -996,9 +997,9 @@ because deep down inside, I knew I could have done something about all this, and
 not to.
 
 All in all, good day. Lots of emotions, we cleared up some air ( literally speaking, since the guy moved out).
-*** Remember that you don't need to shift all items in linked list. Each node is separate, you can just replace
+**** Remember that you don't need to shift all items in linked list. Each node is separate, you can just replace
 current node with the one ahead of it, and 'delete' the 'next' one ( replace and skip the next). 
-** [2018-12-18 Tue]
+*** [2018-12-18 Tue]
 I've came back home yesterday, ran to pharmacy for my new fix. The guy at the 
 counter said...hey, do you know that you can buy drugs cheaper if you buy in bulk?
 Every time you buy, you pay 'dispensation fee'...wow, ok, fair played to you mate.
@@ -1017,17 +1018,17 @@ in this episode.
 
 I finished past 10pm, at the end there were 17!!!! waste bags ouside of my house.
 There is plenty more where that came from, but sadly, I ran out of bags. 
-** [2018-12-22 Sat]
-*** Do not open lines with brackets () because it might get 
+*** [2018-12-22 Sat]
+**** Do not open lines with brackets () because it might get 
 concatenated to previous line in javascript (Automatic Semicolon Insertion rules)
-** [2018-12-26 Wed]
-*** Chaining methods in JS work from left to right
+*** [2018-12-26 Wed]
+**** Chaining methods in JS work from left to right
 Eg: array.map(x=>x*2).filter(x=>x>8)
 Above will first double all elements ( map x*2 ) and then it will apply filter and select
 only items above 8
-*** React uses camel case to respresent many calls normally typed in lower case
+**** React uses camel case to respresent many calls normally typed in lower case
 Eg: onCall, className ( instead of class ), etc
-*** React elements can return only one html element ( you can wrap multiple items - that's fine )
+**** React elements can return only one html element ( you can wrap multiple items - that's fine )
 #+BEGIN_SRC html
   const reactEle =
   <div>
@@ -1035,7 +1036,7 @@ Eg: onCall, className ( instead of class ), etc
     <h1>bbbb</h1>
   </div>
 #+END_SRC
-** [2018-12-29 Sat]
+*** [2018-12-29 Sat]
 Looking back, I've 'wasted' another week of my life. I haven't excercised, I haven't learned anything
 new. I allowed myself to be consumed by my life long default behaviour patterns. Lay in bad all day,
 watch youtube, do nothing. Smoke. I've smoked all day, every day. Today was my last cigarette, thats 
@@ -1053,7 +1054,7 @@ three weeks. Its so bloody frustrating...this yoyo effect, never really getting 
 flailing frantically all over the place. Exhausted, frustrated, never acomplishing serious targets. 
 
 So how bout setting some concrete, doable targets? How?! 
-*** Remember to bind explicitly methods in react class components
+**** Remember to bind explicitly methods in react class components
 #+BEGIN_SRC js
   constructor(){
       this.state = {
@@ -1066,8 +1067,8 @@ So how bout setting some concrete, doable targets? How?!
       this.doSomething()
   }
 #+END_SRC
-** [2018-12-30 Sun]
-*** React - use setState to change the state in component ( takes in obj as argument ) 
+*** [2018-12-30 Sun]
+**** React - use setState to change the state in component ( takes in obj as argument ) 
 #+BEGIN_SRC js
   //constructor 
   constructor(props){
@@ -1090,13 +1091,13 @@ So how bout setting some concrete, doable targets? How?!
   }
 
 #+END_SRC
-*** React - you can set inline styles using double curly braces 
+**** React - you can set inline styles using double curly braces 
 #+BEGIN_SRC js
   //you have to use camel Case , react will translate it to correct names later on
       <div style={{backgroundColor : "blue", fontSize : 24}}>
       </div>
 #+END_SRC
-*** React - you can test condition and immediately include element if it resolves to 'true'
+**** React - you can test condition and immediately include element if it resolves to 'true'
 #+BEGIN_SRC js
   render(){
 
@@ -1107,8 +1108,8 @@ So how bout setting some concrete, doable targets? How?!
 
   }
 #+END_SRC
-** [2018-12-31 Mon]
-*** React ES6 component example (setState, bind method, pass props)
+*** [2018-12-31 Mon]
+**** React ES6 component example (setState, bind method, pass props)
 #+BEGIN_SRC js
   class reactComponent extends React.Component {
       constructor(props){
@@ -1147,7 +1148,8 @@ So how bout setting some concrete, doable targets? How?!
 #+END_SRC
 I've finished the React module on FCC. It wasn't that bad, it's a really neat library!
 I can see why it's so popular. It's small and really handy, and let's you keep everything in nice modules.
-** [2019-01-02 Wed]
+** 2019
+*** [2019-01-02 Wed]
 I went to Galway on Monday and took the firs available room. It's very small, the house isn't
 the most modern or beautiful...but it will do for a start. 
 It's all guys, so there shold be no drama ( sexist alert !), and they are quiet 
@@ -1165,25 +1167,25 @@ It's a huge relief to have a place sorted out. Now I can relax and focus on tyin
   // block statement
   let obj = ()=> ( {type: 'value'} )
 #+END_SRC
-*** Redux
+**** Redux
 It helps to manage the state in application by keeping all the state in one js object 
-**** Store
+***** Store
 Object that keeps all the information about the state
 Create by using Redux.createStore( state = something )
-**** Action
+***** Action
 Has to have a 'type' eg: 'CLICK' or 'LOGIN'
 Can carry data ( optional )
-**** Action creator 
+***** Action creator 
 JS function that returns the action
-**** Dispatch
+***** Dispatch
 By calling store.dispatch( actionCreator ) we send the action to the redux store
-**** Reducer
+***** Reducer
 They handle the state change in response to Actions 
 Action -> Reducer ( state , action ) => state modification
 Reducer is a 'pure' function, it only returns new state ( no side effect, no mutations of existing state)
 Reducer returns new copy of state every time 
-**** Reducer - use switch statement to handle multiple option
-** [2019-01-26 Sat]
+***** Reducer - use switch statement to handle multiple option
+*** [2019-01-26 Sat]
 Wow, it's been a while since last commit. I have to admit that the whole moving address process
 did take it's toll on my routines. It was difficult enough without major disturbances. 
 So here we are. I have finally bought a small desk, so that I can use computer like a normal person.
@@ -1200,5 +1202,3 @@ technical training.
 So what's the plan? I'm not going to continue with the FCC! I'm going back to working on cracking the code.
 It's difficult & helps me think better. Also, it will open up options in the future for me. I hope?!
 Christ I have no idea what I'm doing. I need an end goal, and then I can figure out the steps...
-
-
