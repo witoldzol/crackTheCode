@@ -75,22 +75,19 @@ questioned by life-daily and hourly.
 **** DONE Sell Box
 **** DONE Find accomodation in Galway
 **** DONE Sell printer
-** TODO Create https server on Bart's HVD
+**** DONE Create https server on Bart's HVD
+SCHEDULED: <2019-01-27 Sun>
+*** DONE clean up mac
+** TODO Finish self-authoring program
 ** TODO Code: learn Decorator pattern
-** TODO clean up mac
 ** TODO Fix gears in my bicycle
-** TODO Sell free weights - 15kg ? - 30EUR
-** TODO Sell bicycle
-** TODO Sell bicycle
 ** TODO Sell cycling pants
 ** TODO Install original mounting plate
 ** TODO Backup photos / documents 
-** TODO Clean up desktop
 ** TODO Sell desktop
 ** TODO Sell Suzuki
 ** TODO Sell board games
 ** TODO Claim tax back for 2017 & 2018
-** TODO Finish self-authoring program
 ** TODO Code: LinkedList chapter in Cracking the Code
 * DAILY BLOG
 ** 2018
