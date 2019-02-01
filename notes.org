@@ -88,7 +88,7 @@ Live as if you were living for the second time and had acted as wrongly the firs
 SCHEDULED: <2019-01-27 Sun>
 **** DONE clean up mac
 **** DONE Book: Man's meaning
-** TODO Finish self-authoring program
+** TODO Finish self-authoring program - past
 ** TODO Code: learn Decorator pattern
 ** TODO Fix gears in my bicycle
 ** TODO Sell cycling pants
