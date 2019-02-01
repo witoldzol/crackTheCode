@@ -2,7 +2,7 @@
 ** Man's Search for Meaning 
 Author: Victor Frankl
 Start: [2019-01-27 Sun]
-End: 
+End: [2019-02-01 Fri]
 *** Quotes
 **** Emotion, which is suffering, ceases to be suffering as soon as we form a clear and precise picture of it.
 **** Nietzsche: 'He who has a why to live for can bear with any how'
@@ -11,6 +11,13 @@ as wrongly as you are about to act now!
 **** It doesn't matter what we expect from life, but rather what life expects from us.  
 We need to stop asking about the meaning of life, and instead to think of ourselves as those who were being 
 questioned by life-daily and hourly.
+**** Paradoxical intention - 
+Guy was stuttering all his life. The only time he didn't, was when he tried to stutter on purpose to elicit pity
+from train's conductor.
+**** Freedom
+It is not freedom from conditions, but it is freedom to take a stand toward the conditions.
+**** LIVE
+Live as if you were living for the second time and had acted as wrongly the first time as you are about to act now.
 
 * TO DO
 *** FINISHED
@@ -79,7 +86,8 @@ questioned by life-daily and hourly.
 **** DONE Sell printer
 **** DONE Create https server on Bart's HVD
 SCHEDULED: <2019-01-27 Sun>
-*** DONE clean up mac
+**** DONE clean up mac
+**** DONE Book: Man's meaning
 ** TODO Finish self-authoring program
 ** TODO Code: learn Decorator pattern
 ** TODO Fix gears in my bicycle
@@ -1251,3 +1259,15 @@ dawalo mi spokoju. Zaczolem cos, mam tempo, boje sie zwolnic. Bedzie ok, jedyne 
 Zaczynam sie coraz bardziej alienowac od reszty grupy. Nie chodze z nikim na spacery w porze lanchu, nie trzymam sie
 z ziomalami. Nie przeszkadza mi to. Fajnie by bylo miec znajomka, ale szczerze, kiedy masz 15 lat roznicy miedzy ludzmi,
 nie ma co sie oszukiwac. 
+*** [2019-02-01 Fri]
+Kolejny dzien. Jest dobrze. Znowu silownia, noga dalej boli. Skonczylem ksiazke, staram sie trzymac limitu 3 itemow
+w kanban kolejce ( uzywam trello ). Zaczynam czytac o Test Driven Development. Zaczne sie uczyc jak to implementowac.
+Chce prowadzic nasza grupe i uzyc agile techniki zeby zobaczyc czy to dziala. Jestem podekscytowany mozliwosciami. 
+Wiem ze entuzjazm szybko ulotni sie kiedy tylko zaczna sie schody, ale nic to.
+Pobilem dzisiaj nowy rekord w plankowaniu. Jestem z siebie dumny. No i caly tydzien na rowerze, w deszczu i zimnie, 
+do silowni. 3 tydzien bez papierowsa! Jestem znowu pelen nadziei. Bylismy juz tutaj, wiele razy. Za kazdym razem 
+wszystko sie psulo. Schemat: jest mi bardzo dobrze, czuje sie swietnie, ide celebrowac, pije alkohol, pale papierosy,
+nie chce mie sie cwiczyc bo pale, nic mi sie nie chce bo nie cwicze.
+Na ogol potrzebujemy zadac 5 'why' zeby dojsc do 'root cause'. Jesli ta technika dziala dla buisness i organizacji
+to dlaczego nie uzyc jej w zyciu prywatnym? Sa negative i positive feedback loops, doswiadczylem ich wiele razy w 
+moim zyciu. 
