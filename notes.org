@@ -1,5 +1,5 @@
 * BOOKS
-** Man's Search for Meaning 
+** DONE Man's Search for Meaning 
 Author: Victor Frankl
 Start: [2019-01-27 Sun]
 End: [2019-02-01 Fri]
@@ -18,7 +18,7 @@ from train's conductor.
 It is not freedom from conditions, but it is freedom to take a stand toward the conditions.
 **** LIVE
 Live as if you were living for the second time and had acted as wrongly the first time as you are about to act now.
-
+** 
 * TO DO
 *** FINISHED
 **** DONE Make a new CV and send it to Orla ( don't use template )
@@ -1278,3 +1278,8 @@ utrzymac. Tak wiec pojechalem zrobic plecy. Powiedzialem sobie ze dzisiaj bede r
 ale nagle znalazlem sie podnoszacego 60kg w deadlift. Ciezko sie kontrolowac. No ale karma mnie pokarala, bo na ostatnim
 cwiczeniu naciagnolem sobie znowu miesien. Ten sam co ostatnio na wakacjach na gran canarii. Jestem zalamany. Balem sie
 nie cwiczyc przez jeden dzien, a teraz patrze na miesiac. Nie wiem co robic.
+
+**** I turned off swap on mac
+sudo nvram boot-args="vm_compressor=2"
+to turn it back on, change value to 4
+**** Each test has three stages: set up, test, tear down
