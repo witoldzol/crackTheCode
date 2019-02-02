@@ -1279,7 +1279,12 @@ ale nagle znalazlem sie podnoszacego 60kg w deadlift. Ciezko sie kontrolowac. No
 cwiczeniu naciagnolem sobie znowu miesien. Ten sam co ostatnio na wakacjach na gran canarii. Jestem zalamany. Balem sie
 nie cwiczyc przez jeden dzien, a teraz patrze na miesiac. Nie wiem co robic.
 
+Jo to oficjalne, naciagnolem znowu miesien miedzy zebrami. To czwarty raz w ciagu ostatnich 12 miesiecy? Za kazdym razem 
+'trace' miesiac. Tak wiec, wiecej nie cwicze, niz cwicze...to niesamowite. Jak ja moge cokolwiek osiagnac w ten sposob?
+Jak uchronic sie przed tego typu kontuzjami?????
+Ja pierdole kurwa jebana mac. 
 **** I turned off swap on mac
 sudo nvram boot-args="vm_compressor=2"
 to turn it back on, change value to 4
 **** Each test has three stages: set up, test, tear down
+**** Remember to set line wrapping in eclipse ( its default to 120 )
