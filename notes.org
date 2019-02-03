@@ -1288,3 +1288,6 @@ sudo nvram boot-args="vm_compressor=2"
 to turn it back on, change value to 4
 **** Each test has three stages: set up, test, tear down
 **** Remember to set line wrapping in eclipse ( its default to 120 )
+*** [2019-02-03 Sun]
+Dzien odpoczynku. Szczerze, gdybym nie mial zadnej kontuzji,  poszedlbym biegac albo na silke. Musze przyznac ze 
+jest to dosyc uzalezniajace. Nie mam pojecia jak wypelnic moj dzien bez cwiczen. 
