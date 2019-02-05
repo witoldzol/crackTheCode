@@ -1323,3 +1323,5 @@ pozytywnego w tej sytuacji. Jest to dobra okazja zeby usiasc przed komputerem i 
 projekt wczoraj. Mamy zbudowac zautomatyzowany system dla cybersecurity. Ok, brzmi dobrze. Lubie automatyzacje. 
 Wiemy ze projekt bedzie w Angular, Java i mySql. Szkoda ze nie ma Sprint, bo to  by bylo bardzo przydatne doswiadczenie,
 no ale ok, nie jest zle. 
+Chce: skonczyc ksiazke o TDD, obczaic gradle, zrobic tutorial z Angular 5, ogarnac Jenkins ( integration tool ).
+Ogolnie mowiac, chce zrobic ten projekt na wysokim poziomie. 
