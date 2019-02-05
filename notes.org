@@ -1315,3 +1315,11 @@ Plan na dzisiaj: zrobic szybki research na temat wyznaczania celi i ich sledzeni
 Mysle ze kanban jest bardzo dobry, problem jest w tym ze nie rozbijam celi na mniejsze. 
 Kolejny problem jest taki ze brak mi DUZEGO celu. Nie wiem dokad zmierzam. Nie wiem nawet co chce robic. Nadal nie mam
 planu jak rozwiazac moje 'prywatne' zycie. Nadal jestem w zawieszeniu, czuje jak mi zycie przecieka przez palce. 
+*** [2019-02-05 Tue]
+Naderwany miesien: dzien 3. Obudzilem sie z trudem dzisiaj o 4...i poszedlem dalej spac. Przespalem kolejne 2 godziny.
+Nie moge cwiczyc i odbija sie na negatywnie na mojej rutynie. Zdaje sobie sprawe ze winie za moja sytuacje
+zewnetrzne czynniki. Zamiast narzekac i dawac sobie wymowki powinienem szukac alternatywnych rozwiazan. Znajdz cos 
+pozytywnego w tej sytuacji. Jest to dobra okazja zeby usiasc przed komputerem i pouczyc sie. Dostalismy wreszcie
+projekt wczoraj. Mamy zbudowac zautomatyzowany system dla cybersecurity. Ok, brzmi dobrze. Lubie automatyzacje. 
+Wiemy ze projekt bedzie w Angular, Java i mySql. Szkoda ze nie ma Sprint, bo to  by bylo bardzo przydatne doswiadczenie,
+no ale ok, nie jest zle. 
