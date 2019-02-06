@@ -1327,4 +1327,10 @@ Chce: skonczyc ksiazke o TDD, obczaic gradle, zrobic tutorial z Angular 5, ogarn
 Ogolnie mowiac, chce zrobic ten projekt na wysokim poziomie. 
 *** [2019-02-06 Wed]
 Naderwany miesien: dzien 4. Znowu nie wyszedlem z lozka o 4ej. Siedzialem i 'czytalem' ksiazke. Uswiadomilem sobie
-ze nie rozumiem java code. Specyficznie, autor uzywal streams.
+ze nie rozumiem java code. Specyficznie, autor uzywal streams. 
+Uzylem dzisiaj po raz pierwszy pomodoro apki. Fajna! Zastanawiam sie czy nie lepiej uzyc na telefonie, w ten sposob bede
+w stanie sledzic rezultaty w pracy tez.
+Zastanawiam sie czy nie kupic sluchawek...znowu. Mysle ze bede potrzebowal czegos do wyciszenia innych ludzi kiedy bedziemy
+pracowac nad projektami. Jesli bedzie taka potrzeba w przyszlosci, to rownie dobrze moge kupic je teraz i miec to z glowy.
+Nie wiem co zrobic. Z jednej strony, nie potrzebuje ABSOLUTNIE, z drugiej strony wiem ze ciezko mi skupic sie kiedy inni
+ludzie gadaja dookola mnie. Nie wiem co zrobic.
