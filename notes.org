@@ -1325,3 +1325,6 @@ Wiemy ze projekt bedzie w Angular, Java i mySql. Szkoda ze nie ma Sprint, bo to 
 no ale ok, nie jest zle. 
 Chce: skonczyc ksiazke o TDD, obczaic gradle, zrobic tutorial z Angular 5, ogarnac Jenkins ( integration tool ).
 Ogolnie mowiac, chce zrobic ten projekt na wysokim poziomie. 
+*** [2019-02-06 Wed]
+Naderwany miesien: dzien 4. Znowu nie wyszedlem z lozka o 4ej. Siedzialem i 'czytalem' ksiazke. Uswiadomilem sobie
+ze nie rozumiem java code. Specyficznie, autor uzywal streams.
