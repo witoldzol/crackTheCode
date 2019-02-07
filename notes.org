@@ -1353,3 +1353,4 @@ Oczywiscie, appka wyglada kompletnie z dupy. Bylem rozdarty miedzy fajna apka kt
 fajne UI/UX a ta smieciowa apka ktora automatycznie sciaga z trello moje taski. EEEEEehhh. Ostatecznie poszedlem w latwizne,
 bo wiem ze nie bedzie mi sie chcialo ciagle wbijac taskow dwa razy. Byla to ciezka decyzja, bo naprawde chcialem gamifikacje.
 Bylem tak rozdarty ze az pomyslalem o tym zeby zrobic swoja wlasna apke ktora bedzie miala to czego ja chce!
+
