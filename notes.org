@@ -1348,3 +1348,8 @@ Rozmawialem z Vishalli o TDD i naszym projekcie. Chcialbym zebysmy zrobili go td
 to i nienawidzila zycia. Mowi ze nie bedziemy mieli czasu, na co ja odpowiedzialem ze 'nie wiemy ile mamy czasu, bo nie wiemy 
 jak duzo mamy roboty'. Zastanawiam sie czy cisnac temat. Szczerze mowiac, to chcialbym sprobowac. Wydaje sie to niesamowicie
 ekscytujace ( perspektywa posiadania czystego kodu )
+Postanowilem zaczac uzywac pmodoro. Jest z milion pomodoro appek na internetach, jest tylko jedna ktora laczy sie z Trello.
+Oczywiscie, appka wyglada kompletnie z dupy. Bylem rozdarty miedzy fajna apka ktora ma gamifikacje ( achevements) i bardzo
+fajne UI/UX a ta smieciowa apka ktora automatycznie sciaga z trello moje taski. EEEEEehhh. Ostatecznie poszedlem w latwizne,
+bo wiem ze nie bedzie mi sie chcialo ciagle wbijac taskow dwa razy. Byla to ciezka decyzja, bo naprawde chcialem gamifikacje.
+Bylem tak rozdarty ze az pomyslalem o tym zeby zrobic swoja wlasna apke ktora bedzie miala to czego ja chce!
