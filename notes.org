@@ -1366,3 +1366,12 @@ Bez bolu w miesniu. Czulem go, ale bylo ok. Jestem pelen nadzieii.
 Jadac z powrotem pomyslalem o tym ze bede sie dzisiaj uczyc etc. Przeszla mnie fala strachu. To znajome uczucie, kiedy jest
 dobrze ale zaczynam sie bac ze zawale, kiedy patrze ze strachem na prace ktora na mnie czeka. Ta swiadomosc ze jest cos 
 trudnego przedemna, i nie wiem czy dam rade.
+**** Inversion of control:
+Classes should configure their dependencies from the outside
+**** Angular testing packages: 
+Karma - unit testing
+Protractor - web app end to end ( like Selenium )
+JEST ( very good one )
+theIntern
+Cypress.io
+
