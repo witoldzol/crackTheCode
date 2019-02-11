@@ -1383,6 +1383,16 @@ MockBackend
 if the product variable doesn't exist or is empty, the element & all it's children, will not be displayed
 **** *ngFor='product of products'
 repeats specified elements for every element 
+#+BEGIN_SRC html
+  <tr *ngFor='let product of products'>
+    <td></td>
+    <td>{{ product.productName}}</td>
+    <td>{{productCode}}</td>
+    <td>{{product.releaseDate}}</td>
+    <td>{{product.price}}</td>
+    <td>{{product.starRating}}</td>
+  </tr>
+#+END_SRC
 **** typescript, declare array of any type
 any[]
 **** ngFor
