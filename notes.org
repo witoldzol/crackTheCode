@@ -1379,6 +1379,13 @@ TestBed
 Async & fakeAsync
 MockBackend
 **** RxJS replaced Promises? ( angular )
+**** *ngIf='product && product.length
+if the product variable doesn't exist or is empty, the element & all it's children, will not be displayed
+**** *ngFor='product of products'
+repeats specified elements for every element 
+**** typescript, declare array of any type
+any[]
+**** ngFor
 *** [2019-02-10 Sun]
 Naderwany miesien: dzien 8. Wow ale czas leci. Moj hamstring nadal mnie boli, tak wiec postanowilem ze ide jutro biegac.
 Zdaje sie ze nie bedzie lepiej. Moze to phantom pain? Nie wiem, wiem ze ide jutro biegac bo mam dosyc czekania. Jesli
