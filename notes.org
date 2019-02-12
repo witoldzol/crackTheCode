@@ -1395,7 +1395,14 @@ repeats specified elements for every element
 #+END_SRC
 **** typescript, declare array of any type
 any[]
-**** ngFor
+**** property binding in angular
+<img [src]='product.imageUrl'>  //Or
+**** interpolation
+<img src={{product.imageUrl}}>
+**** style binding
+[style.width.px]='imageWidth'
+**** list of events
+https://developer.mozilla.org/en-US/docs/Web/Events
 *** [2019-02-10 Sun]
 Naderwany miesien: dzien 8. Wow ale czas leci. Moj hamstring nadal mnie boli, tak wiec postanowilem ze ide jutro biegac.
 Zdaje sie ze nie bedzie lepiej. Moze to phantom pain? Nie wiem, wiem ze ide jutro biegac bo mam dosyc czekania. Jesli
@@ -1416,11 +1423,7 @@ Moja waga jest bardzo stabilna. Caly czas oscyluje kolo 75kg minus ciuchy i buty
 A moze interwal czasowy jest za maly. Fakt faktem, nic prawie nie robilem przez tydzien. To niesamowicie trudne utrzymac tempo
 ktore moje cialo jest w stanie uciagnac. Wlasciwie to nie znalazlem jeszcze takiego tempa ktore by mi pozwolilo cwiczyc kazdy dzien! Jest to zdecydowanie cos co musze wziasc pod uwage. Kazdy dzien kiedy nie cwicze obniza moja srednia. Robiac mniej,
 dlugoterminowo zrobie wiecej...!
-
-
-
-
-
-
-
-
+*** [2019-02-12 Tue]
+Naderwany miesien: dzien 10. Dalej czuje miesien, ale tylko przy niektorych cwiczeniach, kiedy mocno sie naciagam. Ogolnie nie 
+przeszkadza mi. 
+Wczoraj kupilem piwo i ledwo bylem w stanie je wypic. Zrobilo mi sie wrecz niedobrze, bylem caly 'napecznialy'. Nie smakowalo mi nawet. Nie bede juz kupowac piwa, nie smakuje tak jak kiedys. Nie mam pojecia czemu. Nawet Zubr smakuje niedobrze. Zdaje sei ze do piwa musi byc towarzystwo. 
