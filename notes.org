@@ -1441,6 +1441,19 @@ In the Component
 #+END_SRC
 **** list of events
 https://developer.mozilla.org/en-US/docs/Web/Events
+**** DATA BINDING:
+1) Interpolation: {{pageTitle}}
+2) Property binding: <img [src]='product.imageUrl'>
+3) Event binding: <button (click)='toggleImage()'>
+   # ngModule is a directive
+4) Two way binding: <input [(ngModule)]='inputMessage'>
+**** Pipes example
+# paramaters are separated with a colon
+# 1-min nb of digis before . , 2-2 min / max after .
+{{ product.price | currency:'USD':'symbol':'1.2-2'}}
+
+
+
 *** 
 *** [2019-02-10 Sun]
 Naderwany miesien: dzien 8. Wow ale czas leci. Moj hamstring nadal mnie boli, tak wiec postanowilem ze ide jutro biegac.
