@@ -1413,10 +1413,35 @@ In the Component
       //do something
   }
 #+END_SRC
+**** double way binding
+1) You need to import 'Forms module' in the module file that controls given component\
+2) Add FormsModule to imports array
+#+BEGIN_SRC js
+  @NgModule({
+      declarations: [
+          //components we created
+          AppComponent,
+          ProductListComponent
+      ],
+      imports: [
+          BrowserModule,
+          FormsModule
+      ],
+      //components to be loaded at the beginning
+      bootstrap: [AppComponent]
+  })
+  export class AppModule{}
+#+END_SRC
+3) Use ngModel
+#+BEGIN_SRC js
+      
+<input type='text' [(ngModel)]='lastFilter'>
 
+<p> Output: {{lastFilter}}</p>
+#+END_SRC
 **** list of events
 https://developer.mozilla.org/en-US/docs/Web/Events
-
+*** 
 *** [2019-02-10 Sun]
 Naderwany miesien: dzien 8. Wow ale czas leci. Moj hamstring nadal mnie boli, tak wiec postanowilem ze ide jutro biegac.
 Zdaje sie ze nie bedzie lepiej. Moze to phantom pain? Nie wiem, wiem ze ide jutro biegac bo mam dosyc czekania. Jesli
