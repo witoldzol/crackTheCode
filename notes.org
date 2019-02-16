@@ -1402,8 +1402,21 @@ any[]
 <img src={{product.imageUrl}}>
 **** style binding
 [style.width.px]='imageWidth'
+**** event binding
+In the template:
+#+BEGIN_SRC 
+(click)='methodName()'
+#+END_SRC
+In the Component
+#+BEGIN_SRC js
+  methodName(): void {
+      //do something
+  }
+#+END_SRC
+
 **** list of events
 https://developer.mozilla.org/en-US/docs/Web/Events
+
 *** [2019-02-10 Sun]
 Naderwany miesien: dzien 8. Wow ale czas leci. Moj hamstring nadal mnie boli, tak wiec postanowilem ze ide jutro biegac.
 Zdaje sie ze nie bedzie lepiej. Moze to phantom pain? Nie wiem, wiem ze ide jutro biegac bo mam dosyc czekania. Jesli
@@ -1445,3 +1458,4 @@ W poniedzialek zaczynamy pracowac nad projektem, ekscytujace!
 [2019-02-16 Sat]
 Naderwany miesien dzien 14;
 Misien jest ok, czuje go czasami ale nie przeszkadza albo limituje mnie przy cwiczeniu. Mam zakwasy pomimo ze ostatni raz jak bylem na silowni nie bylem w stanie cwiczyc ze wzgledu na bark. Ciekawe, bo zrobilem moze pare setow bardzo malymi ciezarami. Postanowilem robic mniejsze ciezary z wieksza kontrola. Wracamy do podstawy, nie bede swirowac.
+Stracilem motywacje do pracowania, nie chce patrzec na trello i pomodoro. Tak po prostu, nie mam 'ochoty'. 
