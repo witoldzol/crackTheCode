@@ -1451,10 +1451,10 @@ https://developer.mozilla.org/en-US/docs/Web/Events
 # paramaters are separated with a colon
 # 1-min nb of digis before . , 2-2 min / max after .
 {{ product.price | currency:'USD':'symbol':'1.2-2'}}
-
-
-
-*** 
+**** Lifecycle hooks
+1) OnInit -
+2) OnChanges -
+3) OnDestroy -
 *** [2019-02-10 Sun]
 Naderwany miesien: dzien 8. Wow ale czas leci. Moj hamstring nadal mnie boli, tak wiec postanowilem ze ide jutro biegac.
 Zdaje sie ze nie bedzie lepiej. Moze to phantom pain? Nie wiem, wiem ze ide jutro biegac bo mam dosyc czekania. Jesli
@@ -1493,7 +1493,14 @@ Stracilem impakt jesli chodzi o kanban i pomodoro. Mam nowe, superanckie noise c
 Chcialbym je zwrocic, ale z drugiej strony...dzialaja. Naprawde blokuja mase halasu, tak wiez zatrzymam je. Mam po prostu okrotnego kaca moralnego, bo sa tak drogie. 
 Warren wyjechal, mamy nowego nauczyciela, Mark. Koles jest konkretny, kodujemy, cos sie dzieje, wreszcie sie zaczniemy uczyc.
 W poniedzialek zaczynamy pracowac nad projektem, ekscytujace!
-[2019-02-16 Sat]
+*** [2019-02-16 Sat]
 Naderwany miesien dzien 14;
 Misien jest ok, czuje go czasami ale nie przeszkadza albo limituje mnie przy cwiczeniu. Mam zakwasy pomimo ze ostatni raz jak bylem na silowni nie bylem w stanie cwiczyc ze wzgledu na bark. Ciekawe, bo zrobilem moze pare setow bardzo malymi ciezarami. Postanowilem robic mniejsze ciezary z wieksza kontrola. Wracamy do podstawy, nie bede swirowac.
 Stracilem motywacje do pracowania, nie chce patrzec na trello i pomodoro. Tak po prostu, nie mam 'ochoty'. 
+*** [2019-02-17 Sun]
+Naderwany miesien dzien 15;
+Poszedlem wczoraj na zakupy, zalozylem moje super duper sluchawki Sony. Nim doszedlem do Lidla, moje prawe ucho bylo juz bardzo niekomfortowe od ciepla jakie generowala sluchawka. Koniec, zwracam je, nie bede sie meczyc. Sprzet za 360 euro musi byc bliski idealu. Bylyby idealne, gdyby nie ten jeden DUZY mankament. Balem sie tej decyzji, bo teraz musialem zrobic research, i wyjsc z komfort zone. Nie mialem pojecia jak zwrocic do Amazona. Dodatkowo zamawialem przez parcel motel. Gdybym mieszkal w UK to nie byloby problemu. Wreszcie udalo mi sie znalesc online support dla Amazona, koles po drugiej stronie czata w niecale 10 minut wygenerowal mi return label i tyle. Okazuje sie koszty przesyki sa pokryte przez Amazona! Super, jedyne co musze zrobic to wydrukowac label i naruchac pudelko ktore zmiesci te sluchawki. Pudelko to najwiekszy problem. Najs.
+Mysle zeby kupic ear plugs ( takie za 10 euro ) i do tego ear muffs i tyle. Ear plug daje do 30dB, earmuffs tyle samo. Moze jestem w stanie zablokowac WSZYSTKO!? Problem z sluchawkami sony byl taki ze leci muzyka...tak moglem wyciszyc..ale dalej bylo slychac jak algorytm koryguje i pracuje w tle starajac sie kontrowac odglosy z zewnatrz. 
+Jesli odzyskam pieniadze, kupie sobie druga pare butow do biegania ( te same co mam teraz ) i druga klawiature NIZ. Jedna do domu, druga do pracy. Super.
+*** [2019-02-18 Mon]
+Naderwany miesien dzien 16;
