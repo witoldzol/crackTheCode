@@ -1512,3 +1512,6 @@ Postanowilem sprobowac arbitrage w bitfinex. Roznica ceny byla okolo 100 euro na
 
 *** [2019-02-21 Thu]
 Zaczyna sie objsesja z arbitrazem ... znowu. Mysle tylko co i jak. Zaczynam sie zastanawiac czy nie brac pozyczki. 50k? 10 kazdego dnia, 200 do kieszeni. Nie jest to zly model. Zaczelismy projekt, mamy dostep do kodu. Shit just got real. Nie mam pojecia co sie dzieje. Jest fajnie, jedyne co mnie irytuje to fakt ze nie da sie tam skupic na pracy. Krecimy sie w kolko, nic sie nie dzieje. Na szczescie mamy jeszcze zajecia, to daje jakas strukture. Ale kiedy mamy caly dzien na projekt, brak kierunku, nie wiadomo co robic. 
+
+*** [2019-02-22 Fri]
+Ok, Revolut ma limit 75k daily i 125k tygodniowo. Mysle ze przetestuje jak dlugo to zajmuje i ile trwa. Druga kwestia to porzyczka, im wiecej tym lepiej. Szkoda ze wire trwa TYDZIEN, co jest niedorzeczne. 21 wiek i zera po kablu ida tydzien. Niesamowite.
