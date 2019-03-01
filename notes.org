@@ -1538,3 +1538,8 @@ Czego sie dzisiaj nauczylismy? Praktyka przed assesment uswiadomila mi jak malo 
 *** [2019-02-28 Thu]
 Bylem wczoraj na randce. Szedlem do miasta z buta 9km. Ostatecznie zrobilem przynajmniej 30km tamtego dnia. Niezle. Sama randka byla dosyc dziwna, bo i dziweczyna byla nietypowa. Bardzo malo sie smiala i zachowywala sie dosyc...znudzona? Na koniec pyta sie czy widzimy sie jeszcze. Bylem zaskoczony i dosyc zaklopotany bo nie wiedzialem czy chce sie z nia jeszcze raz spotkac. Byla bardzo nietypowa, co mnie troche uzeklo. Powiedzialem tak. Nie odezwala sie od tamtej pory. Nie czuje sie zle z tego powodu.
 Ta randka kosztowala mnie duzo jednak. Opuscilem wczoraj cwiczenia, robilo mi kompletnie cykl spania, bylem tak zmeczony ze zaczolem walic kawy jak opentany. Rownia pochyla. Jedna zecz prowadzi do nastepnej.
+
+*** [2019-03-01 Fri]
+No i po romansie. Dziewczyna nie odezwala sie do mnie od 2 dni. Nie boli mnie to. Jestem zmeczony, musze przyznac ze ten tydzien mnie troche wyniszczyl. Mam nowa technike handlowania: kupuje w transzach 1.5, w momencie kiedy kupuje, natychmiast sprzedaje na drugiej aukcji, w ten sposob minimalizuje lag. Niestety ta metoda zajmuje WIEEKI, no trudno, bede to robic 2 razy w tygodniu, przezyje.
+Czego sie nauczylem dzisiaj? Ze programowanie wymaga malych krokow. Zmien jedna metode, popraw test, popraw metode...
+Kiedy zaczynasz nowe zadanie, nie staraj sie odpowiedziec jak to wszystko zrobic, zacznij od jednej zeczy, zimplementuje, rusz do nastepnej. Kiedy staram sie ogarnac wszystko na raz, mam tendencje do panikowania. 
