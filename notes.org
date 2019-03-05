@@ -1552,3 +1552,9 @@ Zostawianie telefonu poza zasiegiem reki na noc dziala. Wstaje z lozka natychmia
 Nie mam zakwasow na biceps, mysle ze problemem jest mind-body connection, a raczej jego brak. Rozwiazanie: dodac nowa rutyne do porannej: 1min band na biceps? Cos z malym obciazeniem co pomoze zbudowac polaczenie.
 Wczoraj prezentujac uswiadomilem sobie ze z Kevinem nie ma co zartowac, koles podchodzi do wszystkiego zbyt powaznie. To nie jest dobry ruch z mojej strony ( mysle ze ludzie tacy jak on nie doceniaja dowcipnisi takich jak ja ).
 Chce dzwonic do domu w kazda niedziele, co powinienem zakomunikowac mamie i Basi. Czas najwyzszy zadbac o relacje z rodzina.
+
+Czego sie dzisiaj nauczylismy:
+- jesli cos nie dziala, przesledz wszystkie czynnosci, wlaczajac w to jak uruchomiles program, uzywajac jakiej command
+- mozesz uzyc debuggera w chromie i przeanalizowac local scope gdzie beda variables
+- nim zaczniesz refactorowac, upewnij sie jaki typ dana funkcja zwraca, uzyj debuggera zeby potwierdzic typ
+- testy sa wazne! bez nich jestes w ciemnej dupie refaktorujac
