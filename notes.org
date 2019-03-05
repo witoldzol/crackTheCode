@@ -1558,3 +1558,5 @@ Czego sie dzisiaj nauczylismy:
 - mozesz uzyc debuggera w chromie i przeanalizowac local scope gdzie beda variables
 - nim zaczniesz refactorowac, upewnij sie jaki typ dana funkcja zwraca, uzyj debuggera zeby potwierdzic typ
 - testy sa wazne! bez nich jestes w ciemnej dupie refaktorujac
+- map i filter nie zmieniaja oryginalnego array
+- uzyj filter zeby usunac elementy i map zeby iterowac i zminic elementy pozostale
