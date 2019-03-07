@@ -1560,3 +1560,8 @@ Czego sie dzisiaj nauczylismy:
 - testy sa wazne! bez nich jestes w ciemnej dupie refaktorujac
 - map i filter nie zmieniaja oryginalnego array
 - uzyj filter zeby usunac elementy i map zeby iterowac i zminic elementy pozostale
+
+*** [2019-03-07 Thu]
+Organizuje porzyczke, recepte na lekarstwo, zwiekszam limit na gieldzie, przygotowuje sie na duze przezuty.
+Dzisiaj rano doszly pieniadze od Bartka, Revolut natychmiast zablokowal moje konto. Bylem w szoku, wsciekly.
+Musze udowodnic z kad biore pieniadze. Obrzydliwe. Robie co musze, wysylam w pospiechu wymagane dokumenty. Chcieli wiecej informacji niz bank ktory ma mi dac 20k porzyczki. Niedorzeczne. To strasznie irytujace kiedy wiesz ze wszystko co masz moze byc odebrane tobie w pare sekund. Ktos wcisnie guzik, albo raczej, algorytm odpali i wszystko co masz ... znika. Jestes na ich lasce caly czas.
