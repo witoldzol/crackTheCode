@@ -1582,3 +1582,13 @@ Czy upgrejdowac laptopa, dokupic antene do starego linuxa czy kupic nowe male pu
 *** [2019-03-13 Wed]
 Opuszczam sie z pomodoros. Chce sie skupic na zbudowaniu nawyku. Ogolnie podchodze bardzo po macoszemu do pomodoros, wrecz lekcowazonco. Ten nawyk moze odmienic moje zycie, a ja smieje sie z tego. Bardziej skrupulatny z pomodoros. Jesli jest pomodoro, nie odbieram telefonu, nie odpisuje na wiadomosci, nie ma mnie.
 Jade do samego konca. Rob jedna rzecz, jedna!
+*** [2019-03-14 Thu]
+Znowu zostalem po godzinach wczoraj. Postanowilem liczyc pomodoros za kazdym razem kiedy sie skupiam.
+Czyli siedzenie w klasie i sluchanie typa tez sie liczy. Zauwazylem ze mam problem z koncentracja i pomodoro 
+pomaga sluchac kolesia.
+Postanowilem dzisiaj zrobic sobie wolne i dokonczyc business unit feature. 
+Musze przyznac ze gdyby nie autoformatting issue i fakt ze rozwalilem caly html to bylbym z siebie calkiem 
+zadowolony. Udalo mi sie nawet usunac duplikaty ( choc tak naprawde to dosyc trywialne ....)
+Moja umowa o porzyczke nigdy nie dotarla do wlasciwych ludzi bo wyslalem na zly email najwyrazniej, tak wiec stracilem
+kolejny tydzien i z tego tytulo ok 400 euro. Nie bede sie tym przejmowal.
+
