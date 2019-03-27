@@ -1,3 +1,4 @@
+#+STARTUP: showall
 * BOOKS
 ** DONE Man's Search for Meaning 
 Author: Victor Frankl
