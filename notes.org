@@ -1656,3 +1656,8 @@ Bedac w szpitalu skorzystalem z okazji zeby pochwalic przypadkowych ludzi. Kobie
 Rozwiazalem wczoraj moje problemy z myBatis, jest dobrze. Wiem co zrobilem zle i jak to naprawic. Od razu mi sie lepiej zrobilo. Czuje ze znowu mam kontrole.
 Nadal jest problem z papierosami. Pale jak szalony, teraz juz nawet z rana. Nie wiem jak siebie powstrzymac. 
 Dam sobie jeszcze tydzien, az sie skonczy kurs i sprawy sie uspokoja.
+*** [2019-03-28 Thu]
+Jestem zmeczony. Spedzilem cale popoludnie starajac sie zrozumiec git i jak rozwiazywac merge conflicts. Bylo to bolesne, nie miec zielonego pojecia co sie robi. Na koniec wydawalo sie ze rozwiazalismy wszystkie konflikty...ale apka niestety nie dziala ... tzn dziala ale nie ma FUNCTIONALITY ktora byla zrobiona w oryginalnym branchu...jesli to ma jakiekolwiek znaczenie. 
+Zastanawiam sie jakiego linuxa zainstalowac i jak ustawic caly system. 
+Zostawic moze minta i po prostu nie bawic sie w nowa instalke, czy wreszcie wjechac na manjaro, wyczyscic wszystko i zaczac od nowa?
+Decyzje, decyzje.
