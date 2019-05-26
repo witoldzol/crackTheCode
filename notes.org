@@ -1728,10 +1728,12 @@ za duzo opcji, myslalem jak bylo by 'elegancko'. Na koniec wymyslilem ze zrobie 
 No i zaczolem od testow. I tam utknolem. Nie bylem happy camper jak wychodzilem z pracy. Moj postep jest mozolny,
 sa dni kiedy niczego sie nie nauczylem pomimo ze caly czas cos 'robie'. Nie mam pojecia jak innni ludzie daja rade
 ogarniac sprawy i actually cos zrobic, jak naprzyklad moj manager. Koles non stop cos produkuje. 
-[2019-05-26 Sun]
+*** [2019-05-26 Sun]
 Poszedlem do miasta z buta. Zjadlem lunch, zrobilem zakupy, oddalem pasek, poszedlem do phoenix park spotkac sie z
 dziewczyna. Przeszlismy caly park, wreszcie przyszedl czas pozegnania. Pokiwalem palcem zeby podeszla, najpierw policzki...
 i przesunolem glowe w jej strone i tak po prostu sie nagle calujemy. Tak po prostu, nie bylem zdenerwowany, nie myslalem
 o tym godzinami, ledwo zarejestrowalem. To nie jest tak ze jej nie lubie, albo mi sie nie podoba. Po prostu nie ma goraczki.
 Postanowilem isc dzisiaj do pracy, ogarnac sprawe z tym unit test bo mnie to denerwuje. Przejde sie, rowzale problem, zrobie
 zakupy ( kup kale !). Bedzie fajnie.
+Zaczolem robic AWS certification course. Mam cel, jest fajnie. Bede siedzial i kminil. Chce to zrobic i caly czas probowac
+wkrecic sie w mobile dev, zeby miec business case na maca. Pracowanie z hvd zabija mnie powoli.
