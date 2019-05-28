@@ -1737,3 +1737,15 @@ Postanowilem isc dzisiaj do pracy, ogarnac sprawe z tym unit test bo mnie to den
 zakupy ( kup kale !). Bedzie fajnie.
 Zaczolem robic AWS certification course. Mam cel, jest fajnie. Bede siedzial i kminil. Chce to zrobic i caly czas probowac
 wkrecic sie w mobile dev, zeby miec business case na maca. Pracowanie z hvd zabija mnie powoli.
+*** [2019-05-28 Tue]
+Mielismy wczoraj hackaton. Z calej mojej grupy okazalem sie najslabszym ogniwem. Dostalem jedno
+zadanie: rozkmin jak przesylac dane miedzy elementami. Caly dzien siedzialem i de fakto budowalem
+cala apke, i nie rozkminilem tego co mialem zrozumiec. 
+Co poszlo zle: 
+- miotalem sie z jednego topicu do drugiego, skakalem po tutorialach bez spedzania
+czasu zeby poczytac / obejrzec.
+- nie rozbilem kodu na male czesci, bo nie chcialem 'tracic' czasu zeby nauczyc sie jak to zrobic
+- nie komunikowalem sie z moja grupa dosc czesto
+Co poszlo dobrze: 
+- nauczylem sie czegos nowego o darcie
+- spodobalo mi sie robienie apek, wydawalo sie to szybkie i fajne doswiadczenie
