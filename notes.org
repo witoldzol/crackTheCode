@@ -1769,3 +1769,13 @@ w strefie ktora znasz, druga noga w nieznanym. W poniedzialek bede obiema nogami
 Jade na lekcje salsy. Cale moze zycie myslalem o tym zeby sie nauczyc tanczyc. Wreszcie 
 nadazyla sie okazja. To nie ja zebralem odwage, Eryka mnie zmotywowala. Inni ludzie, inni ludzie
 maja niesamowity wplyw na moje zycie. 
+*** [2019-07-10 Wed]
+Naciagniety misien/zebro: dzien 27.
+Zaczolem chodzic na salse i batchate w zeszlym tygodniu.
+
+Yesterday I've learned that vm options in intellij can be finicky when strings with special chars 
+are passed in. Even though the output looked fine, the password still wasn't working.
+Solution? Use different loging / password - without special characters.
+
+I've done tutorial on rest-assured library. Looks pretty cool. The formatting of given, when , then 
+can be annoying.
